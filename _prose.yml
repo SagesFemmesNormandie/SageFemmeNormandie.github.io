@@ -1,0 +1,31 @@
+permalink: pretty
+markdown: rdiscount
+prose:
+  rooturl: ''
+  siteurl: 'http://sudweb.github.io/2016/'
+  relativeLinks: 'http://sudweb.github.io/2016/links.jsonp'
+  media: 'images'
+  ignore:
+    - index.html
+    - _config.yml
+    - _config_dev.yml
+    - _prose.yml
+    - feed.xml
+    - links.jsonp
+    - browserconfig.xml
+    - Gemfile
+    - Gemfile.lock
+    - .editorconfig
+    - .gitattributes
+    - .gitignore
+    - .ruby-version
+    - .htaccess
+    - package.json
+    - Procfile
+    - /_layouts
+    - /_includes
+    - /public
+    - /files
+    - /images
+    - /script
+
