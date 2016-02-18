@@ -5,8 +5,22 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <script type="text/javascript" src='assets/js/jquery.js '></script>
+  <script type="text/javascript" src='assets/js/tabletop1.3.4.js'></script>
+  <script type="text/javascript" src='assets/js/sheetsee.js'></script>
+  <script type="text/javascript" src='assets/js/leaflet.markercluster.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
+  <link rel="stylesheet" href="{{ "assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="assets/css/MarkerCluster.css" />
+  <link rel="stylesheet" href="assets/css/MarkerCluster.Default.css" />
+  <head>
+   <style type="text/css">
+     {% capture include_to_scssify %}
+       {% include main.scss %}
+     {% endcapture %}
+     {{ include_to_scssify | scssify }}
+   </style>
+ </head>
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 </head>

@@ -12,13 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bertrandkeller/asso-liste-adherents.git"
+    "url": "https://github.com/SageFemmeNormandie/SageFemmeNormandie.github.io.git"
   },
   "bugs": {
-    "url": "https://github.com/bertrandkeller/asso-liste-adherents.git/issues"
+    "url": "https://github.com/SageFemmeNormandie/SageFemmeNormandie.github.io.git"
   },
   "license": "MIT",
-  "private": true,
   "devDependencies": {
   }
 }
