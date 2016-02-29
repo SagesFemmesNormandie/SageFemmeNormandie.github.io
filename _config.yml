@@ -7,13 +7,31 @@ baseurl: ""
 #url: "http://sagefemmenormandie.github.io"
 github_username:  SageFemmeNormandie
 #0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c
+# gems:
+#   - jekyll-assets
 
 # Build settings
 markdown: kramdown
 
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
 sass:
   sass_dir: _sass
   style: compressed
+
+# Plugin: jekyll-assets
+
+# assets:
+#   sources:
+#     - assets/js
+#     - assets/css
+#     - _sass
+#   autoprefixer:
+#     browsers: ["last 2 versions","> 5%","IE 9"]
 
 gdrive:
   sheet: "Adhérents"
