@@ -29,7 +29,7 @@ node_modules
 # Jekyll
 _site/
 .sass-cache/
-.assets-cache/
+.asset-cache/
 .jekyll-metadata
 
 # node-waf configuration
