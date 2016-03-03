@@ -5,7 +5,91 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables";
+@import "MarkerCluster.Default";
+@import "MarkerCluster";
+@import "base/font";
+@import "generic/normalize-opentype";
 
-body {
-  border: 3px solid lime;
+.site-header {
+  padding: 0.5rem 0 2rem;
+  .wrapper {
+    display: flex;
+    align-content: center;
+  }
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+
+  }
+  li {
+    flex: 1;
+    text-align: center;
+    max-width: 10rem;
+  }
+  a {
+    font-weight: bold;
+  }
+}
+
+.members-list {
+  width: 100%
+}
+
+.members-list__box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: $base-line /2;
+  border: 3px solid palette(primary, light);
+  border-radius: 5px;
+}
+
+.members-list__line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  &:not(:last-child){
+    box-sizing: border-box;
+    padding: $base-line / 2;
+    min-height: 5rem;
+  }
+}
+
+.members-list__item {
+  flex: 1;
+  &.prénom {
+    flex: 2;
+    font-size: $big;
+    font-weight: bold;
+  }
+  &.téléphone {
+    flex: 0.4;
+  }
+  &.activity {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.members-list__item__activity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 2rem;
+  text-align: center;
+  color: #fff;
+  background: palette(primary)
 }
