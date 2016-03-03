@@ -23,6 +23,20 @@ sass:
   sass_dir: _sass
   style: compressed
 
+collections:
+  activities:
+    output: true
+    order: date asc
+    permalink: /activity/:path/
+    sitemap: false
+
+defaults:
+  - scope:
+      path: ""
+      type: activities
+    values:
+      layout: page
+
 # Plugin: jekyll-assets
 
 # assets:
