@@ -1,7 +1,8 @@
-
-// Import partials from `sass_dir` (defaults to `_sass`)
+////
+/// Very basic style
+////
+//// Import partials from `sass_dir` (defaults to `_sass`)
 
 @import "variables";
-@import "base";
-@import "layout";
+@import "base/base";
 

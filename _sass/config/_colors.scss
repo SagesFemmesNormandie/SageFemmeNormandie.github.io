@@ -1,4 +1,10 @@
-// better color for developpment
+////
+/// Colors
+////
+
+// better color for development
+//-------------------------------------
+
 $navy:                    #001F3F;
 $blue:                    #0074D9;
 $aqua:                    #7FDBFF;
@@ -25,6 +31,8 @@ $grey-color-dark:         darken($grey-color, 25%);
 
 
 // Déclaration de la palette de couleur
+//-------------------------------------
+
 $palettes: (
     primary: (
         base:   $color-primary,
@@ -43,7 +51,8 @@ $palettes: (
     )
 );
 
-// Mixin d'appel de la palette couleur à déplacer éventuellement
+// Mixin d'appel de la palette couleur
+//-------------------------------------
 
 @function palette($palette, $tone: 'base') {
   @return map-get(map-get($palettes, $palette), $tone);

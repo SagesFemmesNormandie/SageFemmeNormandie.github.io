@@ -17,6 +17,8 @@ layout: compress
       </div>
     </div>
 
+
+    <script src="{{ site.baseurl }}/assets/js/list.min.js" data-no-instant></script>
     <!-- <script src="{{ site.baseurl }}/assets/js/upup.sw.min.js" data-no-instant></script>
     <script src="{{ site.baseurl }}/assets/js/instantclick.min.js" data-no-instant></script>
     <script data-no-instant>
@@ -27,6 +29,13 @@ layout: compress
             //   ['{{ site.baseurl }}/assets/css/main.css']
           });
     </script> -->
+    <script type="text/javascript" type="text/javascript">
+    var options = {
+        valueNames: [ 'name', 'activity' ]
+    };
+
+    var userList = new List('users', options);
+</script>
   </body>
 
 </html>

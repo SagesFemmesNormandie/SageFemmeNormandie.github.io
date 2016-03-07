@@ -2,53 +2,20 @@
 layout: default
 title: accueil
 ---
-  
-<div class="members-list">
+
+<div class="members" id="users">
   <h2>Trouver une sage femme libérale en Normandie</h2>
-  {% assign coltitle = "Nom|Prénom|Téléphone" | split: "|" %}
-  {% for row in site.data.google_sheet offset:3 %}
-  {% if row[3] contains '2016' %}
-    <div class="members-list__box">
-      {% for col in row %}
-      {% assign mod = forloop.index %}
-        {% if site.data.google_sheet[2][mod] == 'Prénom'%}
-          <div class="members-list__line">
-          <div class="members-list__item {{site.data.google_sheet[2][mod] | slugify }}">{{ row[mod] }}
-        {% endif %}
-        {% if site.data.google_sheet[2][mod] == 'Nom'%}
-          {{ row[mod] }}</div>  
-        {% endif %}
-        {% if site.data.google_sheet[2][mod] == 'Adresse'%}
-          <div class="members-list__item {{site.data.google_sheet[2][mod] | slugify}}">{{ row[mod] }}
-        {% endif %}
-        {% if site.data.google_sheet[2][mod] == 'Code Postal'%}
-          {{ row[mod] }}
-        {% endif %}
-        {% if site.data.google_sheet[2][mod] == 'Ville'%}
-          {{ row[mod] }}</div><!--/ members-list__item -->
-        {% endif %}
-        {% if site.data.google_sheet[2][mod] == 'Téléphone' %}
-          <div class="members-list__item {{site.data.google_sheet[2][mod] | slugify}}">{{ row[mod] }}</div><!--/ members-list__item -->
-          </div><!--/ members-list__line -->
-        {% endif %}
-        {% if mod >= 8 %}
-        {% if mod == 8 %}
-          <div class="members-list__line">
-          <div class="members-list__item activity">
-        {% endif %}
-        {% if row[mod] == '1' %}
-          <span class="members-list__item__activity">{{ site.data.google_sheet[2][mod] }}</span>
-        {% endif %}
-        {% if forloop.last %}
-          </div><!--/ members-list__item -->
-          </div><!--/ members-list__line -->
-        {% endif %}
-        {% endif %}
-      {% endfor %}
-    </div>
-    {% endif %}
-  {% endfor %}
+  <input class="search" placeholder="Trier">
+  <button class="sort" data-sort="name">Trier par nom</button>
+  <button class="sort" data-sort="activity">Trier par activité</button>
+  <br>
+  <br>
+  <div class="members-list list">
+    {% assign coltitle = "Nom|Prénom|Téléphone" | split: "|" %}
+    {% for row in site.data.google_sheet offset:3 %}
+    {% if row[3] contains '2016' %}
+      {% include members.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
 </div>
-
-
-
