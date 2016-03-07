@@ -1,0 +1,62 @@
+////
+/// Members
+////
+
+.members-list {
+  width: 100%
+}
+
+.members-list__box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: $base-line /2;
+  border: 3px solid palette(primary, light);
+  border-radius: 5px;
+}
+
+.members-list__line {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  &:not(:last-child){
+    box-sizing: border-box;
+    padding: $base-line / 2;
+    min-height: 5rem;
+  }
+}
+
+.members-list__item {
+  flex: 1;
+  &.prénom {
+    flex: 2;
+    font-size: $big;
+    font-weight: bold;
+  }
+  &.téléphone {
+    flex: 0.4;
+  }
+  &.activity {
+    //display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: $base-line/2;
+    width: 100%;
+    border-top: 1px solid palette(primary);
+  }
+}
+
+.members-list__item__activity {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  color: palette(primary,dark);
+  &:after {
+    content: ' - ';
+  }
+  &:last-child:after {
+    content: '';
+  }
+}

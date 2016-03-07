@@ -1,0 +1,17 @@
+////
+/// Activities
+////
+
+.activity-list {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: space-between;
+  // width: 100%;
+  @include grid(2);
+}
+
+.activity-list__box {
+  padding: 0 $base-line/2 $base-line;
+  border: 3px solid palette(primary, light);
+  border-radius: 5px;
+}

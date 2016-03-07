@@ -1,0 +1,38 @@
+<div class="members-list__box" data-id="{{forloop.index}}">
+  {% for col in row %}
+  {% assign mod = forloop.index %}
+    {% if site.data.google_sheet[2][mod] == 'Prénom'%}
+      <div class="members-list__line">
+      <div class="members-list__item {{site.data.google_sheet[2][mod] | slugify }} name">{{ row[mod] }}
+    {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Nom'%}
+      {{ row[mod] }}</div>
+    {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Adresse'%}
+      <div class="members-list__item {{site.data.google_sheet[2][mod] | slugify}} name">{{ row[mod] }}
+    {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Code Postal'%}
+      {{ row[mod] }}
+    {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Ville'%}
+      {{ row[mod] }}</div><!--/ members-list__item -->
+    {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Téléphone' %}
+      <div class="members-list__item {{site.data.google_sheet[2][mod] | slugify}} name">{{ row[mod] }}</div><!--/ members-list__item -->
+      </div><!--/ members-list__line -->
+    {% endif %}
+    {% if mod >= 8 %}
+    {% if mod == 8 %}
+      <div class="members-list__line">
+      <div class="members-list__item activity">
+    {% endif %}
+    {% if row[mod] == '1' %}
+      <span class="members-list__item__activity activity">{{ site.data.google_sheet[2][mod] }}</span>
+    {% endif %}
+    {% if forloop.last %}
+      </div><!--/ members-list__item -->
+      </div><!--/ members-list__line -->
+    {% endif %}
+    {% endif %}
+  {% endfor %}
+</div>
