@@ -10,6 +10,11 @@ prose:
     - _config.yml
     - _config_dev.yml
     - _prose.yml
+    - .travis.yml
+    - 404.html
+    - LICENSE
+    - README.md
+    - humans.txt
     - feed.xml
     - links.jsonp
     - browserconfig.xml
@@ -24,8 +29,14 @@ prose:
     - Procfile
     - /_layouts
     - /_includes
+    - /_data
+    - /_sass
     - /public
     - /files
     - /images
     - /script
+    - /assets
+    - _gdrive_cache
+    - index-js.html
+    - index.md
 
