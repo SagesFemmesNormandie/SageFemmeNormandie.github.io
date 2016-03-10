@@ -31,6 +31,7 @@ prose:
     - /_includes
     - /_data
     - /_sass
+    - /_posts
     - /public
     - /files
     - /images
