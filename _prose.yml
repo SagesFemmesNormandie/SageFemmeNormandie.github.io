@@ -52,7 +52,7 @@ prose:
           element: "text"
           label: "Titre du billet"
           value: ""
-      - name: "description:"
+      - name: "description"
         field:
           element: "text"
           label: "Rentrer une description courte de l'activité"
