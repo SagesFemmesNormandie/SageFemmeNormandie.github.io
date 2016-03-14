@@ -41,4 +41,20 @@ prose:
     - index-js.html
     - index.md
     - favicon.ico
+  metadata:
+    _activities:
+      - name: "type"
+        field:
+          element: "hidden"
+          value: "Activity"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Titre du billet"
+          value: ""
+      - name: "description:"
+        field:
+          element: "text"
+          label: "Rentrer une description courte de l'activité"
+          value: ""
 
