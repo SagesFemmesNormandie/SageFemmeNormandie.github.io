@@ -57,7 +57,7 @@ prose:
           element: "text"
           label: "Rentrer une description courte de l'activité"
           value: ""
-     - name: "category"
+      - name: "category"
         field:
           element: "text"
           label: "Indiquer le type d'activité"
