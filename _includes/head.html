@@ -1,4 +1,4 @@
-<head>
+<head itemscope itemtype="http://schema.org/WebSite">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,22 +27,12 @@
   <link href='https://api.tiles.mapbox.com/mapbox.js/v1.4.0/mapbox.css' rel='stylesheet' />
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <link rel="apple-touch-icon" sizes="57x57" href="{{ site.url }}/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="{{ site.url }}/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="{{ site.url }}/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="{{ site.url }}/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="{{ site.url }}/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.url }}/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="{{ site.url }}/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="{{ site.url }}/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="{{ site.url }}/manifest.json">
-  <meta name="msapplication-TileColor" content="#40393e">
-  <meta name="msapplication-TileImage" content="{{ site.url }}/mstile-144x144.png">
-  <meta name="theme-color" content="#ffffff">
+  {% seo %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@{{site.twitter.username}}">
+  <meta name="twitter:creator" content="@{{site.twitter.username}}">
+  <meta name="twitter:title" content="{{ site.title }}">
+  <meta name="twitter:description" content=" {{site.description}}">
+  <meta name="twitter:image" content="{{ page.image }}">
+  {% include favicons.html %}
 </head>
