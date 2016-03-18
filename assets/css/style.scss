@@ -10,37 +10,7 @@
 @import "MarkerCluster";
 @import "base/font";
 @import "generic/normalize-opentype";
+@import "object/header";
 @import "page/activities";
 @import "page/members";
 
-.site-header {
-  padding: 0.5rem 0 2rem;
-  .wrapper {
-    display: flex;
-    align-content: center;
-  }
-}
-
-.nav-main {
-  display: flex;
-  align-items: center;
-  flex: 1;
-  ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    list-style: none;
-
-  }
-  li {
-    flex: 1;
-    text-align: center;
-    max-width: 10rem;
-  }
-  a {
-    font-weight: bold;
-  }
-}

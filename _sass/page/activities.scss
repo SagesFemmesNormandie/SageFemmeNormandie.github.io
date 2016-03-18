@@ -11,7 +11,20 @@
 }
 
 .activity-list__box {
-  padding: 0 $base-line/2 $base-line;
-  border: 3px solid palette(primary, light);
-  border-radius: 5px;
+  border: 3px solid palette(primary);
+  border-radius: 10px;
+  > *{
+    padding: 0 $base-line/2 $base-line;
+  }
+  h3 {
+    margin: 0 0 $base-line;
+    padding: $base-line/2;
+    background: $brand-color;
+    &, a {
+      color: #fff;
+    }
+  }
+  p{
+    font-weight: 500;
+  }
 }

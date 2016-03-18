@@ -19,11 +19,6 @@ body {
 //   box-sizing: border-box;
 // }
 
-a[href]:not([class]) {
-  text-decoration: underline;
-  color: $color-primary;
-}
-
 
 /**
  * Images
@@ -54,13 +49,13 @@ figcaption {
 
 a {
   text-decoration: none;
-  color: palette(primary);
+  color: palette(primary,dark);
   &:visited {
-    color: palette(primary, light);
+    color: palette(primary, dark);
   }
   &:hover {
     text-decoration: underline;
-    color: palette(primary, dark);
+    color: palette(primary, light);
   }
 }
 

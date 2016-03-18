@@ -1,6 +1,7 @@
 ---
 title: Le suivi et l'allaitement maternel
 type: activity
+category: Grossesse
 description: L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse.
 ---
 

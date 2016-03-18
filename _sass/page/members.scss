@@ -7,27 +7,39 @@
 }
 
 .members-list__box {
+  overflow: hidden;
   display: flex;
   align-items: center;
   flex-direction: column;
   margin-bottom: $base-line /2;
-  border: 3px solid palette(primary, light);
-  border-radius: 5px;
+  border: 3px solid palette(primary);
+  border-radius: 15px;
 }
 
 .members-list__line {
   display: flex;
   align-items: center;
   width: 100%;
-  &:not(:last-child){
-    box-sizing: border-box;
-    padding: $base-line / 2;
-    min-height: 5rem;
+  box-sizing: border-box;
+  padding: $base-line/2 $base-line $base-line;
+  &.name {
+    padding: $base-line;
+  }
+  &.meta,&:last-child {
+    padding: 0;
   }
 }
 
 .members-list__item {
   flex: 1;
+  .meta & {
+    float: right;
+    padding: $base-line/6 $base-line;
+    max-width: 10rem;
+    color: #fff;
+    background: palette(primary);
+    border-radius: 0 0 25px 0;
+  }
   &.prénom {
     flex: 2;
     font-size: $big;
@@ -42,7 +54,7 @@
     align-items: center;
     padding: $base-line/2;
     width: 100%;
-    border-top: 1px solid palette(primary);
+    border-top: 2px solid palette(primary);
   }
 }
 

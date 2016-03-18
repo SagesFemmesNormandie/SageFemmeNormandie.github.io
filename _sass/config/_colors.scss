@@ -37,7 +37,7 @@ $palettes: (
     primary: (
         base:   $color-primary,
         light:  mix(white, $color-primary, 30%),
-        dark:   mix(black, $color-primary, 30%)
+        dark:   #5b6b3e
     ),
     secondary: (
         base:   #ffa900,

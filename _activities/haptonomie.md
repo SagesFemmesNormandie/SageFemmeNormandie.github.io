@@ -1,6 +1,7 @@
 ---
 title: L'haptonomie
 type: activity
+category: Confort
 description: Un échange de tendresse, des caresses sur le ventre de maman, et bébé se laisse guider vers les mains de papa qui l‘appelle.
 ---
 

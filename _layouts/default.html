@@ -20,16 +20,16 @@ layout: compress
 
     <script src="{{ site.baseurl }}/assets/js/list.min.js" data-no-instant></script>
     <script src="{{ site.baseurl }}/assets/js/live.js" data-no-instant></script>
-    <!-- <script src="{{ site.baseurl }}/assets/js/upup.sw.min.js" data-no-instant></script>
+    <script src="{{ site.baseurl }}/assets/js/upup.sw.min.js" data-no-instant></script>
     <script src="{{ site.baseurl }}/assets/js/instantclick.min.js" data-no-instant></script>
     <script data-no-instant>
       InstantClick.init();
       UpUp.start({
-            // 'content-url': '{{ page.url | replace:'/','' }}',
-            // 'assets':
-            //   ['{{ site.baseurl }}/assets/css/main.css']
+            'content-url': '{{ page.url | replace:'/','' }}',
+            'assets':
+              ['{{ site.baseurl }}/assets/css/style.css']
           });
-    </script> -->
+    </script>
     <script type="text/javascript" type="text/javascript">
     var options = {
         valueNames: [ 'name', 'activity' ]

@@ -38,6 +38,7 @@ prose:
     - /script
     - /assets
     - _gdrive_cache
+    - annuaire.md
     - index-js.html
     - index.md
     - favicon.ico

@@ -1,0 +1,42 @@
+////
+/// Header
+////
+
+.site-header {
+  padding: 0.5rem 0 0;
+  .wrapper {
+    display: flex;
+    align-content: center;
+    margin-bottom: $base-line*2;
+  }
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+
+  }
+  li {
+    text-align: center;
+  }
+  a {
+    display: block;
+    padding: 0 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.illustration-header {
+  overflow: hidden;
+  margin: 0 0 $base-line;
+  max-height: 6rem;
+}
