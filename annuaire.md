@@ -12,9 +12,8 @@ navigation: true
   <br>
   <br> -->
   <div class="members-list list">
-    {% assign coltitle = "Nom|Prénom|Téléphone" | split: "|" %}
     {% for row in site.data.google_sheet offset:3 %}
-    {% if row[3] contains '2016' %}
+    {% if row[3] contains '2015' %}
       {% include members.html %}
       {% endif %}
     {% endfor %}

@@ -21,32 +21,42 @@
   align-items: center;
   width: 100%;
   box-sizing: border-box;
-  padding: $base-line/2 $base-line $base-line;
-  &.name {
+  padding: 0;
+  &.information {
     padding: $base-line;
   }
-  &.meta,&:last-child {
+  &:last-child {
     padding: 0;
   }
 }
 
 .members-list__item {
   flex: 1;
-  .meta & {
+  &.location {
     float: right;
-    padding: $base-line/6 $base-line;
-    max-width: 10rem;
+    padding: $base-line/2 $base-line;
+    max-width: 14rem;
+    text-align: right;
     color: #fff;
     background: palette(primary);
-    border-radius: 0 0 25px 0;
+    border-radius: 0 0 0 25px;
   }
   &.prénom {
     flex: 2;
+    padding: $base-line/3 $base-line;
     font-size: $big;
     font-weight: bold;
   }
-  &.téléphone {
+  &.adresse {
+    max-width: 22rem;
+  }
+  &.téléphone-mobile {
     flex: 0.4;
+    span:not(:first-child) {
+      &:before {
+        content: ' / '
+      }
+    }
   }
   &.activity {
     //display: flex;
