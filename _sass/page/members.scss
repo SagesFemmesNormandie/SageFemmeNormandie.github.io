@@ -18,12 +18,13 @@
 
 .members-list__line {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   box-sizing: border-box;
   padding: 0;
   &.information {
     padding: $base-line;
+    align-items: center;
   }
   &:last-child {
     padding: 0;
@@ -41,11 +42,13 @@
     background: palette(primary);
     border-radius: 0 0 0 25px;
   }
-  &.prénom {
+  &.name {
     flex: 2;
     padding: $base-line/3 $base-line;
     font-size: $big;
-    font-weight: bold;
+    span {
+      font-weight: bold;
+    }
   }
   &.adresse {
     max-width: 22rem;

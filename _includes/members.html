@@ -1,16 +1,26 @@
 <div class="members-list__box" data-id="{{forloop.index}}" data-town="{{row[6]}}">
   {% for col in row | sort: {{row[6]}} %}
     {% assign mod = forloop.index %}
-    {% if site.data.google_sheet[2][mod] == 'La consultation grossesse'%}
-      {% assign modactivity = forloop.index %}
+    {% if site.data.google_sheet[2][mod] == 'Site web'%}
+      {% assign modactivity = forloop.index | plus:1 %}
     {% endif %}
     {% if site.data.google_sheet[2][mod] == 'Prénom'%}
       <div class="members-list__line name">
-      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }} name">{{ row[mod] }}
+      <div class="members-list__item name"><span>{{ row[mod] }}
     {% endif %}
     {% if site.data.google_sheet[2][mod] == 'Nom'%}
-      {{ row[mod] }}</div>
+      {{ row[mod] }}</span>
     {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Adresse'%}
+      <br>{{ row[mod] }}
+    {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Code Postal'%}
+      {{ row[mod] }}
+    {% endif %}
+    {% if site.data.google_sheet[2][mod] == 'Ville'%}
+      {{ row[mod] }}</div><!--/ members-list__item -->
+    {% endif %}
+
     {% if site.data.google_sheet[2][mod] == 'Ville'%}
     {% if row[mod] != '' %}
       <div class="members-list__item location">{{ row[mod] }}</div>
@@ -20,18 +30,9 @@
   {% endfor %}
   {% for col in row %}
   {% assign mod = forloop.index %}
-    {% if site.data.google_sheet[2][mod] == 'Adresse'%}
-      <div class="members-list__line information">
-      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }} name">{{ row[mod] }}
-    {% endif %}
-    {% if site.data.google_sheet[2][mod] == 'Code Postal'%}
-      {{ row[mod] }}
-    {% endif %}
-    {% if site.data.google_sheet[2][mod] == 'Ville'%}
-      {{ row[mod] }}</div><!--/ members-list__item -->
-    {% endif %}
     {% if site.data.google_sheet[2][mod] == 'Téléphone mobile' %}
-    <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }} name">
+    <div class="members-list__line information">
+    <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}">
     {% if row[mod] != '' %}
       <span>{{ row[mod] }}</span>
     {% endif %}
@@ -44,12 +45,12 @@
     {% endif %}
     {% if site.data.google_sheet[2][mod] == 'Email' %}
     {% if row[mod] != '' %}
-      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }} name">{{ row[mod] }}</div><!--/ members-list__item -->
+      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}">{{ row[mod] }}</div><!--/ members-list__item -->
     {% endif %}
     {% endif %}
     {% if site.data.google_sheet[2][mod] == 'Site web' %}
     {% if row[mod] != '' %}
-      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }} name"><a href="{{ row[mod] }}">{{ row[mod] }}</a></div><!--/ members-list__item -->
+      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}"><a href="://{{ row[mod] }}">{{ row[mod] }}</a></div><!--/ members-list__item -->
       {% endif %}
     </div><!--/ members-list__line -->
     {% endif %}
