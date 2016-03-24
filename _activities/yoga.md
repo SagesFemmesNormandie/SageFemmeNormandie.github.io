@@ -1,5 +1,5 @@
 ---
-title: Le yoga
+title: Yoga
 type: activity
 category: Bien-être
 description: La pratique des postures et la concentration sur la respiration vous aideront à bien vivre votre grossesse

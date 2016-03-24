@@ -1,7 +1,7 @@
 ---
-title: La rééducation périnéale
+title: Accompagnement de l'allaitement maternel
 type: activity
-category: Confort
+category: Grossesse
 description: L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse.
 ---
 

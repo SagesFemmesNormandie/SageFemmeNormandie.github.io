@@ -1,7 +1,7 @@
 ---
-title: "La préparation à la naissance"
+title: Rééducation du périnée
 type: activity
-category: Grossesse
+category: Confort
 description: L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse.
 ---
 
