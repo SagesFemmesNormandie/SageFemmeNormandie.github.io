@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 require 'json'
 require 'open-uri'
 #require 'openssl'
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+#OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 #export GDRIVE=84726834603-hqfllakca9mfehbi6bndt54qhtr4bglb.apps.googleusercontent.com:sFvTqAC_L7GfiiGtvkmoX7UP:1/MyRS8MPgQgE1RZKrwTZjIzC6vAxavu9wLnbyNj_d_pU
 
