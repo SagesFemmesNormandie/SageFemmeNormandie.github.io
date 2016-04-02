@@ -15,16 +15,17 @@ Elle permet d’apporter une aide, préventive ou curative, à tous les stades d
 
 -	L’infertilité : accompagnement des émotions, optimisation des essais ou des traitements et diminution de leurs effets secondaires. 
 
--	 la grossesse : L'acupuncture favorise l'épanouissement de la mère et de l'enfant. Elle soulage les troubles fonctionnels de la grossesse et prépare à la naissance et la parentalité.
-Troubles digestifs (nausées, vomissements, reflux, constipation...), 
-Troubles circulatoires (jambes lourdes, hémorroïdes, œdèmes, syndrome du canal carpien)
-Douleurs (sciatalgie, lombalgie, douleurs ligamentaires, crampes, céphalées), 
-Troubles du sommeil, anxiété… 
+-	 la grossesse : L'acupuncture favorise l'épanouissement de la mère et de l'enfant. Elle soulage les troubles fonctionnels de la grossesse et prépare à la naissance et la parentalité:
+troubles digestifs (nausées, vomissements, reflux, constipation...), 
+troubles circulatoires (jambes lourdes, hémorroïdes, œdèmes, syndrome du canal carpien)
+douleurs (sciatalgie, lombalgie, douleurs ligamentaires, crampes, céphalées), 
+troubles du sommeil, anxiété… 
+
 Une séance par mois permet d’harmoniser l’équilibre du corps et des émotions  en fonction de l’évolution de la grossesse et permet de prévenir et soulager rapidement les symptômes courants ; des séances plus fréquentes peuvent alors être nécessaires.
 L'acupuncture peut avoir un effet apaisant et compléter une prise en charge médicale dans les grossesses difficiles.
 
 -	l’accouchement : version des fœtus en siège, préparation du col et du périnée
-- Après la naissance : aide à l'allaitement maternel, favorise la cicatrisation et soulage les douleurs, la fatigue et l'anxiété
+- 	Après la naissance : aide à l'allaitement maternel, favorise la cicatrisation et soulage les douleurs, la fatigue et l'anxiété
 
 -	Autour de la ménopause : bouffées de chaleur, troubles du sommeil, troubles digestifs, troubles urinaires… 
 
