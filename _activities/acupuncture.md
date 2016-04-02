@@ -25,6 +25,7 @@ Une séance par mois permet d’harmoniser l’équilibre du corps et des émoti
 L'acupuncture peut avoir un effet apaisant et compléter une prise en charge médicale dans les grossesses difficiles.
 
 -	l’accouchement : version des fœtus en siège, préparation du col et du périnée
+
 - 	Après la naissance : aide à l'allaitement maternel, favorise la cicatrisation et soulage les douleurs, la fatigue et l'anxiété
 
 -	Autour de la ménopause : bouffées de chaleur, troubles du sommeil, troubles digestifs, troubles urinaires… 
