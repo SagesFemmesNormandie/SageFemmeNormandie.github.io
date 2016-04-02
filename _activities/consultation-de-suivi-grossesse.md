@@ -1,8 +1,11 @@
 ---
-title: Consultation de suivi de grossesse
 type: activity
+title: Consultation de suivi de grossesse
 category: Grossesse
-description: L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse.
+description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+published: true
 ---
 
-Elle apporte détente et favorise le lien mère-enfant, prépare à l'accouchement et le facilite. Après l'accouchement, l'acupunture renforce l'énergie, soulage les douleurs et aide à l'allaitement.
+
+La sage-femme libérale peut pratiquer la consultation mensuelle de grossesse, au cours de laquelle elle pratiquera un examen obstétrical détaillé et vous prescrira les différents examens obligatoires ou conseillés pour une surveillance adaptée. Elle vous prescrira au besoin, les médications nécessaires.
+Elle peut également, si elle dépiste une situation à risque, prescrire un arrêt temporaire de travail (prolongation ensuite par un médecin).
