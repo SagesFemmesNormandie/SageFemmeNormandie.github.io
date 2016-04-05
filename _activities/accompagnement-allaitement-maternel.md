@@ -8,14 +8,14 @@ published: true
 
 
 
-Allaiter ou ne pas allaiter ?
-Allaiter un peu, beaucoup ou pas du tout ?
+**Allaiter ou ne pas allaiter ?
+Allaiter un peu, beaucoup ou pas du tout ?**
 
 Vous vous posez des questions , souhaitez allaiter votre enfant au sein ou hésitez...
 Vous allaitez votre enfant, exclusivement, partiellement, ou envisagez un sevrage...
 Vous souhaitez poser des questions, être encouragée, soutenue...
 Vous éprouvez des difficultés et cherchez des idées, des solutions...
 
-Pendant votre grossesse et après la naissance de votre bébé, nous, sages-femmes libérales, pouvons vous accompagner "à la carte", selon  vos choix, vos besoins, afin que vous puissiez vivre cette aventure à votre manière, en fonction de vous-même et de votre bébé.
+Pendant votre grossesse et après la naissance de votre bébé, nous, sages-femmes libérales, pouvons vous accompagner "à la carte", **selon  vos choix, vos besoins**, afin que vous puissiez vivre cette aventure à votre manière, en fonction de vous-même et de votre bébé.
 
-Vous accompagner: c’est parfois répondre simplement à vos questions, vous aider à trouver  les meilleures solutions avec  vous, vous soutenir si vous rencontrer des difficultés ou parfois vous conseiller pour aller vers un sevrage.
+Vous accompagner: c’est parfois **répondre** simplement à vos questions, vous **aider** à trouver  les meilleures solutions avec  vous, vous **soutenir** si vous rencontrer des difficultés ou parfois vous **conseiller** pour aller vers un sevrage.
