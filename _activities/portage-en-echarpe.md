@@ -8,11 +8,14 @@ published: true
 
 
 
- **Bien porté, Bien portant**
+
+ _**Bien porté, Bien portant**_
 
 Il n'est meilleur endroit pour le bébé et le petit enfant que les bras de ses parents. 
 Pour autant, le portage doit **respecter la physiologie du nourrisson** et permettre au parent de continuer ses activités.
 
 C'est pour conjuguer les deux que des sages-femmes vous proposent, d'apprendre à porter votre enfant dans une écharpe. 
 
-Par des **réunions d'information, des ateliers individuels ou collectifs**, elle vous donnera les éléments de connaissance du  bien porter, vous guidera dans le choix des écharpes et slings, vous proposera des nouages adaptés à vos besoins et à ceux de votre enfant. Elle vous les montre et vous les apprend afin que ous soyez en capacité de les utiliser immédiatement.
+Par des **réunions d'information, des ateliers individuels ou collectifs**, elle vous donnera les éléments de connaissance du bien porter, vous guidera dans le choix des écharpes et slings, vous proposera des nouages adaptés à vos besoins et à ceux de votre enfant. Elle vous les montre et vous les apprend afin que vous soyez en capacité de les utiliser immédiatement.
+
+_Il n'y a pas de prise en charge par la Sécurité Sociale pour cette proposition._ 
