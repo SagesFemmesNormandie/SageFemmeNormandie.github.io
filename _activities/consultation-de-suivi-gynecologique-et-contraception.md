@@ -7,7 +7,8 @@ published: true
 ---
 
 
-La sage-femme libérale conventionnée et donc sans dépassement d'honoraires, peut effectuer votre suivi gynécologique de prévention et de contraception: 
+
+La sage-femme libérale peut effectuer votre suivi gynécologique de prévention et de contraception: 
 
 Elle **réalise la consultation**comportant un examen des seins, l'examen gynécologique habituel, le frottis cervico-utérin dans le cadre du dépistage proposé par la Haute Autorité de Santé (HAS). 
 Elle **prescrit tous les examens complémentaires nécessaires**(Echographie des seins ou mammographie, échographie pelvienne, bilan sanguin...et oriente vers un professionnel spécialisé en cas de pathologie.
@@ -24,3 +25,5 @@ La sage-femme peut vous aider, par l'échange, l'information et les éclairages 
 - stérilisation définitive (c'est le chirurgien gynécologue qui prend le relais ensuite)
 
 Elle **prescrit toutes les contraceptions**, **pose (et retire) implant et DIU/SIU** (stérilet), vous apprend à utiliser cape et diaphragme, **réalise la surveillance nécessaire selon la méthode choisie**.
+
+
