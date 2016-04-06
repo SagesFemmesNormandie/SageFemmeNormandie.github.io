@@ -8,6 +8,7 @@ published: true
 
 
 
+
 Le**périnée** est un ensemble de tissus et de muscles qui ferment le bassin: c'est le diaphragme pelvien. Son rôle est important puisqu’il assure la continence urinaire et anale, soutient des organes du bassin (vessie, utérus et rectum) et joue un rôle dans la sexualité.
 
 La rééducation périnéale a un rôle préventif : certaines occasions  comme la grossesse ou l’accouchement peuvent fragiliser les muscles périnéaux.
@@ -17,6 +18,6 @@ Les séances de **rééducation post-natale** peuvent être débutées dès la  
  
 Vous pouvez avoir besoin **de rééducation périnéale en dehors de ce moment précis qu’est la naissance d’un enfant**. Le mode de vie, certaines professions, certaines pratiques sportives, la ménopause peuvent avoir des répercussions sur le périnée. Attention, pour être prise en charge par une sage-femme, il faut avoir accouché au moins une fois, même s'il y a longtemps.
 
-Différentes techniques  de rééducation existent : rééducation manuelle (CMP [www.institutnaissanceetformations.fr] et autres méthodes), travail en biofeedback ou électrostimulation avec une sonde ou encore de façon plus globale avec correction des habitudes posturales.
+Différentes techniques  de rééducation existent : rééducation manuelle (CMP [www.institutnaissanceetformations.fr] et autres méthodes), travail en biofeedback ou électrostimulation avec une sonde ou encore de façon plus globale avec la respiration ( technique abdo-perineo-MG), la correction des habitudes posturales.
 
 Renseignez-vous auprès de votre sage-femme, elle vous expliquera la méthode qu'elle utilise.
