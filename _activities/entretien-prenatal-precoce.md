@@ -8,7 +8,8 @@ published: true
 
 
 
-Il s’agit d’un entretien, individuel ou en couple (jamais en groupe), avec votre sage-femme, pris en charge à 100 % par l’Assurance Maladie, et qui se déroule, si possible au 4ème mois de la grossesse, mais qui peut être réalisé plus tard. Il est proposé mais n'est pas obligatoire.
+
+Il s’agit d’un entretien, individuel ou en couple (jamais en groupe), avec votre sage-femme, pris en charge à 100 % par l’Assurance Maternité, et qui se déroule, si possible au 4ème mois de la grossesse, mais qui peut être réalisé plus tard. Il est proposé mais n'est pas obligatoire.
 
 C’est un **temps d’échange et d’écoute**, pendant lequel vous pouvez parler de la venue de ce bébé, de la famille qui se forme ou s'élargit, de vos souhaits, de vos attentes pour votre grossesse, votre accouchement et de l'après naissance.
 
