@@ -9,6 +9,7 @@ published: true
 
 
 
+
 La sage-femme libérale réalise **l'ensemble du suivi de votre grossesse**: 
 - les consultations mensuelles obligatoires, consultations supplémentaires au besoin,
 - la déclaration de grossesse,
@@ -20,4 +21,4 @@ Au cours de la consultation, le temps d'écoute sera suivi d'un examen général
 Lorsqu'elle suspecte ou dépiste une pathologie, la sage-femme saura vous orienter vers le professionnel spécialisé. 
 Elle envisagera également avec vous la préparation à cette naissance et, si vous le voulez, le suivi post natal.
 
-Pour l'ensemble de ces consultations, les sages-femmes sont conventionnées et ne pratiquent pas de dépassement d'honoraires.
+Pour l'ensemble de ces consultations, les sages-femmes sont conventionnées.
