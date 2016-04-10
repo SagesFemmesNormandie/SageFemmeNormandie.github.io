@@ -2,15 +2,17 @@
 layout: default
 title: Mentions légales
 navigation: true
+published: true
 ---
+
 
 #Mentions Légales#
 
 **Directrice de publication :**  
-Sandrine GRANDSIRE
+Anne-Laure FROMENT
 
 **Co-directrice de publication :**  
-Marie-Pierre POUSSET
+Emmanuelle DAVY-GOYE et Marie LEROY
 
 **Hébergeur du site Internet :**  
 OVH Roubaix
@@ -22,8 +24,6 @@ Les informations contenues dans ce service sont non contractuelles et sujettes �
 
 
 **Contacter l'association :**  
-Sages-femmes libérales Haute-Normandie  
-30 rue de Verdun  
-3B résidence Bordeau Vérel  
-76720 AUFFAY  
-Tél. 02 35 91 59 22  
+Association des Sages-Femmes Libérales de Haute-Normandie (ASFLHN)
+9, rue Jean Lecanuet
+76000 ROUEN
