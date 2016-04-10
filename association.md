@@ -10,7 +10,7 @@ published: true
 
 ##Pourquoi une association des sages-femmes libérales ?##
 
-L'Association des Sages-Femmes Libérales a été créée en 2009 pour faire connaître notre profession, nos compétences, et que vous puissiez aisément trouver une sage-femme proche de chez vous. 
+L'Association des Sages-Femmes Libérales a été créée en 2009 pour faire connaître notre profession, nos compétences, et que vous puissiez aisément trouver une sage-femme proche de chez vous, selon vos besoins. 
 
 ##Qui sont les membres de l'association ?##
 
@@ -33,4 +33,4 @@ Elle vous écoute, vous informe, effectue l'examen médical et prescrit médicam
 
 - Travaille **en lien avec les médecins, généralistes, gynécologues et autres spécialistes et les maternités** en cas de doute ou de pathologie.
 
-Pour consulter une sage-femme, il n'est pas nécessaire d'avoir une prescription médicale.
+Pour consulter une sage-femme, il n'est pas nécessaire d'avoir une prescription médicale: dans le parcours de soins coordonnés, votre sage-femme est en accès direct (sans passer par le médecin traitant).
