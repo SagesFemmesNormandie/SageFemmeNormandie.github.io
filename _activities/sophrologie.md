@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Sophrologie
-category: "Bien-être"
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+category: Accompagnement grossesse
+description: ""
 published: true
 ---
+
 
 
 Le but de toutes les techniques de sophrologie est de permettre l'acquisition d'un état de calme physique et mental. Cette méthode est basée sur **la respiration et la relaxation.**
