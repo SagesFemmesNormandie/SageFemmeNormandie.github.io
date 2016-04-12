@@ -1,11 +1,8 @@
 ---
 type: Activity
 description: ""
-category: Médical
+category: grossesse
 published: true
 title: Accompagnement global
 ---
-
-
-
 
