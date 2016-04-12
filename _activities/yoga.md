@@ -1,12 +1,10 @@
 ---
 type: activity
 title: Yoga
-category: Accompagnement grossesse
+category: Préparation à l'accouchement
 description: La pratique des postures et la concentration sur la respiration vous aideront à bien vivre votre grossesse et votre accouchement.
 published: true
 ---
-
-
 
 « **À travers le yoga, le corps se pare de grâce, de beauté, de force, d'énergie et de fermeté** ».
 Yoga Sutra III, 47
