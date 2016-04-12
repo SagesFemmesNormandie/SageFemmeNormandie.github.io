@@ -2,7 +2,7 @@
 type: activity
 title: Rééducation du périnée
 category: gynécologie
-description: "La rééducation du périnée, après un accouchement ou à distance, permet de renforcer tous les muscles de cette zone, de prévenir ou de traiter des pathologies..."
+description: "La rééducation du périnée, après un accouchement ou à distance, permet de renforcer tous les muscles de cette zone, de prévenir ou de traiter des problèmes féminins..."
 published: true
 ---
 
@@ -10,15 +10,17 @@ published: true
 
 
 
-Le **périnée** est un ensemble de tissus et de muscles qui ferment le bassin: c'est le diaphragme pelvien. Son rôle est important puisqu’il assure la continence urinaire et anale, soutient des organes du bassin (vessie, utérus et rectum) et joue un rôle dans la sexualité.
-
-La rééducation périnéale a un **rôle préventif** : certaines occasions  comme la grossesse ou l’accouchement peuvent fragiliser les muscles périnéaux.
-Elle a aussi tout son intérêt dans le **traitement de problèmes féminins** comme l’incontinence urinaire ou anale, les pesanteurs et prolapsus (descente d’organes) ou encore les douleurs périnéales.
-
-Les séances de **rééducation post-natale** peuvent être débutées dès la  6ème  semaine suivant  l’accouchement.  La sage-femme peut vous prescrire les séances de rééducation dans les trois mois qui suivent l'accouchement. 
+**Le périnée est un ensemble de tissus et muscles qui se situent autour du vagin et de la vulve.** Son rôle est important: il assure la continence urinaire et anale ainsi que le soutien des organes du bassin; il participe également au plaisir sexuel et au chemin de la naissance.
  
-Vous pouvez avoir besoin **de rééducation périnéale en dehors de ce moment précis qu’est la naissance d’un enfant**. Le mode de vie, certaines professions, certaines pratiques sportives, la ménopause peuvent avoir des répercussions sur le périnée. Attention, pour être prise en charge par une sage-femme, il faut avoir accouché au moins une fois, même s'il y a longtemps.
+Le périnée est sensible aux hormones; il s’assouplit pendant la grossesse, lors de l’accouchement et avec l’âge, et peut être affaibli lors de fortes pressions intra-abdominales comme la toux, l’éternuement ou les efforts physiques.
 
-Différentes techniques  de rééducation existent : rééducation manuelle (CMP [www.institutnaissanceetformations.fr] et autres méthodes), travail en biofeedback ou électrostimulation avec une sonde ou encore de façon plus globale avec la respiration ( technique abdo-perineo-MG), la correction des habitudes posturales (eutonie).
+**La rééducation a tout son intérêt après la naissance et dans le traitement de problèmes féminins** (urinaires, anaux, sexuels). Elle peut également soulager les pesanteurs et les douleurs pelviennes. 
 
-Renseignez-vous auprès de votre sage-femme, elle vous expliquera la méthode qu'elle utilise.
+**Elle a également un rôle éducatif et préventif**.
+
+Les séances de rééducation post natale peuvent être débutées dès la 6ème semaine suivant  l’accouchement.
+ 
+**Différentes techniques de rééducation existent**: rééducation manuelle, travail en biofeedback ou électrostimulation avec une sonde vaginale, et/ou rééducation plus globale, avec un travail sur le souffle, les postures, la prise de conscience et la maîtrise des pressions intra-abominales lors des efforts.
+
+
+
