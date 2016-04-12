@@ -6,10 +6,6 @@ published: false
 title: "Thérapie sexo-corporelle"
 ---
 
-
-
-
-
 La thérapie sexofonctionnelle est une forme de thérapie utilisée en sexologie clinique.
 
 Cette thérapie, basée sur le modèle de fonctionnalité sexuelle, a pour objectif d'aider le patient aux moyens de techniques concrètes à retrouver une sexualité fonctionnelle et satisfaisante sur les plans personnel, relationnel et social.

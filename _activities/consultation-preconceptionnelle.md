@@ -2,7 +2,6 @@
 type: activity
 title: Consultation préconceptionnelle
 category: Grossesse
-description: ""
 published: true
 ---
 

@@ -2,7 +2,6 @@
 type: activity
 title: "Suivi post natal mère-enfant / PRADO"
 category: Grossesse
-description: ""
 published: true
 ---
 

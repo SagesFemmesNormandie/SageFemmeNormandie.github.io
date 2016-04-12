@@ -1,7 +1,7 @@
 ---
 type: activity
 title: Acupuncture
-category: soutien santé
+category: Soutien santé
 description: "**L’acupuncture**, basée sur le fonctionnement énergétique du corps, prend en charge le patient dans sa globalité sans dissocier les symptômes physiques de son état émotionnel. Elle permet d’apporter une aide, préventive ou curative, à tous les stades de la vie de la femme…"
 published: true
 ---

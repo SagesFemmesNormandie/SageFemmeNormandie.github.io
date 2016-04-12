@@ -1,8 +1,7 @@
 ---
 type: activity
 title: Ostéopathie
-category: soutien santé
-description: ""
+category: Soutien santé
 published: true
 ---
 

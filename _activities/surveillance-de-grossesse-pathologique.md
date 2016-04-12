@@ -2,7 +2,6 @@
 type: activity
 title: Surveillance de grossesse pathologique
 category: Grossesse
-description: ""
 published: true
 ---
 
