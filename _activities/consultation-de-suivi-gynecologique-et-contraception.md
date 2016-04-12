@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Consultation de suivi gynécologique et contraception
-category: "Gynécologie-contraception"
+category: Gynécologie
 description: "La sage-femme libérale peut effectuer votre suivi gynécologique de prévention et de contraception, **à partir de la puberté jusqu'après la ménopause**"
 published: true
 ---
+
 
 
 
