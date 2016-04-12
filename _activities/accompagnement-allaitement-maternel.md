@@ -1,7 +1,7 @@
 ---
 type: activity
 title: "Accompagnement de l'allaitement maternel"
-category: Grossesse
+category: Mère et enfant
 description: "Allaiter? Un peu, beaucoup... Etre soutenue, conseillée lors des difficultés... Envisager la reprise du travail... Tirer son lait... Continuer , mixer, sevrer... Allaiter des jumeaux...Co-allaiter..."
 published: true
 ---
