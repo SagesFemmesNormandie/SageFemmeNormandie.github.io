@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Rééducation du périnée
-category: Confort
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+category: gynécologie
+description: "La rééducation du périnée, après un accouchement ou à distance, permet de renforcer tous les muscles de cette zone, de prévenir ou de traiter des pathologies..."
 published: true
 ---
+
 
 
 
