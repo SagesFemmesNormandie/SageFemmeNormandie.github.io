@@ -54,12 +54,15 @@
     max-width: 22rem;
   }
   &.téléphone-mobile {
-    flex: 0.4;
+    text-align: center;
     span:not(:first-child) {
       &:before {
         content: ' / '
       }
     }
+  }
+  &.email {
+    text-align: center;
   }
   &.activity {
     //display: flex;
