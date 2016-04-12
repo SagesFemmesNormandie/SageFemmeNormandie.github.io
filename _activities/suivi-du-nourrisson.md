@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Suivi du nourrisson
-category: "Bien-être"
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+category: Mère et enfant
+description: "les rythmes du bébé, les soins à prodiguer, la surveillance de son poids, les conseils en matière d'alimentation... Vous pouvez poser vos questions, être écoutée, rassurée, confortée... "
 published: true
 ---
+
 
 
 
