@@ -2,9 +2,10 @@
 type: activity
 title: "Accompagnement de l'allaitement maternel"
 category: Grossesse
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+description: "Allaiter? Un peu, beaucoup... Etre soutenue, conseillée lors des difficultés... Envisager la reprise du travail... Tirer son lait... Continuer , mixer, sevrer... Allaiter des jumeaux...Co-allaiter..."
 published: true
 ---
+
 
 
 
@@ -19,5 +20,3 @@ Nous serons aussi présentes après la naissance de votre bébé pour vous accom
 Accompagner?  c’est parfois **répondre** simplement à vos questions, vous **aider** à trouver  les meilleures solutions avec  vous, vous **soutenir** si vous rencontrez des difficultés, vous **conseiller** pour continuer votre allaitement avec la reprise du travail ou aller vers un sevrage....
 
 ...Vous accompagner, afin que vous puissiez vivre cette aventure à votre manière, selon vos envies et vos besoins, ainsi que ceux de votre bébé.
-
-
