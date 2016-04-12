@@ -1,7 +1,7 @@
 ---
 type: activity
 title: Psycho périnatalité
-category: mère et enfant
+category: Mère et enfant
 description: ""
 published: true
 ---

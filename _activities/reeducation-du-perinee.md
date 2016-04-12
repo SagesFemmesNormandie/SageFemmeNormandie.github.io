@@ -1,8 +1,8 @@
 ---
 type: activity
 title: Rééducation du périnée
-category: gynécologie
-description: "La rééducation du périnée, après un accouchement ou à distance, permet de renforcer tous les muscles de cette zone, de prévenir ou de traiter des problèmes féminins..."
+category: Gynécologie
+description: "La rééducation du périnée, après un accouchement ou à distance, permet de renforcer tous les muscles de cette zone, de prévenir ou de traiter des problèmes féminins…"
 published: true
 ---
 

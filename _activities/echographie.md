@@ -2,7 +2,7 @@
 type: activity
 title: Echographie
 category: Grossesse
-description: "Ce sont les **échographies de la grossesse**: la datation, les trois examens recommandés des premier, deuxième et troisième  trimestres, les échographies de surveillance particulière, mais également dans d'autres contextes..."
+description: "Ce sont les **échographies de la grossesse**: la datation, les trois examens recommandés des premier, deuxième et troisième  trimestres, les échographies de surveillance particulière, mais également dans d'autres contextes…"
 published: true
 ---
 

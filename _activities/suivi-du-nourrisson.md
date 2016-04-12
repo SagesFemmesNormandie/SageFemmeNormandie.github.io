@@ -2,7 +2,7 @@
 type: activity
 title: Suivi du nourrisson
 category: Mère et enfant
-description: "les rythmes du bébé, les soins à prodiguer, la surveillance de son poids, les conseils en matière d'alimentation... Vous pouvez poser vos questions, être écoutée, rassurée, confortée... "
+description: "Les rythmes du bébé, les soins à prodiguer, la surveillance de son poids, les conseils en matière d'alimentation… Vous pouvez poser vos questions, être écoutée, rassurée, confortée… "
 published: true
 ---
 

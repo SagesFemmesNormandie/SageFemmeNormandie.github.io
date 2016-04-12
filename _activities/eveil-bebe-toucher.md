@@ -1,7 +1,7 @@
 ---
 type: activity
 title: Eveil du bébé par le toucher
-category: mère et enfant
+category: Mère et enfant
 description: ""
 published: true
 ---

@@ -1,8 +1,8 @@
 ---
 type: activity
 title: Haptonomie
-category: accompagnement grossesse
-description: "**développer pendant la grossesse un lien privilégié avec l'enfant** qui lui fera dire, à la naissance, \"on se connaissait déjà\"..."
+category: Accompagnement grossesse
+description: "**Développer pendant la grossesse un lien privilégié avec l'enfant** qui lui fera dire, à la naissance, \"on se connaissait déjà\"…"
 published: true
 ---
 

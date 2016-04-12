@@ -2,7 +2,7 @@
 type: activity
 title: "Suivi post natal mère-enfant / PRADO"
 category: Grossesse
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+description: ""
 published: true
 ---
 

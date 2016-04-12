@@ -2,7 +2,7 @@
 type: activity
 title: Consultation de suivi de grossesse
 category: Grossesse
-description: "La sage-femme libérale peut  réaliser  **l'ensemble du suivi médical de votre grossesse**"
+description: "La sage-femme libérale peut  réaliser **l'ensemble du suivi médical de votre grossesse**"
 published: true
 ---
 

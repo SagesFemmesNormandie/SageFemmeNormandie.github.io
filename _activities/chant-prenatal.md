@@ -1,6 +1,6 @@
 ---
 type: activity
-title: Chant prÃ©natal
+title: Chant prénatal
 category: accompagnement grossesse
 description: ""
 published: true
