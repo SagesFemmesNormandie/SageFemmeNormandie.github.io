@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Acupuncture
-category: Grossesse
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+category: soutien santé
+description: "**L’acupuncture**, basée sur le fonctionnement énergétique du corps, prend en charge le patient dans sa globalité sans dissocier les symptômes physiques de son état émotionnel. Elle permet d’apporter une aide, préventive ou curative, à tous les stades de la vie de la femme ..."
 published: true
 ---
+
 
 
 
