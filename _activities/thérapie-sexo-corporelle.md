@@ -1,10 +1,11 @@
 ---
 type: Activity
 description: ""
-category: ""
+category: Gynécologie
 published: false
 title: "Thérapie sexo-corporelle"
 ---
+
 
 
 
