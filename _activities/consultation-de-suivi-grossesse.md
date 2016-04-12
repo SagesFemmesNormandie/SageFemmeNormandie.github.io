@@ -2,9 +2,10 @@
 type: activity
 title: Consultation de suivi de grossesse
 category: Grossesse
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+description: "La sage-femme libérale peut  réaliser  **l'ensemble du suivi médical de votre grossesse**"
 published: true
 ---
+
 
 
 
