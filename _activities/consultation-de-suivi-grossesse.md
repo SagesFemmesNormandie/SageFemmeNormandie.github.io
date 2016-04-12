@@ -2,14 +2,9 @@
 type: activity
 title: Consultation de suivi de grossesse
 category: Grossesse
-description: "La sage-femme libérale peut  réaliser **l'ensemble du suivi médical de votre grossesse**"
+description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
 published: true
 ---
-
-
-
-
-
 
 La sage-femme libérale réalise **l'ensemble du suivi de votre grossesse**: 
 - les consultations mensuelles obligatoires, consultations supplémentaires au besoin,

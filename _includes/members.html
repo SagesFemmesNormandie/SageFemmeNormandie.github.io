@@ -50,7 +50,7 @@
     {% endif %}
     {% if site.data.google_sheet[2][mod] == 'Site web' %}
     {% if row[mod] != '' %}
-      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}"><a href="://{{ row[mod] }}">{{ row[mod] }}</a></div><!--/ members-list__item -->
+      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}"><a href="//{{ row[mod] }}">{{ row[mod] }}</a></div><!--/ members-list__item -->
       {% endif %}
     </div><!--/ members-list__line -->
     {% endif %}

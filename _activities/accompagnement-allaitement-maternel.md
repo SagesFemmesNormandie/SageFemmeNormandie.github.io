@@ -1,13 +1,10 @@
 ---
 type: activity
 title: "Accompagnement de l'allaitement maternel"
-category: Mère et enfant
-description: "Allaiter ? Un peu, beaucoup... Etre soutenue, conseillée lors des difficultés... Envisager la reprise du travail... Tirer son lait... Continuer, mixer, sevrer... Allaiter des jumeaux... Co-allaiter..."
+category: Grossesse
+description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
 published: true
 ---
-
-
-
 
 
 **Allaiter ou ne pas allaiter ?
@@ -15,8 +12,10 @@ Allaiter un peu, beaucoup ou pas du tout ?**
 
 Sages-femmes libérales, nous sommes là pendant votre grossesse pour vous éclairer, répondre à vos interrogations, échanger autour de votre projet.
 
-Nous serons aussi présentes après la naissance de votre bébé pour vous accompagner dans votre choix…
+Nous serons aussi présentes après la naissance de votre bébé pour vous accompagner dans votre choix....
 
-Accompagner? C’est parfois **répondre** simplement à vos questions, vous **aider** à trouver les meilleures solutions avec  vous, vous **soutenir** si vous rencontrez des difficultés, vous **conseiller** pour continuer votre allaitement avec la reprise du travail ou aller vers un sevrage....
+Accompagner?  c’est parfois **répondre** simplement à vos questions, vous **aider** à trouver  les meilleures solutions avec  vous, vous **soutenir** si vous rencontrez des difficultés, vous **conseiller** pour continuer votre allaitement avec la reprise du travail ou aller vers un sevrage....
 
-…Vous accompagner, afin que vous puissiez vivre cette aventure à votre manière, selon vos envies et vos besoins, ainsi que ceux de votre bébé.
+...Vous accompagner, afin que vous puissiez vivre cette aventure à votre manière, selon vos envies et vos besoins, ainsi que ceux de votre bébé.
+
+

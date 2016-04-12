@@ -1,15 +1,10 @@
 ---
 type: activity
 title: Consultation de suivi gynécologique et contraception
-category: Gynécologie
-description: "La sage-femme libérale peut effectuer votre suivi gynécologique de prévention et de contraception, **à partir de la puberté jusqu'après la ménopause**"
+category: Médical
+description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
 published: true
 ---
-
-
-
-
-
 
 La sage-femme libérale peut effectuer votre suivi gynécologique de prévention et de contraception, **à partir de la puberté jusqu'après la ménopause**: 
 

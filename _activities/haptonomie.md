@@ -1,11 +1,10 @@
 ---
 type: activity
 title: Haptonomie
-category: Accompagnement grossesse
-description: "**Développer pendant la grossesse un lien privilégié avec l'enfant** qui lui fera dire, à la naissance, \"on se connaissait déjà\"…"
+category: Préparation à l'accouchement
+description: "Un échange de tendresse, des caresses sur le ventre de maman, et bébé se laisse guider vers les mains de papa qui l‘appelle."
 published: true
 ---
-
 
 
 
