@@ -16,7 +16,7 @@ navigation: true
     {% if row[3] contains '2015' %}
       {% include members.html %}
       {% endif %}
-    {% endfor %}
-  </div>
+    {% endfor %} 
+  </div> 
 </div>
 

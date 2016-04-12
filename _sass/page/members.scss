@@ -54,7 +54,7 @@
     max-width: 22rem;
   }
   &.téléphone-mobile {
-    text-align: center;
+      padding: 0 1.2em 1em;
     span:not(:first-child) {
       &:before {
         content: ' / '

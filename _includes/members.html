@@ -27,33 +27,38 @@
     {% endif %}
     </div>
     {% endif %}
-  {% endfor %}
-  {% for col in row %}
-  {% assign mod = forloop.index %}
+
     {% if site.data.google_sheet[2][mod] == 'Téléphone mobile' %}
-    <div class="members-list__line information">
+    <div class="members-list__line">
     <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}">
     {% if row[mod] != '' %}
       <span>{{ row[mod] }}</span>
     {% endif %}
     {% endif %}
+
     {% if site.data.google_sheet[2][mod] == 'Téléphone fixe' %}
     {% if row[mod] != '' %}
       <span>{{ row[mod] }}</span>
     {% endif %}
-    </div><!--/ members-list__item -->
+    <br>
     {% endif %}
-    {% if site.data.google_sheet[2][mod] == 'Email' %}
+
+    {% if site.data.google_sheet[2][mod] == 'Email %}
     {% if row[mod] != '' %}
-      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}">{{ row[mod] }}</div><!--/ members-list__item -->
+      {{ row[mod] }}
     {% endif %}
     {% endif %}
+
     {% if site.data.google_sheet[2][mod] == 'Site web' %}
     {% if row[mod] != '' %}
-      <div class="members-list__item {{ site.data.google_sheet[2][mod] | slugify }}"><a href="//{{ row[mod] }}">{{ row[mod] }}</a></div><!--/ members-list__item -->
-      {% endif %}
-    </div><!--/ members-list__line -->
+       <a href="//{{ row[mod] }}">{{ row[mod] }}</a>
     {% endif %}
+    </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+  {% for col in row %}
+  {% assign mod = forloop.index %}
     {% if mod >= modactivity %}
     {% if mod == modactivity %}
       <div class="members-list__line">

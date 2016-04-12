@@ -16,6 +16,8 @@ gems:
 # Build settings
 markdown: kramdown
 
+data_dir: data
+
 # HTML Compression
 compress_html:
   clippings: all

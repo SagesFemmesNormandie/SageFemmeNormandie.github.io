@@ -1,0 +1,8 @@
+---
+---
+[
+{% for row in site.data.google_sheet offset:3 %}  {
+    "name": "{{ row[1] | json }}",
+    "forname": "{{ row[2] | json }}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}]
