@@ -2,9 +2,10 @@
 type: activity
 title: "Consultation post-natale"
 category: Grossesse
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+description: "La sage-femme peut réaliser cette consultation  après un accouchement en l’absence de situation pathologique, **que la grossesse ou l’accouchement ait été eutocique (normal) ou non.**"
 published: true
 ---
+
 
 
 
