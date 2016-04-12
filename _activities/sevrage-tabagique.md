@@ -1,8 +1,10 @@
 ---
-title: Sevrage tabagique
 type: activity
+title: Sevrage tabagique
 category: Grossesse
-description: L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse.
+description: "Réduire  voire arrêter sa consommation de tabac, pour la grossesse et plus longtemps... Comment être aidée, soutenue dans ce beau projet?..."
+published: true
 ---
 
-Elle apporte détente et favorise le lien mère-enfant, prépare à l'accouchement et le facilite. Après l'accouchement, l'acupunture renforce l'énergie, soulage les douleurs et aide à l'allaitement.
+
+
