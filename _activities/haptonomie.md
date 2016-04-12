@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Haptonomie
-category: prépa
-description: "Un échange de tendresse, des caresses sur le ventre de maman, et bébé se laisse guider vers les mains de papa qui l‘appelle."
+category: accompagnement grossesse
+description: "**développer pendant la grossesse un lien privilégié avec l'enfant** qui lui fera dire, à la naissance, \"on se connaissait déjà\"..."
 published: true
 ---
+
 
 
 
