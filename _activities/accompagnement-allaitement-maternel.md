@@ -1,9 +1,11 @@
 ---
 type: activity
 title: "Accompagnement de l'allaitement maternel"
-category: Grossesse
+category: Mère et Enfant
 published: true
+description: "Allaiter... un peu, beaucoup...Etre informée, encouragée, soutenue, conseillée dans les difficultés..."
 ---
+
 
 **Allaiter ou ne pas allaiter ?
 Allaiter un peu, beaucoup ou pas du tout ?**
@@ -15,5 +17,3 @@ Nous serons aussi présentes après la naissance de votre bébé pour vous accom
 Accompagner?  c’est parfois **répondre** simplement à vos questions, vous **aider** à trouver  les meilleures solutions avec  vous, vous **soutenir** si vous rencontrez des difficultés, vous **conseiller** pour continuer votre allaitement avec la reprise du travail ou aller vers un sevrage....
 
 …Vous accompagner, afin que vous puissiez vivre cette aventure à votre manière, selon vos envies et vos besoins, ainsi que ceux de votre bébé.
-
-
