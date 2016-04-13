@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Sophrologie
-category: Accompagnement grossesse
-description: "**Dans le cadre de la préparation à la naissance**, la sophrologie permet à la future maman de mieux vivre sa grossesse, d'avoir un outil pour faire face à la contraction utérine, de mieux vivre son accouchement."
+category: Préparer la Naissance et la Parentalité
+description: "Dans le cadre de la préparation à la naissance, la sophrologie permet à la future maman de mieux vivre sa grossesse, d'avoir un outil pour faire face à la contraction utérine, de mieux vivre son accouchement."
 published: true
 ---
+
 
 
 
