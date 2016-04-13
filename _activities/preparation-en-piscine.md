@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Préparation en piscine
-category: Accompagnement grossesse
+category: Préparer la Naissance et la Parentalité
 description: "Etre dans l'eau, en harmonie et se préparer par les exercices et la respiration..."
 published: true
 ---
+
 
 
 
