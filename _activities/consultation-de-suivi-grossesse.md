@@ -3,7 +3,7 @@ type: activity
 title: Consultation de suivi de grossesse
 category: La Grossesse
 published: true
-description: "La sage-femme peut réaliser l'ensemble du suivi médical de la grossesse, dès le premier rendez-vous qui confirme la grossesse,  pour le suivi mensuel et davantage selon les besoins."
+description: "La sage-femme peut réaliser l'ensemble du suivi médical de la grossesse, dès le premier rendez-vous qui confirme la grossesse,  pour le suivi mensuel et selon les besoins."
 ---
 
 
