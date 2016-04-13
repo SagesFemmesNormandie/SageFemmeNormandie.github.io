@@ -1,10 +1,11 @@
 ---
 type: Activity
-description: ""
-category: Gynécologie
+description: "Elle est utile lors de difficultés dans la sexualité, afin de retrouver une harmonie."
+category: "Femme - Santé"
 published: false
 title: "Thérapie sexo-corporelle"
 ---
+
 
 La thérapie sexofonctionnelle est une forme de thérapie utilisée en sexologie clinique.
 
