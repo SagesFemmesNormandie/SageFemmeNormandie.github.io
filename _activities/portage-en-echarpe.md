@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Portage en écharpe
-category: Mère et enfant
-description: "Si porter peut être une évidence ou une nécessité, bien porter se découvre et s'apprend ? C'est pourquoi des sages-femmes proposent des ateliers…"
+category: Mère et Enfant
+description: "Si porter peut être une évidence ou une nécessité, bien porter se découvre et s'apprend... C'est pourquoi des sages-femmes proposent des ateliers…"
 published: true
 ---
+
 
 
 
