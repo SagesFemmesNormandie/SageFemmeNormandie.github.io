@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Haptonomie
-category: Préparation à l'accouchement
-description: "Un échange de tendresse, des caresses sur le ventre de maman, et bébé se laisse guider vers les mains de papa qui l‘appelle."
+category: Préparer la Naissance et la Parentalité
+description: "Cet accompagnement permet aux parents de développer un lien intime et profond avec leur enfant, dès avant la naissance..."
 published: true
 ---
+
 
 
 
@@ -17,6 +18,6 @@ La mère développe un **lien intime et profond avec son enfant** afin de pouvoi
 
 Le père **développe pendant la grossesse un lien privilégié avec l'enfant** qui lui fera dire, à la naissance, "on se connaissait déjà", il **donne du confort à sa compagne et son enfant**   pendant la grossesse (soulage le dos et les tensions utérines)  et **les soutient** par sa présence lors de la naissance. 
 
-Le bon partagé dans  l’être ensemble **renforce la sécurité intérieure de chacun**, même pour les grossesses dites à risque.
+Le bon partagé dans l’être ensemble **renforce la sécurité intérieure de chacun**, même pour les grossesses dites à risque.
 
 L’**accompagnement post-natal** permet à l’enfant de s’ouvrir au monde et de développer ses talents en confiance, vers son autonomie et la grande aventure de la marche.
