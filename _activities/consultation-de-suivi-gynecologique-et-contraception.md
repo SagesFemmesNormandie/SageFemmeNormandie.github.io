@@ -2,7 +2,7 @@
 type: activity
 title: Consultation de suivi gynécologique et contraception
 category: "Femme - Santé"
-description: "La sage-femme réalise la consultation gynécologique ( suivi préventif annuel, frottis, prescription d'examens complémentaires si besoin), prescrit, met en place et surveille l'ensemble des moyens contraceptifs... "
+description: "De la puberté  pour envisager une contraception jusqu'après la ménopause pour continuer le suivi gynécologique de prévention, la sage -femme accompagne la santé de la femme..."
 published: true
 ---
 
