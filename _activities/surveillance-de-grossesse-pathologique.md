@@ -1,9 +1,11 @@
 ---
 type: activity
 title: Surveillance de grossesse pathologique
-category: Grossesse
+category: "Femme enceinte - Santé"
 published: true
+description: "Elle est pratiquée sur prescription médicale, à domicile si besoin, avec ou sans monitorage du bébé..."
 ---
+
 
 
 
