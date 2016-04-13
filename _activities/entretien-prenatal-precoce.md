@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Entretien prénatal précoce
-category: Grossesse
-description: "Il s’agit d’un entretien, dans l'écoute et l'échange, individuel ou en couple (jamais en groupe), avec votre sage-femme, qui se déroule, si possible au 4ème mois de la grossesse, mais qui peut être réalisé plus tard"
+category: Préparer la Naissance et la Parentalité
+description: "Il s’agit d’un entretien, dans l'écoute et l'échange, individuel ou en couple (jamais en groupe), avec la sage-femme, qui se déroule, si possible au 4ème mois de la grossesse, mais qui peut être réalisé plus tard"
 published: true
 ---
+
 
 
 
