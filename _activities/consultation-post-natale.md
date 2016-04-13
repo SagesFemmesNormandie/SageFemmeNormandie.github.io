@@ -1,9 +1,11 @@
 ---
 type: activity
 title: "Consultation post-natale"
-category: Grossesse
+category: "Femme - Santé"
 published: true
+description: "Elle permet à la femme de faire le point à distance de l'accouchement, de reprendre le suivi gynécologique et de revoir la contraception. "
 ---
+
 
 
 Suite à votre accouchement, il est prévu par l'Assurance Maternité que vous ayiez un suivi: c'est la **visite post-natale**.
