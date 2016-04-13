@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Préparation à la naissance
-category: Accompagnement grossesse
+category: Préparer la Naissance et la Parentalité
 description: "La préparation à la naissance et à la parentalité est un moment privilégié pour **vous préparer physiquement et mentalement au phénomène naturel de la naissance**, que ce soit votre premier bébé ou que vous ayez déjà des enfants…"
 published: true
 ---
+
 
 
 
