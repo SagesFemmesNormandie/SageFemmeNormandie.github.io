@@ -1,10 +1,11 @@
 ---
 type: activity
 title: Consultation de suivi gynécologique et contraception
-category: Médical
-description: "L‘acupuncture permet de soulager la fatigue, les douleurs, les troubles digestifs les troubles circulatoires et l'insomnie au cours de la grossesse."
+category: "Femme - Santé"
+description: "La sage-femme réalise la consultation gynécologique ( suivi préventif annuel, frottis, prescription d'examens complémentaires si besoin), prescrit, met en place et surveille l'ensemble des moyens contraceptifs... "
 published: true
 ---
+
 
 La sage-femme libérale peut effectuer votre suivi gynécologique de prévention et de contraception, **à partir de la puberté jusqu'après la ménopause**: 
 
