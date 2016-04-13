@@ -1,9 +1,11 @@
 ---
 type: activity
 title: "Suivi post natal mère-enfant / PRADO"
-category: Grossesse
+category: Mère et Enfant
 published: true
+description: "La sage-femme peut venir à domicile dès le retour de maternité, afin de veiller à la santé et à l'accompagnement de la mère et de l'enfant..."
 ---
+
 
 
 
@@ -20,4 +22,3 @@ C'est également pour vous, et pour votre conjoint, la possibilité:
 Elle pourra vous écouter, vous soutenir, vous informer tant sur le plan médical qu'émotionnel.
 
 Ces visites sont prises en charge par l'Assurance Maternité, puis par l'Assurance Maladie. Le nombre de visites dépendra de vos besoins, le relais pouvant être fait ensuite au cabinet de la sage-femme.
-
