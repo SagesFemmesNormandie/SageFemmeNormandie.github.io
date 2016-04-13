@@ -1,9 +1,11 @@
 ---
 type: activity
 title: Consultation préconceptionnelle
-category: Grossesse
+category: "Femme - Santé"
 published: true
+description: "Il s'agit de mettre un terme à la contraception, d'envisager  et de préparer la grossesse..."
 ---
+
 
 
 Il s'agit d'une consultation particulière, car elle s'inscrit dans le projet que vous mûrissez pour accueillir un enfant. 
@@ -19,5 +21,3 @@ Comment vous préparer à cette grossesse?
 - Et bien sûr vos questions...
 
 Elle est prise en charge par l'Assurance Maladie
-
-
