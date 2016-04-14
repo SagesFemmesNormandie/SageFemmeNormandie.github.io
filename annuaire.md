@@ -24,7 +24,7 @@ navigation: true
     </div>
     <div class="members-list__line">
       <div class="members-list__item téléphone-mobile">
-        {% if row.telephone-mobile %}<span>{{ row.telephone-mobile }}</span>{% endif %} {% if row.telephone-mobile %}<span>{{ row.telephone-fixe }}</span>{% endif %}<br>
+        {% if row.telephone-mobile %}<span>{{ row.telephone-mobile }}</span>{% endif %} {% if row.telephone-fixe %}<span>{{ row.telephone-fixe }}</span>{% endif %}<br>
         {{ row.email }}
         <a href="//{{ row.site-web }}">{{ row.site-web }}</a>
       </div>
