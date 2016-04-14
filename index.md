@@ -27,9 +27,9 @@ Découvrez les activités proposées par les sages-femmes de l'association.
   {% endif %}
   {% endfor %}
   {% if activityrowvaluesumm != 0 %}
-  <div class="activity-list__box"> 
+  <div class="activity-list__box">  
     <h3 class="h5"><a href="{{ item.url }}">{{ item.title }}</a></h3>
-    {% if item.description %}{{ item.description | markdownify }}{% else %}{{ item.content | truncatewords: 25 | markdownify }}{% endif %}
+    {% if item.description %}{{ item.description | markdownify }}{% else %}{% if item.content %}{{ item.content | truncatewords: 25 | markdownify }}{% else %}Découvrez l'activité {{ item.title }}{% endif %}{% endif %}
   </div>
   {% endif %}
   {% endfor %}

@@ -14,3 +14,9 @@
 @import "page/activities";
 @import "page/members";
 
+
+a[href^="https://www.netlify.com"] {
+  &, & + * , & + * + * {
+    display: none !important;
+  }
+}

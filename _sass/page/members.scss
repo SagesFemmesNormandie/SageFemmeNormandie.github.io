@@ -5,11 +5,7 @@
 .members-list {
   margin-top: $base-line*2;
   width: 100%;
-  @media #{$large-up} {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+  @include grid(2);
 }
 
 .members-list__box {
@@ -20,9 +16,6 @@
   margin-bottom: $base-line;
   border: 3px solid palette(primary);
   border-radius: 15px;
-  @media #{$large-up} {
-    width: calc(50% - #{$base-line/2});
-  }
 }
 
 .members-list__line {

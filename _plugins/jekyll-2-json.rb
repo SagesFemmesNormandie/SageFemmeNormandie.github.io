@@ -16,7 +16,6 @@
 # http://jezenthomas.com
 
 module Jekyll
-  require 'json'
 
   class JSONGenerator < Generator
     safe true

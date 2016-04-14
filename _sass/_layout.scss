@@ -24,33 +24,37 @@ $number: 4; // for equal columns
 // example : .grid-container { .grid(12, 10px); }
 
 @mixin grid($number:$number, $gutter:$gutter) {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-left: -$gutter;
   margin-bottom: $base-line;
-
-  /* inline-block fallback for IE9 generation */
-  letter-spacing: -0.31em;
-  text-rendering: optimizespeed;
   & > * {
-    flex: 0 0 auto;
-    //width: calc(100% * 1 / $number - $gutter - .01px);
-    width: calc(100% * 1 / #{$number} - #{$gutter} - .01px);
-    margin-left: $gutter;
     margin-bottom: $base-line;
+  }
+  @media #{$large-up} {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -$gutter;
 
     /* inline-block fallback for IE9 generation */
-    display: inline-block;
-    vertical-align: top;
-    letter-spacing: normal;
-    text-rendering: auto;
-  }
-  & > .flexitem-double {
-    width: calc(100% * 2 / #{$number} - #{$gutter});
-  }
-  & > .flexitem-first {
-    order: -1;
+    letter-spacing: -0.31em;
+    text-rendering: optimizespeed;
+    & > * {
+      flex: 0 0 auto;
+      //width: calc(100% * 1 / $number - $gutter - .01px);
+      width: calc(100% * 1 / #{$number} - #{$gutter} - .01px);
+      margin-left: $gutter;
+
+      /* inline-block fallback for IE9 generation */
+      display: inline-block;
+      vertical-align: top;
+      letter-spacing: normal;
+      text-rendering: auto;
+    }
+    & > .flexitem-double {
+      width: calc(100% * 2 / #{$number} - #{$gutter});
+    }
+    & > .flexitem-first {
+      order: -1;
+    }
   }
 }
 
