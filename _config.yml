@@ -7,16 +7,12 @@ baseurl: ""
 #url: "http://sagefemmenormandie.github.io"
 github_username:  SageFemmeNormandie
 #0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c
-gems:
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-mentions
+
 
 # Build settings
 markdown: kramdown
 
-data_dir: data
+#data_dir: data
 
 # HTML Compression
 compress_html:
@@ -55,3 +51,9 @@ defaults:
 gdrive:
   sheet: "Adhérents"
   cache_period: 1 minutes
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-mentions

@@ -30,7 +30,6 @@ Découvrez les activités proposées par les sages-femmes de l'association.
   <div class="activity-list__box"> 
     <h3 class="h5"><a href="{{ item.url }}">{{ item.title }}</a></h3>
     {% if item.description %}{{ item.description | markdownify }}{% else %}{{ item.content | truncatewords: 25 | markdownify }}{% endif %}
-    
   </div>
   {% endif %}
   {% endfor %}

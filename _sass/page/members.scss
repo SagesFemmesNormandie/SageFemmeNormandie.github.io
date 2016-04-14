@@ -3,7 +3,13 @@
 ////
 
 .members-list {
-  width: 100%
+  margin-top: $base-line*2;
+  width: 100%;
+  @media #{$large-up} {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }
 
 .members-list__box {
@@ -11,9 +17,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-bottom: $base-line /2;
+  margin-bottom: $base-line;
   border: 3px solid palette(primary);
   border-radius: 15px;
+  @media #{$large-up} {
+    width: calc(50% - #{$base-line/2});
+  }
 }
 
 .members-list__line {
