@@ -7,13 +7,8 @@ description: "Elle est pratiquée sur prescription médicale, à domicile si bes
 ---
 
 
+Sur prescription d'un médecin, votre sage-femme libérale peut vous suivre régulièrement dans le cadre de votre grossesse si elle nécessite une surveillance particulière pour vous ou votre/vos enfant (s) à naître.
 
+Ce suivi, à votre domicile ou au cabinet de la sage-femme, permet de prévenir toute complication et d'éviter une hospitalisation ou bien de poursuivre la surveillance dans les suites d'une hospitalisation, en lien avec la maternité dans laquelle vous accoucherez. 
 
-
-Cette surveillance peut se pratiquer à domicile au besoin (en cas de nécessité de repos absolu), sur prescription médicale et en lien avec la maternité.
-
-Elle peut comporter une surveillance simple ou avec le monitorage des contractions utérines et du rythme cardiaque de l'enfant (par deux capteurs posés sur le ventre de la future maman), selon la pathologie.  
-
-Il est envisageable de réaliser dans le même temps une préparation à la naissance à domicile, si le repos est nécessaire. 
-
-
+La sage-femme pratique un examen clinique adapté, vérifie les résultats des examens  complémentaires, effectue ou non un monitoring selon la prescription et vos besoins; mais elle est aussi là pour vous écouter, répondre à vos questions, vous aider, malgré ce contexte difficile, à garder ce lien précieux avec votre/vos enfants (s).
