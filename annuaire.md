@@ -13,13 +13,12 @@ navigation: true
   <br> --> 
   {% assign items_grouped-sort = site.data.members | sort: 'ville' %}
   {% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
-  {% assign items = site.data.members | sort: 'ville' %}
+  
 
   <nav class="nav-activity">
   <h2>Par villes</h2>
   <ul>
-
-  {% for group in items_grouped %} 
+  {% for group in items_grouped %}
   {% if group.items[0].adhesion contains '2016' %}
   <li><a href="#id-{{ group.name | slugify }}">{{ group.name }}</a></li>
   {% endif %}
@@ -28,9 +27,12 @@ navigation: true
   </nav>
 
   <div class="members-list list">
+  {% for group in items_grouped %}
+  {% assign items = group.items | sort: 'nom' %}
   {% for row in items %}
   {% include members-new.html %}
   {% endfor %}
+  {% endfor %} 
   </div>
 
 </div>

@@ -8,8 +8,12 @@ layout: default
 
 <h2>Trouver une sage femme libérale qui pratique cette activité</h2>
 
-{% assign items = site.data.members | sort: 'ville' %}
+{% assign items_grouped-sort = site.data.members | sort: 'ville' %}
+{% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
+
 <div class="members-list list">
+{% for group in items_grouped %}
+{% assign items = group.items | sort: 'nom' %}
 {% for row in items %}
   {% for activity in row.activites %}
   {% if activity.nom contains page.title %}
@@ -20,5 +24,6 @@ layout: default
     {% include members-new.html %}
   {% endif %}
   {% assign activitycheck = 0 %}
+{% endfor %}
 {% endfor %}
 </div>
