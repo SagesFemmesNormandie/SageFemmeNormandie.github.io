@@ -26,6 +26,7 @@ La sage-femme peut vous aider, par l'échange, l'information et les éclairages 
 
 Elle **prescrit toutes les contraceptions**, **pose (et retire) implant et DIU/SIU** (stérilet), vous apprend à utiliser cape et diaphragme, **réalise la surveillance nécessaire selon la méthode choisie**.
 
+
 **LIENS UTILES:**
 
 Choisir sa contraception [http://www.choisirsacontraception.fr/](http://www.choisirsacontraception.fr/)
