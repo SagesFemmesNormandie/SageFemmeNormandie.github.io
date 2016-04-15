@@ -8,6 +8,7 @@ description: "Il s'agit de vous soutenir dans votre projet d'allaitement (quel q
 
 
 
+
 **Allaiter ou ne pas allaiter ?
 Allaiter un peu, beaucoup ou pas du tout ?**
 
@@ -23,4 +24,4 @@ Accompagner?  c’est parfois **répondre** simplement à vos questions, vous **
 
 Santé Allaitement Maternel [http://www.santeallaitementmaternel.com/](http://www.santeallaitementmaternel.com/)
 
-La Leche League [www.lllfrance.org](www.lllfrance.org)
+La Leche League [http://www.lllfrance.org/](http://www.lllfrance.org/)
