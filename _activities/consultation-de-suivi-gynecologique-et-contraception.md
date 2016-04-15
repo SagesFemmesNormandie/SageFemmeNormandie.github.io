@@ -27,7 +27,8 @@ La sage-femme peut vous aider, par l'échange, l'information et les éclairages 
 Elle **prescrit toutes les contraceptions**, **pose (et retire) implant et DIU/SIU** (stérilet), vous apprend à utiliser cape et diaphragme, **réalise la surveillance nécessaire selon la méthode choisie**.
 
 **LIENS UTILES:**
-Coisir sa contraception [http://www.choisirsacontraception.fr/](http://www.choisirsacontraception.fr/)
+
+Choisir sa contraception [http://www.choisirsacontraception.fr/](http://www.choisirsacontraception.fr/)
 
 Pass Région-Santé [http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars](http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars)
 
