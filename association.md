@@ -46,4 +46,4 @@ CPAM - Ameli [http://www.ameli.fr/assures/](http://www.ameli.fr/assures/)
 
 Association nationale des sages-femmes libérales [http://www.ansfl.org/fr/](http://www.ansfl.org/fr/)
 
-Réseau périnat [http://reseaux-perinat-hn.org/](http://reseaux-perinat-hn.org/)
+Réseau Périnatatalité en région Haute-Normandie [http://reseaux-perinat-hn.org/](http://reseaux-perinat-hn.org/)
