@@ -29,5 +29,5 @@ Elle **prescrit toutes les contraceptions**, **pose (et retire) implant et DIU/S
 **LIENS UTILES:**
 Coisir sa contraception [http://www.choisirsacontraception.fr/](http://www.choisirsacontraception.fr/)
 
-Pass sRégion-santé [http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars](http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars)
+Pass Région-Santé [http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars](http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars)
 
