@@ -7,6 +7,7 @@ published: true
 
 
 
+
 #Association des Sages-Femmes Libérales de Haute-Normandie#
 
 ##Pourquoi une association des sages-femmes libérales ?##
@@ -32,7 +33,7 @@ Elle vous écoute, vous informe, effectue l'examen médical et prescrit médicam
 
 - Propose différentes **préparations à la naissance** axées sur l'écoute, l'information et le travail corporel.
 
-- Travaille **en lien avec les médecins, généralistes, gynécologues et autres spécialistes et les maternités** en cas de doute ou de pathologie.
+- Travaille **en lien avec les médecins, généralistes, gynécologues et autres spécialistes et les maternités** en cas de pathologie.
 
 Pour consulter une sage-femme, il n'est pas nécessaire d'avoir une prescription médicale: dans le parcours de soins coordonnés, votre sage-femme est en accès direct (sans passer par le médecin traitant).
 
