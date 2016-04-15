@@ -6,6 +6,7 @@ published: true
 ---
 
 
+
 #Association des Sages-Femmes Libérales de Haute-Normandie#
 
 ##Pourquoi une association des sages-femmes libérales ?##
@@ -34,3 +35,11 @@ Elle vous écoute, vous informe, effectue l'examen médical et prescrit médicam
 - Travaille **en lien avec les médecins, généralistes, gynécologues et autres spécialistes et les maternités** en cas de doute ou de pathologie.
 
 Pour consulter une sage-femme, il n'est pas nécessaire d'avoir une prescription médicale: dans le parcours de soins coordonnés, votre sage-femme est en accès direct (sans passer par le médecin traitant).
+
+**LIENS UTILES:**
+
+Conseil de l'ordre des sages-femmes [www.ordre-sages-femmes.fr/](www.ordre-sages-femmes.fr/)
+
+CPAM - Ameli [http://www.ameli.fr/assures/](http://www.ameli.fr/assures/)
+
+Association nationale des sages-femmes libérales http://www.ansfl.org/fr/
