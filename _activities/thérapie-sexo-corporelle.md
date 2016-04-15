@@ -2,7 +2,7 @@
 type: Activity
 description: "Elle est utile lors de difficultés dans la sexualité, afin de retrouver une harmonie."
 category: "Femme - Santé"
-published: false
+published: true
 title: "Thérapie sexo-corporelle"
 ---
 
