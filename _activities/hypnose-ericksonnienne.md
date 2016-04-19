@@ -1,8 +1,7 @@
 ---
 type: activity
-title: Hypnose Ericksonnienne
+title: Hypnose
 category: Préparer la Naissance et la Parentalité
 published: true
 description: ""
 ---
-
