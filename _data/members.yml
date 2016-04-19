@@ -662,6 +662,7 @@
   ville: "Le Havre"
   telephone-mobile: "06 60 14 90 48"
   activites: 
+   - nom: Accompagnement de l'allaitement maternel
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -669,6 +670,7 @@
    - nom: Préparation à la naissance
    - nom: Préparation en piscine
    - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
 - prenom: "Hollie"
   nom: "Jeannot"
@@ -963,6 +965,7 @@
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
 - prenom: "Laure"
@@ -1163,9 +1166,11 @@
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
+   - nom: Yoga
 - prenom: "Corinne"
   nom: "Ricouard"
   adhesion: "2009,2010,2011,2012,2013,2014,2015"
@@ -1267,7 +1272,6 @@
    - nom: Echographie
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
-   - nom: Yoga
 - prenom: "Céline"
   nom: "Vivier-Couland"
   adhesion: "2015,2016"
@@ -1288,6 +1292,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
 - prenom: "Véronique "
   nom: "Wilmort"
   adhesion: "2009,2010,2011,2012,2013,2014,2015"
