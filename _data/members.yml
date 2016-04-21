@@ -646,10 +646,11 @@
   activites: 
    - nom: Accompagnement de l'allaitement maternel
    - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
    - nom: Haptonomie
-   - nom: Portage en écharpe
+   - nom: Hypnose 
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
@@ -1006,6 +1007,24 @@
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+- prenom: "Elise "
+  nom: "Nicolle"
+  adhesion: "2016"
+  adresse: "1bis, rue des jardins"
+  code-postal: "27500"
+  ville: "Bourneville"
+  telephone-mobile: "07 83 79 00 03"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
 - prenom: "Jeannette"
   nom: "Nono"
   adhesion: "2015,2016"
@@ -1127,9 +1146,10 @@
   activites: 
    - nom: Accompagnement de l'allaitement maternel
    - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
-   - nom: Portage en écharpe
+   - nom: Hypnose 
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
@@ -1341,3 +1361,4 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
