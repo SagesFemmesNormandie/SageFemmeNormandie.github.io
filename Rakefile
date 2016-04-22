@@ -3,10 +3,10 @@ namespace :build do
 
   desc "Regenerate files for production"
   task :prod do
-    puts "* Regenerating files for production... fisrt time"
+    puts "* Regenerating files for production... first time"
     system "bundle exec jekyll build"
     puts "* Regenerating files for production... second time"
-    system "JEKYLL_ENV=production bundle exec jekyll build"
+    system "bundle exec jekyll build"
     puts "* Finish"
   end
 
