@@ -26,7 +26,7 @@ navigation: true
   </ul>
   </nav>
 
-  <div class="members-list list">
+  <div class="members-list list" itemtype="http://schema.org/ItemList http://schema.org/Midwifery">
   {% for group in items_grouped %}
   {% assign items = group.items | sort: 'nom' %}
   {% for row in items %}
