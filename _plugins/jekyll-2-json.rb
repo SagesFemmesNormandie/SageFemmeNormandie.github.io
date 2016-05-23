@@ -15,6 +15,8 @@
 # jezenthomas@gmail.com
 # http://jezenthomas.com
 
+#:post_render
+
 module Jekyll
 
   class JSONGenerator < Generator
