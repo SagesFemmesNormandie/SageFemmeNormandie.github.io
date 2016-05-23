@@ -1,15 +1,15 @@
 {% if row.adhesion contains '2016' %}
-<div class="members-list__box" data-id="{{forloop.index}}" data-town="{{row.ville}}">
+<div class="members-list__box" itemtype="http://schema.org/Person" data-id="{{forloop.index}}" data-town="{{row.ville}}">
   <div class="members-list__line name">
       <div class="members-list__item name">
-        <span>{{ row.prenom }} {{ row.nom }}</span>
-        {{ row.adresse }} {{ row.code-postal }} {{ row.ville }}
+        <strong> itemprop="name">{{ row.prenom }} {{ row.nom }}</strong>
+        <span itemprop="streetAddress">{{ row.adresse }}</span> <span itemprop="postalCode">{{ row.code-postal }}</span> <span itemprop="addressLocality">{{ row.ville }}</span>
       </div>
       <div id="id-{{ row.ville | slugify }}" class="members-list__item location">{{ row.ville }}</div>
   </div>
   <div class="members-list__line">
     <div class="members-list__item téléphone-mobile">
-      {% if row.telephone-mobile %}<span>{{ row.telephone-mobile }}</span>{% endif %} {% if row.telephone-fixe %}<span>{{ row.telephone-fixe }}</span>{% endif %}<br>
+      {% if row.telephone-mobile %}<span itemprop="telephone">{{ row.telephone-mobile }}</span>{% endif %} {% if row.telephone-fixe %}<span itemprop="telephone">{{ row.telephone-fixe }}</span>{% endif %}<br>
       {{ row.email }}
       <a href="//{{ row.site-web }}">{{ row.site-web }}</a>
     </div>
