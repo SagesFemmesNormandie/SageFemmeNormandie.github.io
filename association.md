@@ -8,17 +8,17 @@ published: true
 
 
 
-#Association des Sages-Femmes Libérales de Haute-Normandie#
+# Association des Sages-Femmes Libérales de Haute-Normandie #
 
-##Pourquoi une association des sages-femmes libérales ?##
+## Pourquoi une association des sages-femmes libérales ? ##
 
 L'Association des Sages-Femmes Libérales a été créée en 2009 pour faire connaître notre profession, nos compétences, et que vous puissiez aisément trouver une sage-femme proche de chez vous, selon vos besoins. 
 
-##Qui sont les membres de l'association ?##
+## Qui sont les membres de l'association ? ##
 
 Ce sont des sages-femmes libérales, ayant adhéré à l'Association des Sages-Femmes Libérales de Haute-Normandie. 
 
-##Quand et pourquoi contacter une sage-femme libérale ?##
+## Quand et pourquoi contacter une sage-femme libérale ? ##
 
 **La sage-femme libérale vous accompagne tout au long de votre  votre vie de femme**:
 
