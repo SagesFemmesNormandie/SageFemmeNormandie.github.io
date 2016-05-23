@@ -414,6 +414,10 @@ FileETag None
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/|#(.*))$
   RewriteRule ^(.*)$ /$1/ [R=301,L]
+  redirect 301 /credits.php5 http://sagesfemmes-normandie.asso.fr/mentions-legales
+  redirect 301 /activites.php5?act=L_%E9chographie http://sagesfemmes-normandie.asso.fr/activity/echographie/
+  redirect 301 /activites.php5?act=Chantprénatal http://sagesfemmes-normandie.asso.fr/activity/chant-prenatal/
+  redirect 301 /activites.php5?act=HypnoseEricksonnienne http://sagesfemmes-normandie.asso.fr/
 </IfModule>
 
 # ----------------------------------------------------------------------
