@@ -3,7 +3,7 @@ layout: default
 title: accueil
 ---
 
-## Liste des activités d'une sage femme ##
+## Liste des activités des sages-femmes libérales ##
 
 Découvrez les activités proposées par les sages-femmes de l'association.
 
