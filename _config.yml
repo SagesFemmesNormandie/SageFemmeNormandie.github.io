@@ -28,7 +28,7 @@ collections:
   activities:
     output: true
     order: date asc
-    permalink: /activity/:path/
+    permalink: /:path/
     sitemap: false
 
 defaults:
@@ -51,6 +51,13 @@ defaults:
 gdrive:
   sheet: "Adhérents"
   cache_period: 1 minutes
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'members'
+    template: 'profile'
+    name: 'nom_entier'
+    dir: ''
 
 gems:
   - jekyll-sitemap

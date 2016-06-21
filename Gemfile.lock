@@ -102,6 +102,7 @@ GEM
       rack (>= 1.2, < 3)
     os (0.9.6)
     rack (1.6.4)
+    rake (11.1.2)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -130,6 +131,7 @@ DEPENDENCIES
   jekyll-mentions
   jekyll-seo-tag
   jekyll-sitemap
+  rake
 
 BUNDLED WITH
    1.11.2

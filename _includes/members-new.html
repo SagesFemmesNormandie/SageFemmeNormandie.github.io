@@ -1,8 +1,9 @@
-{% if row.adhesion contains '2016' %}
+{% assign siteyear = site.time | date: '%Y' %}
+{% if row.adhesion contains siteyear %}
 <div class="members-list__box" itemtype="http://schema.org/Person" data-id="{{forloop.index}}" data-town="{{row.ville}}">
   <div class="members-list__line name">
       <div class="members-list__item name">
-        <strong itemprop="name">{{ row.prenom }} {{ row.nom }}</strong>
+        <a href="/{{ row.nom_entier }}/"><strong itemprop="name">{{ row.prenom }} {{ row.nom }}</strong></a>
         <span itemprop="streetAddress">{{ row.adresse }}</span> <span itemprop="postalCode">{{ row.code-postal }}</span> <span itemprop="addressLocality">{{ row.ville }}</span>
       </div>
       <div id="id-{{ row.ville | slugify }}" class="members-list__item location">{{ row.ville }}</div>

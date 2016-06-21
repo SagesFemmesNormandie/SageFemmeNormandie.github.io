@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h1>{{page.prenom}} {{page.nom}}</h1>
+
+{% assign siteyear = site.time | date: '%Y' %}
+
+{% if page.adhesion contains siteyear %}
+<p><strong>Adresse :</strong> {{page.adresse}} {{page.code-postal}} {{page.ville}}</p>
+<p>{% if page.telephone-mobile %}<strong>Téléphone mobile :</strong> {{page.telephone-mobile}}<br>{% endif %}
+{% if page.telephone-fixe %}<strong>Téléphone fixe :</strong> {{page.telephone-fixe}}{% endif %}</p>
+
+<h2>Ses activités de sage femme</h2>
+<ul>
+{% for activity in page.activites %}
+  {% for activitycollection in site.activities %}
+    {% if activitycollection.title == activity.nom %}
+      {% assign activityurl = activitycollection.url %}
+   {% endif %}
+  {% endfor %}
+  <li><a href="{{ activityurl }}">{{ activity.nom }}</a></li>
+{% endfor %}
+</ul>
+{% else %}
+<p>Aucune information sur cette sage femme</p>
+{% endif %}
+
+

@@ -17,6 +17,20 @@
 
 {% for col in row %}
 {% assign mod = forloop.index0 %}
+{% if mod == 1 %}
+{% assign forname = col | replace: " ", '' | replace: "'", '-' | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ë', 'e' | replace: 'à', 'a' | replace: ' ', '-' | downcase %}
+{% endif %}
+{% endfor %}
+
+{% for col in row %}
+{% assign mod = forloop.index0 %}
+{% if mod == 2 %}
+{% assign name = col | replace: " ", '' | replace: "'", '-' | replace: 'é', 'e' | replace: 'è', 'e' | replace: 'ë', 'e' | replace: 'à', 'a' | replace: ' ', '-' | downcase %}
+{% endif %}
+{% endfor %}
+
+{% for col in row %}
+{% assign mod = forloop.index0 %}
 {% if mod < modactivity %}
 {% assign slug = site.data.google_sheet[2][mod] | replace: "'", '-' | replace: 'é', 'e' | replace: 'à', 'a' | replace: ' ', '-' | downcase %}
 {% if mod != 0 %}{% if mod == 1 %}- {% else %}  {% endif %}{% if row[mod] != '' %}{{ slug | slugify }}: "{{ col | json }}"{% endif %}{% endif %}{% endif %}
@@ -25,4 +39,7 @@
 {% assign activityfirstvalid = 1 %}
   activites: {% for col in row %}{% assign mod = forloop.index0 %}{% if mod >= modactivity %}{% if col == '1' %}   - {% endif %}{% if mod >= modactivity %}{% if mod != 0 %}{% if row[mod] != '' %}nom: {{ site.data.google_sheet[2][mod] | json }}{% endif %}{% endif %}{% endif %}{% endif %}
 {% endfor %}
+  nom_entier: "{{ forname }}-{{ name }}"
 {% endfor %}
+
+

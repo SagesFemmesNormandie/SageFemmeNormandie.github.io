@@ -418,6 +418,7 @@ FileETag None
   Redirect 301 /activites.php5?act=L_%E9chographie http://sagesfemmes-normandie.asso.fr/activity/echographie/
   Redirect 301 /activites.php5?act=Chantprénatal http://sagesfemmes-normandie.asso.fr/activity/chant-prenatal/
   Redirect 301 /activites.php5?act=HypnoseEricksonnienne http://sagesfemmes-normandie.asso.fr/
+  RedirectCond /activity/(.*)$ /$1
 </IfModule>
 
 # ----------------------------------------------------------------------

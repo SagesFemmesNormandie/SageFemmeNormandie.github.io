@@ -15,6 +15,7 @@
    - nom: Rééducation du périnée
    - nom: Sophrologie
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "julie-agasse"
 - prenom: "Béatrice "
   nom: "Allouchéry"
   adhesion: "2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016"
@@ -28,6 +29,7 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Sophrologie
+  nom_entier: "beatrice-allouchery"
 - prenom: "Charlotte"
   nom: "André"
   adhesion: "2013,2014,2015,2016"
@@ -46,6 +48,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "charlotte-andre"
 - prenom: "Elise "
   nom: "Archaimbault"
   adhesion: "2013,2014,2015,2016"
@@ -66,6 +69,7 @@
    - nom: Préparation en piscine
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
+  nom_entier: "elise-archaimbault"
 - prenom: "Laurence"
   nom: "Argentin"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -83,6 +87,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
    - nom: Yoga
+  nom_entier: "laurence-argentin"
 - prenom: "Stéphanie "
   nom: "Barbier"
   adhesion: "2012,2013,2014,2015,2016"
@@ -100,6 +105,7 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "stephanie-barbier"
 - prenom: "Lalia"
   nom: "Ben Malfi"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -109,6 +115,7 @@
   telephone-fixe: "02 35 19 82 16"
   activites: 
    - nom: Echographie
+  nom_entier: "lalia-benmalfi"
 - prenom: "Amélie "
   nom: "Benoit"
   adhesion: "2015,2016"
@@ -127,6 +134,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "amelie-benoit"
 - prenom: "Hélène"
   nom: "Berlemont"
   adhesion: "2013,2014,2015,2016"
@@ -144,6 +152,7 @@
    - nom: Rééducation du périnée
    - nom: Sophrologie
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "helene-berlemont"
 - prenom: "Elodie "
   nom: "Berton"
   adresse: "Hôpital privé de l'Estuaire 505, rue Irène Joliot Curie"
@@ -153,6 +162,7 @@
   activites: 
    - nom: Consultation de suivi de grossesse
    - nom: Echographie
+  nom_entier: "elodie-berton"
 - prenom: "Stéphanie "
   nom: "Biberon"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -170,6 +180,7 @@
    - nom: Entretien prénatal précoce
    - nom: Haptonomie
    - nom: Préparation à la naissance
+  nom_entier: "stephanie-biberon"
 - prenom: "Ludivine "
   nom: "Boca"
   adhesion: "2015,2016"
@@ -188,6 +199,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "ludivine-boca"
 - prenom: "Valérie"
   nom: "Bouasria"
   adhesion: "2014,2015"
@@ -195,6 +207,7 @@
   code-postal: "27000"
   ville: "Evreux"
   telephone-mobile: "06 03 29 87 21"
+  email: "sagefemme.bouasria@gmail.com"
   activites: 
    - nom: Accompagnement de l'allaitement maternel
    - nom: Acupuncture
@@ -205,6 +218,7 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "valerie-bouasria"
 - prenom: "Delphine"
   nom: "Bouteiller"
   adhesion: "2015"
@@ -220,6 +234,7 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Yoga
+  nom_entier: "delphine-bouteiller"
 - prenom: "Juliette"
   nom: "Brasseur Guérin"
   adhesion: "2015,2016"
@@ -236,9 +251,10 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "juliette-brasseurguerin"
 - prenom: "Laëtitia"
   nom: "Bremard"
-  adhesion: "2010,2011,2012,2013,2014,2015"
+  adhesion: "2010,2011,2012,2013,2014,2015, 2016"
   adresse: "13, rue de Vienne"
   code-postal: "27140"
   ville: "Gisors"
@@ -246,11 +262,17 @@
   activites: 
    - nom: Accompagnement de l'allaitement maternel
    - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "laetitia-bremard"
 - prenom: "Christine "
   nom: "Charpentier"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -270,6 +292,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "christine-charpentier"
 - prenom: "Emmanuelle"
   nom: "Chataigner"
   adhesion: "2016"
@@ -288,6 +311,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "emmanuelle-chataigner"
 - prenom: "Marie"
   nom: "Chevallier"
   adhesion: "2013,2014,2015"
@@ -304,6 +328,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-chevallier"
 - prenom: "Noémie"
   nom: "Cornélis"
   adhesion: "2015,2016"
@@ -321,6 +346,7 @@
    - nom: Préparation à la naissance
    - nom: Psycho périnatalité
    - nom: Rééducation du périnée
+  nom_entier: "noemie-cornelis"
 - prenom: "Armelle"
   nom: "Couraud"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -337,6 +363,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "armelle-couraud"
 - prenom: "Catherine"
   nom: "Cousin"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -353,6 +380,7 @@
    - nom: Rééducation du périnée
    - nom: Sevrage tabagique
    - nom: Suivi du nourrisson
+  nom_entier: "catherine-cousin"
 - prenom: "Aurélie"
   nom: "Couverchel"
   adhesion: "2014,2015"
@@ -371,6 +399,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "aurelie-couverchel"
 - prenom: "Marie-Audrey"
   nom: "Cuegniet"
   adhesion: "2014,2015,2016"
@@ -387,6 +416,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-audrey-cuegniet"
 - prenom: "Emmanuelle"
   nom: "Davy-Goyé"
   adhesion: "2012,2013,2014,2015,2016"
@@ -407,6 +437,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Thérapie sexo-corporelle
+  nom_entier: "emmanuelle-davy-goye"
 - prenom: "Marie-Charlotte "
   nom: "Degremont"
   adhesion: "2013,2014,2015,2016"
@@ -425,6 +456,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-charlotte-degremont"
 - prenom: "Emilie"
   nom: "Depeint"
   adhesion: "2015,2016"
@@ -444,6 +476,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "emilie-depeint"
 - prenom: "Céline "
   nom: "Faurre"
   adhesion: "2014,2015,2016"
@@ -463,6 +496,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "celine-faurre"
 - prenom: "Valérie "
   nom: "Foucault"
   adhesion: "2010,2011,2012,2013,2014,2015,2016"
@@ -479,6 +513,7 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
+  nom_entier: "valerie-foucault"
 - prenom: "Anne-Laure "
   nom: "Froment"
   adhesion: "2014, 2015,2016"
@@ -499,6 +534,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "anne-laure-froment"
 - prenom: "Pascale "
   nom: "Gabrielle"
   adresse: "12, place de la Résistance"
@@ -515,6 +551,7 @@
    - nom: Sevrage tabagique
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "pascale-gabrielle"
 - prenom: "Karine"
   nom: "Germain-Tancré"
   adhesion: "2015,2016"
@@ -530,6 +567,7 @@
    - nom: Echographie
    - nom: Entretien prénatal précoce
    - nom: Suivi du nourrisson
+  nom_entier: "karine-germain-tancre"
 - prenom: "Emmanuelle"
   nom: "Gilles"
   adhesion: "2014,2015,2016"
@@ -546,6 +584,7 @@
    - nom: Rééducation du périnée
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "emmanuelle-gilles"
 - prenom: "Sandrine"
   nom: "Grandsire"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -565,6 +604,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "sandrine-grandsire"
 - prenom: "Anne-Sophie"
   nom: "Grognet"
   adhesion: "2009,2010,2011,20112,2013,2014,2015,2016"
@@ -581,6 +621,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "anne-sophie-grognet"
 - prenom: "Clotilde"
   nom: "Guillermin"
   adhesion: "2014,2015"
@@ -601,6 +642,7 @@
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "clotilde-guillermin"
 - prenom: "Marine "
   nom: "Hazard"
   adhesion: "2013,2014,2015,2016"
@@ -620,6 +662,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "marine-hazard"
 - prenom: "Justine "
   nom: "Héricher"
   adhesion: "2015,2016"
@@ -636,6 +679,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "justine-hericher"
 - prenom: "Anne"
   nom: "Hérout"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -655,6 +699,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "anne-herout"
 - prenom: "Magali "
   nom: "Jamet"
   adhesion: "2015,2016"
@@ -673,9 +718,10 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "magali-jamet"
 - prenom: "Hollie"
   nom: "Jeannot"
-  adhesion: "2010,2011,2012,2013,2014,2015"
+  adhesion: "2010,2011,2012,2013,2014,2015,2016"
   adresse: "4 ter, rue branchu"
   code-postal: "27140"
   ville: "Gisors"
@@ -689,9 +735,11 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Sophrologie
+   - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "hollie-jeannot"
 - prenom: "Amandine"
   nom: "Justin"
   adhesion: "2015,2016"
@@ -709,6 +757,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Yoga
+  nom_entier: "amandine-justin"
 - prenom: "Stéphanie "
   nom: "La"
   adhesion: "2013,2014,2015,2016"
@@ -721,6 +770,7 @@
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation préconceptionnelle
    - nom: Echographie
+  nom_entier: "stephanie-la"
 - prenom: "Fabienne"
   nom: "Lamauve"
   adhesion: "2015,2016"
@@ -730,9 +780,10 @@
   telephone-fixe: "09 73 01 99 30"
   activites: 
    - nom: Echographie
+  nom_entier: "fabienne-lamauve"
 - prenom: "Valentine "
   nom: "Larcher"
-  adhesion: "2009,2010,2011,2012,2013,2014,2015"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015, 2016"
   adresse: "2, rue du Docteur Burnet"
   code-postal: "27200"
   ville: "Vernon"
@@ -749,6 +800,7 @@
    - nom: Rééducation du périnée
    - nom: Sophrologie
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "valentine-larcher"
 - prenom: "Gwendoline"
   nom: "Laurent"
   adhesion: "2016"
@@ -768,6 +820,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "gwendoline-laurent"
 - prenom: "Nathalie "
   nom: "Le Mignot"
   adhesion: "2014, 2015,2016"
@@ -785,6 +838,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "nathalie-lemignot"
 - prenom: "Claire "
   nom: "Lebrun"
   adhesion: "2009,2010,2011,2012,2013,2014,2015"
@@ -797,6 +851,7 @@
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
+  nom_entier: "claire-lebrun"
 - prenom: "Camille"
   nom: "Lecroq"
   adhesion: "2014,2015,2016"
@@ -813,6 +868,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "camille-lecroq"
 - prenom: "Marie-laure "
   nom: "Legay"
   adhesion: "2012,2013,2014,2015,2016"
@@ -829,6 +885,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-laure-legay"
 - prenom: "Caroline"
   nom: "Legros"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -849,6 +906,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "caroline-legros"
 - prenom: "Théo"
   nom: "Lemouton"
   adhesion: "2015,2016"
@@ -868,6 +926,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Yoga
+  nom_entier: "theo-lemouton"
 - prenom: "Catherine"
   nom: "Leroy"
   adhesion: "2010,2011,2012,2013,2014,2015,2016"
@@ -889,6 +948,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "catherine-leroy"
 - prenom: "Marie"
   nom: "Leroy"
   adhesion: "2014,2015,2016"
@@ -907,6 +967,7 @@
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-leroy"
 - prenom: "Capucine"
   nom: "Libersa"
   adhesion: "2016"
@@ -926,6 +987,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "capucine-libersa"
 - prenom: "Nathalie "
   nom: "Macian"
   adhesion: "2010,2011,2012,2013,2014,2015,2016"
@@ -949,6 +1011,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "nathalie-macian"
 - prenom: "Isabelle"
   nom: "Métais"
   adhesion: "2014,2015,2016"
@@ -969,6 +1032,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "isabelle-metais"
 - prenom: "Laure"
   nom: "Moreau"
   adhesion: "2015,2016"
@@ -988,6 +1052,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "laure-moreau"
 - prenom: "Clélia"
   nom: "Motte"
   adhesion: "2014,2015,2016"
@@ -1007,6 +1072,7 @@
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "clelia-motte"
 - prenom: "Elise "
   nom: "Nicolle"
   adhesion: "2016"
@@ -1025,6 +1091,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "elise-nicolle"
 - prenom: "Jeannette"
   nom: "Nono"
   adhesion: "2015,2016"
@@ -1042,6 +1109,7 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "jeannette-nono"
 - prenom: "Janine"
   nom: "Pasquier"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1055,6 +1123,7 @@
    - nom: Préparation à la naissance
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "janine-pasquier"
 - prenom: "Virginie "
   nom: "Pasquier"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -1073,6 +1142,7 @@
    - nom: Portage en écharpe
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
+  nom_entier: "virginie-pasquier"
 - prenom: "Irène "
   nom: "Pergent"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1083,6 +1153,7 @@
   activites: 
    - nom: Accompagnement de l'allaitement maternel
    - nom: Haptonomie
+  nom_entier: "irene-pergent"
 - prenom: "Sylvie "
   nom: "Perré"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1100,6 +1171,7 @@
    - nom: Préparation en piscine
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "sylvie-perre"
 - prenom: "Stéphanie "
   nom: "Pierrard"
   adhesion: "2015,2016"
@@ -1118,6 +1190,7 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "stephanie-pierrard"
 - prenom: "Stéphanie "
   nom: "Poulain"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -1136,6 +1209,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "stephanie-poulain"
 - prenom: "Marie-Pierre"
   nom: "Pousset"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1155,6 +1229,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "marie-pierre-pousset"
 - prenom: "Maggy"
   nom: "Rataj"
   adhesion: "2015,2016"
@@ -1171,6 +1246,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "maggy-rataj"
 - prenom: "Frédérique"
   nom: "Renault"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1191,6 +1267,7 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Yoga
+  nom_entier: "frederique-renault"
 - prenom: "Corinne"
   nom: "Ricouard"
   adhesion: "2009,2010,2011,2012,2013,2014,2015"
@@ -1200,6 +1277,7 @@
   telephone-mobile: "06 71 29 45 82"
   activites: 
    - nom: Echographie
+  nom_entier: "corinne-ricouard"
 - prenom: "Anne-Claude"
   nom: "Rivat"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1217,6 +1295,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "anne-claude-rivat"
 - prenom: "Corinne"
   nom: "Sangnier"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1233,6 +1312,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "corinne-sangnier"
 - prenom: "Blandine"
   nom: "Soenen"
   adhesion: "2014,2015"
@@ -1249,6 +1329,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "blandine-soenen"
 - prenom: "Hélène "
   nom: "Stévenin"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1265,6 +1346,7 @@
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "helene-stevenin"
 - prenom: "Floriane"
   nom: "Vasse"
   adhesion: "2015,2016"
@@ -1280,18 +1362,22 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
+  nom_entier: "floriane-vasse"
 - prenom: "Céline"
   nom: "Vauclin"
   adhesion: "2015,2016"
   adresse: "Cabinet Littré 33, rue Emile Littré"
   code-postal: "76300"
   ville: "Sotteville lès Rouen"
+  telephone-mobile: "06 33 04 56 31"
   telephone-fixe: "02 35 73 33 80"
+  email: "vauclinceline@gmail.com"
   activites: 
    - nom: Consultation de suivi de grossesse
    - nom: Echographie
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "celine-vauclin"
 - prenom: "Céline"
   nom: "Vivier-Couland"
   adhesion: "2015,2016"
@@ -1313,16 +1399,17 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "celine-vivier-couland"
 - prenom: "Véronique "
   nom: "Wilmort"
-  adhesion: "2009,2010,2011,2012,2013,2014,2015"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
   adresse: "6, parc de la Varenne"
   code-postal: "76130"
   ville: "Mont Saint Aignan"
-  telephone-mobile: "02 77 67 19 79"
   telephone-fixe: "02 35 70 31 94"
   activites: 
    - nom: Echographie
+  nom_entier: "veronique-wilmort"
 - prenom: "Camille"
   nom: "Xayabandith"
   adhesion: "2014,2015,2016"
@@ -1343,6 +1430,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "camille-xayabandith"
 - prenom: "Marine"
   nom: "Yver"
   adhesion: "2015,2016"
@@ -1362,3 +1450,4 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
+  nom_entier: "marine-yver"
