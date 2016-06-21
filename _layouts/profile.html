@@ -2,28 +2,31 @@
 layout: default
 ---
 
-<h1>{{page.prenom}} {{page.nom}}</h1>
+<div itemtype="http://schema.org/Person" data-id="{{forloop.index}}" data-town="{{row.ville}}">
+  <h1 itemprop="name">{{page.prenom}} {{page.nom}}</h1>
 
-{% assign siteyear = site.time | date: '%Y' %}
+  {% assign siteyear = site.time | date: '%Y' %}
 
-{% if page.adhesion contains siteyear %}
-<p><strong>Adresse :</strong> {{page.adresse}} {{page.code-postal}} {{page.ville}}</p>
-<p>{% if page.telephone-mobile %}<strong>Téléphone mobile :</strong> {{page.telephone-mobile}}<br>{% endif %}
-{% if page.telephone-fixe %}<strong>Téléphone fixe :</strong> {{page.telephone-fixe}}{% endif %}</p>
+  {% if page.adhesion contains siteyear %}
+  <p itemprop="streetAddress"><strong>Adresse :</strong> {{page.adresse}} {{page.code-postal}} {{page.ville}}</p>
+  <p>{% if page.telephone-mobile %}<strong>Téléphone mobile :</strong> <span itemprop="telephone">{{page.telephone-mobile}}</span><br>{% endif %}
+  {% if page.telephone-fixe %}<strong>Téléphone fixe :</strong> <span itemprop="telephone">{{page.telephone-fixe}}</span>{% endif %}</p>
+  {% if page.email %}<p><strong>Email :</strong> {{ page.email }}</p>{% endif %}
+  {% if page.site-web %}<p><strong>Site web :</strong> <a href="//{{ page.site-web }}">{{ page.site-web }}</a></p>{% endif %}
 
-<h2>Ses activités de sage femme</h2>
-<ul>
-{% for activity in page.activites %}
-  {% for activitycollection in site.activities %}
-    {% if activitycollection.title == activity.nom %}
-      {% assign activityurl = activitycollection.url %}
-   {% endif %}
+  <h2>Ses activités de sage femme</h2>
+  <ul>
+  {% for activity in page.activites %}
+    {% for activitycollection in site.activities %}
+      {% if activitycollection.title == activity.nom %}
+        {% assign activityurl = activitycollection.url %}
+     {% endif %}
+    {% endfor %}
+    <li><a href="{{ activityurl }}">{{ activity.nom }}</a></li>
   {% endfor %}
-  <li><a href="{{ activityurl }}">{{ activity.nom }}</a></li>
-{% endfor %}
-</ul>
-{% else %}
-<p>Aucune information sur cette sage femme</p>
-{% endif %}
-
+  </ul>
+  {% else %}
+  <p>Aucune information sur cette sage femme</p>
+  {% endif %}
+</div>
 

@@ -11,8 +11,8 @@
   <div class="members-list__line">
     <div class="members-list__item téléphone-mobile">
       {% if row.telephone-mobile %}<span itemprop="telephone">{{ row.telephone-mobile }}</span>{% endif %} {% if row.telephone-fixe %}<span itemprop="telephone">{{ row.telephone-fixe }}</span>{% endif %}<br>
-      {{ row.email }}
-      <a href="//{{ row.site-web }}">{{ row.site-web }}</a>
+      {% if row.email %}<p><strong>Email :</strong> {{ row.email }}</p>{% endif %}
+      {% if row.site-web %}<p><strong>Site web :</strong> <a href="//{{ row.site-web }}">{{ row.site-web }}</a></p>{% endif %}
     </div>
   </div>
   <div class="members-list__line">
