@@ -1,6 +1,6 @@
 ---
 layout: default
-title: accueil
+title: Accueil
 ---
 
 ## Liste des activités des sages-femmes libérales ##
