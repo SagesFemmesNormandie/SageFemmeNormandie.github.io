@@ -13,6 +13,7 @@
 @import "object/header";
 @import "page/activities";
 @import "page/members";
+@import "page/profiles";
 
 
 a[href^="https://www.netlify.com"] {
@@ -20,3 +21,5 @@ a[href^="https://www.netlify.com"] {
     display: none !important;
   }
 }
+
+

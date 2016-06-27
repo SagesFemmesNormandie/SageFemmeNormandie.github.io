@@ -1,0 +1,16 @@
+////
+/// Profile
+////
+
+.profile-maps {
+  text-align: center;
+  @media #{$medium-up} {
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    margin: $base-line 0;
+    max-width: 100%;
+    border: 1px solid #888;
+  }
+}
