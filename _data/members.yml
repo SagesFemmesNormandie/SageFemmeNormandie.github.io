@@ -383,7 +383,7 @@
   nom_entier: "catherine-cousin"
 - prenom: "Aurélie"
   nom: "Couverchel"
-  adhesion: "2014,2015"
+  adhesion: "2014,2015,2016"
   adresse: "48, route de Paris"
   code-postal: "76240"
   ville: "Le Mesnil Esnard"
@@ -1451,3 +1451,66 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "marine-yver"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"
+- 
+  activites: 
+  nom_entier: "-"

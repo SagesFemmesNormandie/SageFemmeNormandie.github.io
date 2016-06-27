@@ -3,9 +3,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% seo %}
+  <title>{% if page.nom_entier %}{{ page.prenom }}{{ page.nom }} | {{ site.title }}{% else %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% endif %}</title>
+  {% seo title=false %}
   <style type="text/css">
     {% capture include_to_scssify %}
       {% include base.scss %}
@@ -18,9 +17,6 @@
   </script>
   <noscript><link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}"></noscript>
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
-
-  <script type="text/javascript" src='{{ site.baseurl }}/assets/js/main.js'></script>
-  <script type="text/javascript" src='{{ site.baseurl }}/assets/js/jquery.js'></script>
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta name="twitter:card" content="summary_large_image">

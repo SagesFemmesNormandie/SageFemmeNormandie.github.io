@@ -6,15 +6,14 @@ navigation: true
 
 <div class="members" id="users">
   <h2>Trouver une sage-femme libérale en Haute-Normandie</h2>
-  <!-- <input class="search" placeholder="Trier">
-  <button class="sort" data-sort="name">Trier par nom</button>
-  <button class="sort" data-sort="activity">Trier par activité</button>
-  <br>
-  <br> --> 
+
   {% assign items_grouped-sort = site.data.members | sort: 'ville' %}
   {% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
   {% assign siteyear = site.time | date: '%Y' %}
   
+  {% comment %}
+  <img src="https://maps.googleapis.com/maps/api/staticmap?center=rouen,fr&zoom=8&size=900x900&maptype=roadmap{% for group in items_grouped %}&markers={{ group.name }},fr{% endfor %}" /> 
+  {% endcomment %}
 
   <nav class="nav-activity">
   <h2>Par villes</h2>
@@ -23,7 +22,7 @@ navigation: true
   {% if group.items[0].adhesion contains siteyear %}
   <li><a href="#id-{{ group.name | slugify }}">{{ group.name }}</a></li>
   {% endif %}
-  {% endfor %} 
+  {% endfor %}
   </ul>
   </nav>
 
