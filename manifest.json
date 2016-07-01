@@ -1,38 +1,51 @@
+CACHE:
+/assets/css/style.css
+http://cdnjs.cloudflare.com/ajax/libs/UpUp/0.3.0/upup.min.js
+http://d33wubrfki0l68.cloudfront.net/365a30a0d49cae3480f22c231b98f7f11795cfd3/a4425/assets/images/logo-sages-femmes-normandie.png
+http://d33wubrfki0l68.cloudfront.net/5e60cc4f56cfcd62c0e7d375211e9c3c81637fdb/1fb46/assets/images/background-1.jpg
+http://d33wubrfki0l68.cloudfront.net/css/50e6eec9305c3845cf52fab13d3aa5947ddefd6a/assets/css/style.css
+http://d33wubrfki0l68.cloudfront.net/js/c2326e0fab5213d8485e4eb31f3b00fc43964313/assets/js/instantclick.min.js
+https://cdn.netlify.com/js/8d14376fbb36dab9a5c2c8b33293e5296ff8d112/netlify-badge.js
+https://www.google-analytics.com/analytics.js
+
+NETWORK:
+*
+
 {
  "name": "App",
  "icons": [
   {
-   "src": "\/android-icon-36x36.png",
+   "src": "\assets/favicon/android-icon-36x36.png",
    "sizes": "36x36",
    "type": "image\/png",
    "density": "0.75"
   },
   {
-   "src": "\/android-icon-48x48.png",
+   "src": "\assets/favicon/android-icon-48x48.png",
    "sizes": "48x48",
    "type": "image\/png",
    "density": "1.0"
   },
   {
-   "src": "\/android-icon-72x72.png",
+   "src": "\assets/favicon/android-icon-72x72.png",
    "sizes": "72x72",
    "type": "image\/png",
    "density": "1.5"
   },
   {
-   "src": "\/android-icon-96x96.png",
+   "src": "\assets/favicon/android-icon-96x96.png",
    "sizes": "96x96",
    "type": "image\/png",
    "density": "2.0"
   },
   {
-   "src": "\/android-icon-144x144.png",
+   "src": "\assets/favicon/android-icon-144x144.png",
    "sizes": "144x144",
    "type": "image\/png",
    "density": "3.0"
   },
   {
-   "src": "\/android-icon-192x192.png",
+   "src": "\assets/favicon/android-icon-192x192.png",
    "sizes": "192x192",
    "type": "image\/png",
    "density": "4.0"
