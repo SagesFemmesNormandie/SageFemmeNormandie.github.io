@@ -6,6 +6,11 @@ prose:
   relativeLinks: 'http://sagefemmenormandie.github.io/links.jsonp'
   media: 'images'
   ignore:
+    - CNAME
+    - manifest.json
+    - Rakefile
+    - Rakefile.rb
+    - upup.sw.min.js
     - index.html
     - _config.yml
     - _config_dev.yml
@@ -32,6 +37,7 @@ prose:
     - /_data
     - /_sass
     - /_posts
+    - /_plugins
     - /public
     - /files
     - /images
