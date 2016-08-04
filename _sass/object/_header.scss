@@ -3,11 +3,14 @@
 ////
 
 .site-header {
+  min-height: 450px;
   padding: 0.5rem 0 0;
+  background-image : url("/assets/images/newborn-1.jpeg");
   .wrapper {
     display: flex;
     align-content: center;
     margin-bottom: $base-line*2;
+    background-color: rgba(255, 255, 255, 0.8);
   }
 }
 

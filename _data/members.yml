@@ -235,8 +235,14 @@
 - prenom: "Delphine"
   nom: "Bouteiller"
   adhesion: "2015"
+<<<<<<< HEAD
   adresse: "14, rue Louis Gillain"
   adresse-geo: "14, rue Louis Gillain"
+||||||| merged common ancestors
+  adresse: "14, rie Louis Gillain"
+=======
+  adresse: "14, rue Louis Gillain"
+>>>>>>> tests changements - img header
   code-postal: "27500"
   ville: "Pont-Audemer"
   telephone-fixe: "02 32 42 24 58 "
@@ -1249,6 +1255,7 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "stephanie-pierrard"
+<<<<<<< HEAD
 - prenom: "Annick"
   nom: "Platevoët"
   adhesion: "2016"
@@ -1265,6 +1272,24 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Yoga
   nom_entier: "annick-platevoet"
+||||||| merged common ancestors
+=======
+- prenom: "Platevoet"
+  nom: "Annick"
+  adhesion: "2016"
+  adresse: "94, rue de la mer"
+  code-postal: "76400"
+  ville: "Fécamp"
+  telephone-mobile: "06 32 58 35 51"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Yoga
+  nom_entier: "platevoet-annick"
+>>>>>>> tests changements - img header
 - prenom: "Stéphanie "
   nom: "Poulain"
   adhesion: "2011,2012,2013,2014,2015,2016"
