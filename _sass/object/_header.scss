@@ -1,0 +1,61 @@
+////
+/// Header
+////
+
+.site-header {
+  min-height: 450px;
+  padding: 0.5rem 0 0;
+  /*background-image : url("/assets/images/newborn-1.jpeg");*/
+  .wrapper {
+    display: flex;
+    align-content: center;
+    margin-bottom: $base-line*2;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  ul {
+  	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;	
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+
+  }
+  li {
+    text-align: center;
+  }
+    ul li:after {
+    content: ' \00b7';
+    letter-spacing: 0.12em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 5px;
+    color: #f25f5c;
+    font-size: 15px;
+  }
+  a {
+    display: block;
+    padding: 0 1.5rem;
+    font-weight: bold;
+  }
+}
+
+.illustration-header {
+  overflow: hidden;
+  /*margin: 0 0 $base-line;*/
+  min-height: 24rem;
+  max-height: 26rem;
+}

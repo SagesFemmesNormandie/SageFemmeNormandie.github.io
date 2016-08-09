@@ -12,12 +12,15 @@
     display: inline-block;
     margin: 0 0 $base-line;
   }
+
   a {
     padding: 0.2rem 0.5rem;
     color: #fff;
     background: palette(primary);
-    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
   }
+
 }
 
 .activity-list {
@@ -31,6 +34,8 @@
     padding: 0 $base-line/2 $base-line;
   }
   h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
     margin: 0 0 $base-line;
     padding: $base-line/2;
     background: $brand-color;
@@ -39,6 +44,6 @@
     }
   }
   p{
-    font-weight: 500;
+    font-weight: 400;
   }
 }
