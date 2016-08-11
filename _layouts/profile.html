@@ -4,7 +4,7 @@ layout: default
 {% assign siteyear = site.time | date: '%Y' %}
 
 <div itemtype="http://schema.org/Person" data-id="{{forloop.index}}" data-town="{{row.ville}}">
-  <h1 itemprop="name">{{page.prenom}} {{page.nom}}</h1>
+  <p itemprop="name">{{page.prenom}} {{page.nom}}</p></br>
 
   {% if page.adhesion contains siteyear %}
   <p itemprop="streetAddress"><strong>Adresse :</strong> {{page.adresse}} {{page.code-postal}} {{page.ville}}</p>

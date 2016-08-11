@@ -3,14 +3,15 @@
 ////
 
 .site-header {
-  min-height: 450px;
-  padding: 0.5rem 0 0;
-  /*background-image : url("/assets/images/newborn-1.jpeg");*/
+  min-height: 425px;
+  /*padding: 0.5rem 0 0;*/
+  background-image : url("/assets/images/newborn-2.jpeg");
+  background-size: cover;
   .wrapper {
     display: flex;
     align-content: center;
     margin-bottom: $base-line*2;
-    background-color: rgba(255, 255, 255, 0.8);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
   }
 }
 
@@ -43,13 +44,19 @@
     font-weight: 500;
     text-transform: uppercase;
     margin: 0 5px;
-    color: #f25f5c;
+    color: $vertceladon;
     font-size: 15px;
   }
   a {
     display: block;
     padding: 0 1.5rem;
     font-weight: bold;
+    color: #fff;
+
+  }
+  a:hover{
+  	color: $sunsetorange;
+  	background-color: rgba(0, 0, 0, 0);
   }
 }
 
@@ -59,3 +66,13 @@
   min-height: 24rem;
   max-height: 26rem;
 }
+
+.site-logo{
+	/*min-height: 200px;*/
+	background-color: #fff;
+}
+
+.site-logo a:hover{
+	background-color: rgba(0, 0, 0, 0);
+}
+

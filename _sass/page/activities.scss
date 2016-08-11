@@ -7,19 +7,30 @@
     margin: 0 0 $base-line;
     padding: 0;
     list-style-type: none;
+    text-align: center;
   }
   li {
     display: inline-block;
     margin: 0 0 $base-line;
+    padding: 0.3em;
+    border-radius: 10px;
+    background: palette(primary);
+    color: #fff !important;
+  }
+
+
+  li:nth-child(2n+1){
+    color: $maastrichtblue;
+    background: $minionyellow;
+
   }
 
   a {
-    padding: 0.2rem 0.5rem;
-    color: #fff;
-    background: palette(primary);
+    padding: 0.4rem 0.6rem;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 10px;
+  
   }
+
 
 }
 
