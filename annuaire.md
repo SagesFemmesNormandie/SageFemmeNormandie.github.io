@@ -11,10 +11,13 @@ navigation: true
   {% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
   {% assign siteyear = site.time | date: '%Y' %}
   
+  <img src="//maps.googleapis.com/maps/api/staticmap?center=duclair,fr&zoom=8&size=400x300&scale=2&sensor=false&visual_refresh=true{% for group in items_grouped %}&markers=color:green%7Clabel:SG%7C{{ group.name }},fr{% endfor %}" />
+  
   {% comment %}
-  <img src="https://maps.googleapis.com/maps/api/staticmap?center=rouen,fr&zoom=8&size=900x900&maptype=roadmap{% for group in items_grouped %}&markers={{ group.name }},fr{% endfor %}" /> 
+    <img src="//maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=300x200&scale=2&sensor=false&visual_refresh=true" alt="">
   {% endcomment %}
 
+  {% comment %}
   <nav class="nav-activity">
   <h2>Par villes</h2>
   <ul>
@@ -25,7 +28,10 @@ navigation: true
   {% endfor %}
   </ul> 
   </nav>
-
+  {% endcomment %}
+  <div class="search">
+    <input type="search" placeholder="Chercher une ville ou le nom d'un sage femmes" required="">
+  </div>
   <div class="members-list list" itemtype="http://schema.org/ItemList http://schema.org/Midwifery">
   {% for group in items_grouped %}
   {% assign items = group.items | sort: 'nom' %}
@@ -36,4 +42,17 @@ navigation: true
   </div>
 
 </div>
+<script src="{{ site.baseurl }}/assets/js/holmes.js" ></script>
+<script>
+    // holmes setup
+    var h = new holmes({
+      input: '.search input',
+      find: '.members-list .members-list__box',
+      placeholder: '<h3>— No results, my dear Watson. —</h3>',
+      class: {
+        visible: 'visible',
+        hidden: 'hidden'
+      }
+    });
+</script>
 
