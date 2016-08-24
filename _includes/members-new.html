@@ -1,44 +1,45 @@
 {% assign siteyear = site.time | date: '%Y' %}
+{% assign loop-id = forloop.index %}
 {% if row.adhesion contains siteyear %}
-<div class="members-list__box" itemtype="http://schema.org/Person" data-id="{{forloop.index}}" data-town="{{row.ville}}">
+<div class="members-list__box" itemtype="http://schema.org/Person" data-id="{{ loop-id  }}" data-town="{{ row.ville }}">
   <div class="members-list__line">
-      <div class="members-list__item name">
-        <p><a href="/{{ row.nom_entier }}/"><strong itemprop="name">{{ row.prenom }} {{ row.nom }}</strong></a></p>
-      </div>
-
-<div id="id-{{ row.ville | slugify }}" class="members-list__item location">{{ row.ville }}</div>
-
-     
-
-      
+    <div class="members-list__item name">
+      <p><a href="/{{ row.nom_entier }}/"><strong itemprop="name">{{ row.prenom }} {{ row.nom }}</strong></a></p>
+    </div>
+    <div {% if loop-id == 1 %}id="id-{{ row.ville | slugify }}"{% endif %} class="members-list__item location">{{ row.ville }}</div>
   </div>
-
   <div class="members-list__line">
-
-     <div class="members-list__item address">
-        <span itemprop="streetAddress">{{ row.adresse }}</span> <span itemprop="postalCode">{{ row.code-postal }}</span> <span itemprop="addressLocality">{{ row.ville }}</span>
-      </div>
-
-   </div>   
-
-
+    <div class="members-list__item address">
+      <span itemprop="streetAddress">{{ row.adresse }}</span> <span itemprop="postalCode">{{ row.code-postal }}</span> <span itemprop="addressLocality">{{ row.ville }}</span>
+    </div>
+  </div>
   <div class="members-list__line">
     <div class="members-list__item téléphone-mobile">
-      {% if row.telephone-mobile %}<span itemprop="telephone">{{ row.telephone-mobile }}</span>{% endif %} {% if row.telephone-fixe %}<span itemprop="telephone">{{ row.telephone-fixe }}</span>{% endif %}<br>
-      {% if row.email %}<p><strong>Email :</strong> {{ row.email }}</p>{% endif %}
-      {% if row.site-web %}<p><strong>Site web :</strong> <a href="//{{ row.site-web }}">{{ row.site-web }}</a></p>{% endif %}
+      {% if row.telephone-mobile %}
+      <span itemprop="telephone">{{ row.telephone-mobile }}</span>
+      {% endif %}
+      {% if row.telephone-fixe %}
+      <span itemprop="telephone">{{ row.telephone-fixe }}</span>
+      {% endif %}
+      <br>
+      {% if row.email %}
+      <p><strong>Email :</strong> {{ row.email }}</p>
+      {% endif %}
+      {% if row.site-web %}
+      <p><strong>Site web :</strong> <a href="//{{ row.site-web }}">{{ row.site-web }}</a></p>
+      {% endif %}
     </div>
   </div>
   <div class="members-list__line">
     <div class="members-list__item activity">
-    {% for activity in row.activites %}
-    {% for activitycollection in site.activities %}
+      {% for activity in row.activites %}
+      {% for activitycollection in site.activities %}
       {% if activitycollection.title == activity.nom %}
-        {% assign activityurl = activitycollection.url %}
-     {% endif %}
-    {% endfor %}
-    <span class="members-list__item__activity activity"><a href="{{ activityurl }}">{{ activity.nom }}</a></span>
-    {% endfor %}
+      {% assign activityurl = activitycollection.url %}
+      {% endif %}
+      {% endfor %}
+      <span class="members-list__item__activity activity"><a href="{{ activityurl }}">{{ activity.nom }}</a></span>
+      {% endfor %}
     </div>
   </div>
 </div>
