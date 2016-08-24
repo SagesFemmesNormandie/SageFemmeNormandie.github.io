@@ -6,8 +6,8 @@
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "variables";
 @import "layout";
-@import "MarkerCluster.Default";
-@import "MarkerCluster";
+//@import "MarkerCluster.Default";
+//@import "MarkerCluster";
 @import "base/font";
 @import "generic/normalize-opentype";
 @import "object/header";
@@ -15,6 +15,19 @@
 @import "page/members";
 @import "page/profiles";
 
+
+.hidden {
+  display: none !important;
+}
+
+.search {
+  input {
+    padding: 1rem 0.4rem;
+    width: 100%;
+    font-size: $bigger;
+    border-color: #888;
+  }
+}
 
 a[href^="https://www.netlify.com"] {
   &, & + * , & + * + * {

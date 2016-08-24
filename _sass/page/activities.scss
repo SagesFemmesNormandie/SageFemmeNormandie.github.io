@@ -5,7 +5,7 @@
 .nav-activity {
   ul {
     margin: 0 0 $base-line;
-    padding: 0;
+      padding: 0;
     list-style-type: none;
     text-align: center;
   }
@@ -13,26 +13,24 @@
     display: inline-block;
     margin: 0 0 $base-line;
     padding: 0.3em;
-    border-radius: 10px;
-    background: palette(primary);
-    color: #fff !important;
+    a {
+      color: #fff;
+      border-radius: 10px;
+      background: palette(primary);
+    }
   }
-
-
-  li:nth-child(2n+1){
-    color: $maastrichtblue;
-    background: $minionyellow;
-
+  li:nth-child(2n+1) {
+    a {
+      color: $maastrichtblue;
+      background: $minionyellow;
+    }
   }
-
   a {
     padding: 0.4rem 0.6rem;
     font-family: 'Montserrat', sans-serif;
-  
   }
-
-
 }
+
 
 .activity-list {
   @include grid(2);
