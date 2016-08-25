@@ -11,7 +11,7 @@ navigation: true
   {% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
   {% assign siteyear = site.time | date: '%Y' %}
   
-  <img src="//maps.googleapis.com/maps/api/staticmap?center=duclair,fr&zoom=8&size=400x300&scale=2&sensor=false&visual_refresh=true{% for group in items_grouped %}&markers=color:green%7Clabel:SG%7C{{ group.name }},fr{% endfor %}" />
+  <img src="//maps.googleapis.com/maps/api/staticmap?center=duclair,fr&zoom=8&size=600x300&scale=2&sensor=false&visual_refresh=true&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff{% for group in items_grouped %}&markers=color:pink|size:tiny|label:S|{{ group.name }},fr{% endfor %}" />
   
   {% comment %}
     <img src="//maps.googleapis.com/maps/api/staticmap?{% for location in page.locations %}{% if forloop.first %}center={{location}}&markers=color:blue%7C{{location}}{% else %}&markers=color:blue%7C{{location}}{% endif %}{% endfor %}&zoom={% if page.zoom %}{{page.zoom}}{% else %}13{% endif %}&size=300x200&scale=2&sensor=false&visual_refresh=true" alt="">
