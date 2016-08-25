@@ -13,7 +13,7 @@ Découvrez les activités proposées par les sages-femmes de l'association.
 
 {% for group in items_grouped %}
 
-<h2>{{ group.name }}</h2>
+<h2 class="activity-{{ group.name | slugify }}">{{ group.name }}</h2>
 <div class="activity-list">
   {% for item in group.items %}
   {% assign activitycheck = 0 %}
