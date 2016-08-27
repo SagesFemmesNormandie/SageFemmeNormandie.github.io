@@ -56,6 +56,7 @@
   &.name {
     color: $maastrichtblue;
     font-family: 'Alice', serif;
+    font-weight: 800;
     flex: 2;
     padding: $base-line/3 $base-line;
     font-size: $title1;
@@ -63,11 +64,11 @@
 
 
   }
-  &.adresse {
+  &.address {
     color: $maastrichtblue;
     max-width: 22rem;
     flex: 2;
-    padding: 1em 1.2em 1em;
+    padding: 0.15em 1.2em 1em;
     font-size: $big;
   }
   &.téléphone-mobile {
@@ -90,9 +91,12 @@
     //display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: $base-line/2;
+    padding: 1em 1.2em 1em;
     width: 100%;
     border-top: 2px solid palette(primary);
+  }
+  &.codepostal{
+    font-weight: bolder;
   }
 
 
