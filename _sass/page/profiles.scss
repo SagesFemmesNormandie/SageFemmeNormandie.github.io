@@ -14,3 +14,74 @@
     border: 1px solid #888;
   }
 }
+
+.profile-name{
+    font-family: 'Alice', serif;
+    font-weight: 800;
+    font-size: 2.5em;
+    margin-top: 15px;
+    padding : 10px 0;
+    border-top: 1px solid palette(primary);
+    border-bottom: 1px solid palette(primary);
+    text-align: center;
+
+}
+
+.bloc-adresse{
+    background-color: $minionyellow;
+    padding : 10px;  
+
+      &.profile-address{
+  
+      }
+
+      &.profile-telephone{
+  
+
+      }
+
+}
+
+.bloc-activites{
+  background-color: palette(primary);
+  padding: 15px 20px;
+  border-radius : 20px;
+
+
+}
+
+.bloc-activites h3{
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat, serif;
+  margin-bottom: 15px;
+
+}
+
+.bloc-activites ul{
+  text-align: center;
+  line-height: 3em;
+}
+
+.bloc-activites ul li{
+  display: inline;
+  color: #000;
+}
+
+.bloc-activites ul li a{
+  color: #000;
+}
+
+
+.bloc-activites ul li:before {    
+font-family: 'FontAwesome';
+content: '\f192';
+/*margin:0 5px 0 -15px;*/
+padding-right: 7px;
+color: #fff;
+
+}
+
+.bloc-activites ul li:after{
+  
+}

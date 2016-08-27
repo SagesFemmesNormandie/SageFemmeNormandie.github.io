@@ -5,7 +5,6 @@ navigation: true
 published: true
 ---
 
-
 # Mentions Légales #
 
 **Directrice de publication :**  

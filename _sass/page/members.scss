@@ -54,11 +54,11 @@
     border-radius: 0 0 0 25px;
   }
   &.name {
-    color: $maastrichtblue;
+    color: #000;
     font-family: 'Alice', serif;
     font-weight: 800;
     flex: 2;
-    padding: $base-line/3 $base-line;
+    padding: 0.15em 0.7em;
     font-size: $title1;
     border-top: 1px solid palette(primary);
 
