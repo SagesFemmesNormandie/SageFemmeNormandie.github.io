@@ -113,7 +113,7 @@
 
   function getCoordinates(address,callback) {
     var coordinates = "";
-    var url = "//nominatim.openstreetmap.org/?format=json&" + address + "&format=json&limit=1";so
+    var url = "//nominatim.openstreetmap.org/?format=json&" + address + "&format=json&limit=1";
     $.getJSON(url, function (data) {
         coordinates = [data[0].lat,data[0].lon];
         callback(coordinates);
