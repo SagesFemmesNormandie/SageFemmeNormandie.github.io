@@ -37,7 +37,7 @@
   }
   #side-bar-content {
     overflow-y: scroll;
-    padding: 1rem 0;
+    padding: 1rem 0 2rem;
     height: 100%;
   }
   .side-bar .side-bar_element {
@@ -181,6 +181,11 @@
     {% endfor %}
     </div>
   </noscript>
+  <!-- <script src="{{ site.baseurl }}/upup.sw.min.js" ></script> -->
+  <script src="{{ site.baseurl }}/assets/js/instantclick.min.js" data-no-instant></script>
+  <script data-no-instant>
+    InstantClick.init();
+  </script>
 </body>
 
 </html>

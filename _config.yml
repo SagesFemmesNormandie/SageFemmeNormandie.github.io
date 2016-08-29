@@ -12,6 +12,12 @@ github_username:  SageFemmeNormandie
 # Build settings
 markdown: kramdown
 
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  # Disable auto-generated ID's for headings
+  auto_ids: false
+
 #data_dir: data
 
 # HTML Compression
