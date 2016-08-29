@@ -10,6 +10,8 @@
 <head>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="dns-prefetch" href="//nominatim.openstreetmap.org/">
+  <link rel="dns-prefetch" href="//maps.googleapis.com">
   <title>Recherche d'une Sage femme</title>
   <script src="{{ site.baseurl }}/assets/js/jquery.js" data-no-instant></script>
   <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
@@ -66,7 +68,7 @@
     geocoder = new google.maps.Geocoder();
     var bounds = new google.maps.LatLngBounds();
     var myOptions = {
-      zoom: 10,
+      zoom: 9,
       center: new google.maps.LatLng(49.443231, 1.099971),
       mapTypeControl: true,
       mapTypeControlOptions: {
@@ -93,7 +95,7 @@
     // });
 
     {% for row in site.data.members | sort: 'nom' %}{% if row.adhesion contains siteyear %}
-    getCoordinates("{{ row.adresse }},{{ row.ville }}",function(coords){
+    getCoordinates("{{ row.adresse-geo }}, {{ row.ville }}",function(coords){
       var point = new google.maps.LatLng(coords[0], coords[1]);
       var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","<a href='/{{ row.nom_entier }}/'><strong>{{ row.prenom }} {{ row.nom }}</strong></a><br>{{ row.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if row.telephone-mobile %} - {% endif %}{{ row.telephone-fixe }}{% endif %}{% if row.email %}<br>{{ row.email }}{% endif %}{% if row.site-web %}<br>{{ row.site-web }}{% endif %}");
         document.getElementById("side-bar-content").innerHTML = side_bar_html;
@@ -113,11 +115,12 @@
 
   function getCoordinates(address,callback) {
     var coordinates = "";
-    var url = "//nominatim.openstreetmap.org/?format=json&q=" + address + "&format=json&limit=1";
+    var url = "//nominatim.openstreetmap.org/?format=json&q=" + address + "&limit=1&json_callback=?";
     $.getJSON(url, function (data) {
+        console.log('http:'+url);
         coordinates = [data[0].lat,data[0].lon];
         callback(coordinates);
-    });
+    })
   }
 
 

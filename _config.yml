@@ -58,12 +58,12 @@ gdrive:
   cache_period: 1 minutes
 
 # Plugin: generate pages from Yaml
-page_gen-dirs: true # uncomment, if you prefer to generate named folders
-page_gen:
-  - data: 'members'
-    template: 'profile'
-    name: 'nom_entier'
-    dir: ''
+# page_gen-dirs: true # uncomment, if you prefer to generate named folders
+# page_gen:
+#   - data: 'members'
+#     template: 'profile'
+#     name: 'nom_entier'
+#     dir: ''
 
 gems:
   - jekyll-sitemap

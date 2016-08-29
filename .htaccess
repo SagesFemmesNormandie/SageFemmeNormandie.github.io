@@ -37,18 +37,11 @@ permalink: .htaccess
 #    Header set Access-Control-Allow-Origin "*"
 #  </IfModule>
 
-Access-Control-Allow-Origin: *
-Access-Control-Allow-Methods: POST
-Access-Control-Allow-Headers: Content-Type
-
 <IfModule mod_headers.c>
 
-    Access-Control-Allow-Origin: *
-    Access-Control-Allow-Methods: POST
-    Access-Control-Allow-Headers: Content-Type
 
     ## CUSTOM CODE
-    # Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Origin "*"
     #Header set Access-Control-Allow-Origin: https://sagesfemmes-normandie.asso.fr
     Header set Access-Control-Allow-Credentials true
     Header add Access-Control-Allow-Headers "origin, x-requested-with, content-type"
@@ -81,7 +74,7 @@ Access-Control-Allow-Headers: Content-Type
 # alternatively you could only whitelist
 #   your subdomains like "sub.domain.com"
 
-<FilesMatch "\.(ttf|otf|eot|woff|font.css)$">
+<FilesMatch "\.(ttf|otf|eot|woff|woff2|font.css)$">
   <IfModule mod_headers.c>
     Header set Access-Control-Allow-Origin "*"
   </IfModule>
