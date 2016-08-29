@@ -12,7 +12,7 @@
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <title>Recherche d'une Sage femme</title>
   <script src="{{ site.baseurl }}/assets/js/jquery.js" data-no-instant></script>
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
   <style type="text/css">
   html,
   body,html {
@@ -113,7 +113,7 @@
 
   function getCoordinates(address,callback) {
     var coordinates = "";
-    var url = "http://nominatim.openstreetmap.org/?format=json&" + address + "&format=json&limit=1";
+    var url = "//nominatim.openstreetmap.org/?format=json&" + address + "&format=json&limit=1";so
     $.getJSON(url, function (data) {
         coordinates = [data[0].lat,data[0].lon];
         callback(coordinates);
