@@ -5,6 +5,7 @@
 .site-header {
   /*padding: 0.5rem 0 0;*/
   background-size: cover;
+  background-position: center center;
   @media #{$medium-up} {
     background-image: url('/assets/images/background-newborn.jpeg');
   }
@@ -71,12 +72,10 @@
   /*margin: 0 0 $base-line;*/
   @media #{$medium-up} {
     display: block;
-    min-height: 6rem;
-    max-height: 8rem;
+    min-height: 5vh;
   }
   @media #{$large-up} {
-    min-height: 30vh;
-    max-height: 26rem;
+    min-height: 10vh;
   }
 }
 
