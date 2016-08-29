@@ -35,7 +35,10 @@
     text-transform: uppercase;
   }
   li {
-    text-align: center;
+    text-align: right;
+    @media #{$medium-up} {
+      text-align: center;
+    }
   }
   ul li:after {
     content: ' \00b7';
