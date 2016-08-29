@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - prenom: "Julie"
   nom: "Agasse"
   adhesion: "2013,2014,2015,2016"
@@ -1590,3 +1591,1474 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "marine-yver"
+||||||| merged common ancestors
+=======
+- prenom: "Julie"
+  nom: "Agasse"
+  adhesion: "2013,2014,2015,2016"
+  adresse: "rue Mendès france, 4 immeuble Ile de France"
+  code-postal: "76190"
+  ville: "Yvetot"
+  telephone-mobile: "06 16 64 71 22"
+  telephone-fixe: "09 73 01 97 69"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "julie-agasse"
+- prenom: "Béatrice "
+  nom: "Allouchéry"
+  adhesion: "2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "83 bis, rue Aristide Briand"
+  code-postal: "76410"
+  ville: "Saint Aubin lès Elbeuf"
+  telephone-mobile: "06 08 09 20 58 "
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+  nom_entier: "beatrice-allouchery"
+- prenom: "Charlotte"
+  nom: "André"
+  adhesion: "2013,2014,2015,2016"
+  adresse: "70, rue Léon Sannier"
+  code-postal: "76750"
+  ville: "Buchy"
+  telephone-mobile: "06 84 02 24 31"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "charlotte-andre"
+- prenom: "Elise "
+  nom: "Archaimbault"
+  adhesion: "2013,2014,2015,2016"
+  adresse: "26bis, boulevard de la Marne"
+  code-postal: "76000"
+  ville: "Rouen"
+  telephone-fixe: "02 35 62 82 09"
+  email: "elisearchaimbault@ch-belvedere.fr"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Ostéopathie
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+  nom_entier: "elise-archaimbault"
+- prenom: "Laurence"
+  nom: "Argentin"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "Pôle Santé Traverse 52, rue Raymond Souday"
+  code-postal: "76410"
+  ville: "Cléon"
+  telephone-mobile: "06 19 39 20 34"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Yoga
+  nom_entier: "laurence-argentin"
+- prenom: "Stéphanie "
+  nom: "Barbier"
+  adhesion: "2012,2013,2014,2015,2016"
+  adresse: "12, rue Alfred Thillard"
+  code-postal: "76620"
+  ville: "Le Havre"
+  telephone-fixe: "02 35 46 47 50"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "stephanie-barbier"
+- prenom: "Lalia"
+  nom: "Ben Malfi"
+  adhesion: "2011,2012,2013,2014,2015,2016"
+  adresse: "222,rue du mont Gaillard"
+  code-postal: "76620"
+  ville: "Le Havre"
+  telephone-fixe: "02 35 19 82 16"
+  activites: 
+   - nom: Echographie
+  nom_entier: "lalia-benmalfi"
+- prenom: "Amélie "
+  nom: "Benoit"
+  adhesion: "2015,2016"
+  adresse: "8, rue de Toulon"
+  code-postal: "76300"
+  ville: "Sotteville lès Rouen"
+  telephone-mobile: "06 61 46 44 68"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "amelie-benoit"
+- prenom: "Hélène"
+  nom: "Berlemont"
+  adhesion: "2013,2014,2015,2016"
+  adresse: "243, rue Queue de renard"
+  code-postal: "76400"
+  ville: "Fécamp"
+  telephone-mobile: "06 50 28 21 86"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "helene-berlemont"
+- prenom: "Elodie "
+  nom: "Berton"
+  adresse: "Hôpital privé de l'Estuaire 505, rue Irène Joliot Curie"
+  code-postal: "76620"
+  ville: "Le Havre"
+  adresse-secondaire: "Clinique des Aubépines 300, rue de la Providence 76550 Saint Aubin sur Scie"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Echographie
+  nom_entier: "elodie-berton"
+- prenom: "Stéphanie "
+  nom: "Biberon"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "168, place Henri IV"
+  code-postal: "76000"
+  ville: "Rouen"
+  telephone-mobile: "06 75 50 36 79"
+  telephone-fixe: "02 35 72 39 84"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Haptonomie
+   - nom: Préparation à la naissance
+  nom_entier: "stephanie-biberon"
+- prenom: "Ludivine "
+  nom: "Boca"
+  adhesion: "2015,2016"
+  adresse: "Pôle Santé Sport 1, avenue Jacques Chastellain "
+  code-postal: "76000"
+  ville: "Rouen"
+  telephone-mobile: "06 52 81 12 57"
+  email: "ludivine.boca@gmail.com"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "ludivine-boca"
+- prenom: "Valérie"
+  nom: "Bouasria"
+  adhesion: "2014,2015"
+  adresse: "6, allée des Soupirs"
+  code-postal: "27000"
+  ville: "Evreux"
+  telephone-mobile: "06 03 29 87 21"
+  email: "sagefemme.bouasria@gmail.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "valerie-bouasria"
+- prenom: "Delphine"
+  nom: "Bouteiller"
+  adhesion: "2015"
+  adresse: "14, rue Louis Gillain"
+  code-postal: "27500"
+  ville: "Pont-Audemer"
+  telephone-fixe: "02 32 42 24 58 "
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Entretien prénatal précoce
+   - nom: Haptonomie
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Yoga
+  nom_entier: "delphine-bouteiller"
+- prenom: "Juliette"
+  nom: "Brasseur Guérin"
+  adhesion: "2015,2016"
+  adresse: "Maison médicale de la Tremblaye 22, rue Guillaume de la tremblaye"
+  code-postal: "27300"
+  ville: "Bernay"
+  telephone-mobile: "06 72 12 81 08"
+  activites: 
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "juliette-brasseurguerin"
+- prenom: "Laëtitia"
+  nom: "Bremard"
+  adhesion: "2010,2011,2012,2013,2014,2015, 2016"
+  adresse: "13, rue de Vienne"
+  code-postal: "27140"
+  ville: "Gisors"
+  telephone-fixe: "02 32 27 00 35"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "laetitia-bremard"
+- prenom: "Christine "
+  nom: "Charpentier"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "1, rue Constant Roussel"
+  code-postal: "27400"
+  ville: "Louviers"
+  telephone-mobile: "06 88 13 33 95"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Eveil du bébé par le toucher
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "christine-charpentier"
+- prenom: "Emmanuelle"
+  nom: "Chataigner"
+  adhesion: "2016"
+  adresse: "10 rue du champ de bataille"
+  code-postal: "27110"
+  ville: "Le Neubourg"
+  telephone-mobile: "06 81 86 88 68"
+  telephone-fixe: "02 32 34 94 59"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "emmanuelle-chataigner"
+- prenom: "Marie"
+  nom: "Chevallier"
+  adhesion: "2013,2014,2015"
+  adresse: "12, place de la Résistance"
+  code-postal: "27460"
+  ville: "Alizay"
+  telephone-mobile: "07 86 70 81 52"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-chevallier"
+- prenom: "Noémie"
+  nom: "Cornélis"
+  adhesion: "2015,2016"
+  adresse: "1, place du marché"
+  code-postal: "76230"
+  ville: "Isneauville"
+  telephone-mobile: "07 82 25 46 68"
+  telephone-fixe: "09 51 32 61 65"
+  email: "noemiecornelis.sf@free.fr"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Psycho périnatalité
+   - nom: Rééducation du périnée
+  nom_entier: "noemie-cornelis"
+- prenom: "Armelle"
+  nom: "Couraud"
+  adhesion: "2011,2012,2013,2014,2015,2016"
+  adresse: "Pôle médical Les Pepinières 4ème étage 222 avenue du Mont Gaillard"
+  code-postal: "76620"
+  ville: "Le Havre"
+  telephone-mobile: "06 49 69 58 39 "
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "armelle-couraud"
+- prenom: "Catherine"
+  nom: "Cousin"
+  adhesion: "2011,2012,2013,2014,2015,2016"
+  adresse: "6, parc de la Varenne boulevard Siegfried"
+  code-postal: "76130"
+  ville: "Mont Saint Aignan"
+  telephone-mobile: "06 65 47 82 87"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Eveil du bébé par le toucher
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sevrage tabagique
+   - nom: Suivi du nourrisson
+  nom_entier: "catherine-cousin"
+- prenom: "Aurélie"
+  nom: "Couverchel"
+  adhesion: "2014,2015,2016"
+  adresse: "48, route de Paris"
+  code-postal: "76240"
+  ville: "Le Mesnil Esnard"
+  telephone-mobile: "06 35 48 72 97"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "aurelie-couverchel"
+- prenom: "Marie-Audrey"
+  nom: "Cuegniet"
+  adhesion: "2014,2015,2016"
+  adresse: "150, grande rue"
+  code-postal: "27310"
+  ville: "Bourg-Achard"
+  telephone-mobile: "07 79 49 87 94"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-audrey-cuegniet"
+- prenom: "Emmanuelle"
+  nom: "Davy-Goyé"
+  adhesion: "2012,2013,2014,2015,2016"
+  adresse: "5, rue Herbière"
+  code-postal: "76000"
+  ville: "Rouen"
+  telephone-mobile: "06 74 75 19 25"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Thérapie sexo-corporelle
+  nom_entier: "emmanuelle-davy-goye"
+- prenom: "Marie-Charlotte "
+  nom: "Degremont"
+  adhesion: "2013,2014,2015,2016"
+  adresse: "10, rue du champ de bataille"
+  code-postal: "27110"
+  ville: "Le Neubourg"
+  telephone-mobile: "06 81 86 88 68"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-charlotte-degremont"
+- prenom: "Emilie"
+  nom: "Depeint"
+  adhesion: "2015,2016"
+  adresse: "12, rue des hautes vallées"
+  code-postal: "76930"
+  ville: "Octeville sur mer"
+  telephone-mobile: "06 72 26 40 00"
+  telephone-fixe: "02 77 67 19 79"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "emilie-depeint"
+- prenom: "Céline "
+  nom: "Faurre"
+  adhesion: "2014,2015,2016"
+  adresse: "centre médical François Ier  132, boulevard François Ier"
+  code-postal: "76600"
+  ville: "Le Havre"
+  telephone-mobile: "07 81 97 72 43"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "celine-faurre"
+- prenom: "Valérie "
+  nom: "Foucault"
+  adhesion: "2010,2011,2012,2013,2014,2015,2016"
+  adresse: "1, ruelle des prés"
+  code-postal: "27300"
+  ville: "Bernay"
+  telephone-fixe: "02 32 44 82 21"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Haptonomie
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+  nom_entier: "valerie-foucault"
+- prenom: "Anne-Laure "
+  nom: "Froment"
+  adhesion: "2014, 2015,2016"
+  adresse: "9, rue Jean Lecanuet"
+  code-postal: "76000"
+  ville: "Rouen"
+  telephone-mobile: "06 63 57 10 31"
+  email: "froment.annelaure@gmail.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Portage en écharpe
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "anne-laure-froment"
+- prenom: "Pascale "
+  nom: "Gabrielle"
+  adresse: "12, place de la Résistance"
+  code-postal: "27460"
+  ville: "Alizay"
+  telephone-mobile: "07 86 70 81 52"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sevrage tabagique
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "pascale-gabrielle"
+- prenom: "Karine"
+  nom: "Germain-Tancré"
+  adhesion: "2015,2016"
+  adresse: "568B, route de Dieppe"
+  code-postal: "76250"
+  ville: "Déville-lès-Rouen"
+  telephone-mobile: "06 47 05 15 33"
+  email: "karine.germain.tancre@gmail.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Echographie
+   - nom: Entretien prénatal précoce
+   - nom: Suivi du nourrisson
+  nom_entier: "karine-germain-tancre"
+- prenom: "Emmanuelle"
+  nom: "Gilles"
+  adhesion: "2014,2015,2016"
+  adresse: "13, rue de la Dîme"
+  code-postal: "27930"
+  ville: "Guichainville"
+  telephone-mobile: "06 13 15 22 85"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "emmanuelle-gilles"
+- prenom: "Sandrine"
+  nom: "Grandsire"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "746, rue des Vertus 'le Parc' porte C"
+  code-postal: "76550"
+  ville: "Saint Aubin sur Scie"
+  telephone-mobile: "06 09 21 52 08"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "sandrine-grandsire"
+- prenom: "Anne-Sophie"
+  nom: "Grognet"
+  adhesion: "2009,2010,2011,20112,2013,2014,2015,2016"
+  adresse: "4, impasse des Monts"
+  code-postal: "76480"
+  ville: "Sainte Marguerite sur Duclair"
+  telephone-mobile: "06 82 04 29 61"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "anne-sophie-grognet"
+- prenom: "Clotilde"
+  nom: "Guillermin"
+  adhesion: "2014,2015"
+  adresse: "6, allée des soupirs"
+  code-postal: "27000"
+  ville: "Evreux"
+  telephone-mobile: "06 32 45 24 62"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Eveil du bébé par le toucher
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Sevrage tabagique
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "clotilde-guillermin"
+- prenom: "Marine "
+  nom: "Hazard"
+  adhesion: "2013,2014,2015,2016"
+  adresse: "146, rue Maryse Bastié"
+  code-postal: "76520"
+  ville: "Boos"
+  telephone-fixe: "02 35 65 60 68"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "marine-hazard"
+- prenom: "Justine "
+  nom: "Héricher"
+  adhesion: "2015,2016"
+  adresse: "568B, route de Dieppe"
+  code-postal: "76250"
+  ville: "Déville-lès-Rouen"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "justine-hericher"
+- prenom: "Anne"
+  nom: "Hérout"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "30, rue de Verdun"
+  code-postal: "76720"
+  ville: "Auffay"
+  telephone-fixe: "02 35 91 59 22"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Haptonomie
+   - nom: Hypnose 
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "anne-herout"
+- prenom: "Magali "
+  nom: "Jamet"
+  adhesion: "2015,2016"
+  adresse: "222, avenue du mont Gaillard"
+  code-postal: "76620"
+  ville: "Le Havre"
+  telephone-mobile: "06 60 14 90 48"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "magali-jamet"
+- prenom: "Hollie"
+  nom: "Jeannot"
+  adhesion: "2010,2011,2012,2013,2014,2015,2016"
+  adresse: "4 ter, rue branchu"
+  code-postal: "27140"
+  ville: "Gisors"
+  telephone-mobile: "06 09 55 04 59"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "hollie-jeannot"
+- prenom: "Amandine"
+  nom: "Justin"
+  adhesion: "2015,2016"
+  adresse: "cabinet médical Xavier Bichat 12, rue Alfred Thillard"
+  code-postal: "76620"
+  ville: "Le Havre"
+  telephone-mobile: "02 35 46 47 50"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Yoga
+  nom_entier: "amandine-justin"
+- prenom: "Stéphanie "
+  nom: "La"
+  adhesion: "2013,2014,2015,2016"
+  adresse: "26bis, boulevard de la Marne"
+  code-postal: "76000"
+  ville: "Rouen"
+  telephone-mobile: "02 35 62 82 09"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation préconceptionnelle
+   - nom: Echographie
+  nom_entier: "stephanie-la"
+- prenom: "Fabienne"
+  nom: "Lamauve"
+  adhesion: "2015,2016"
+  adresse: "7, boulevard de l'Europe"
+  code-postal: "76100"
+  ville: "Rouen"
+  telephone-fixe: "09 73 01 99 30"
+  activites: 
+   - nom: Echographie
+  nom_entier: "fabienne-lamauve"
+- prenom: "Valentine "
+  nom: "Larcher"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015, 2016"
+  adresse: "2, rue du Docteur Burnet"
+  code-postal: "27200"
+  ville: "Vernon"
+  telephone-mobile: "06 74 83 90 66"
+  telephone-fixe: "02 32 54 27 06"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Haptonomie
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "valentine-larcher"
+- prenom: "Gwendoline"
+  nom: "Laurent"
+  adhesion: "2016"
+  adresse: "immeuble Ile de France apt 4 rue Mendès France"
+  code-postal: "76190"
+  ville: "Yvetot"
+  telephone-fixe: "09 73 01 97 69"
+  email: "g.laurentsagefemme@gmail.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "gwendoline-laurent"
+- prenom: "Nathalie "
+  nom: "Le Mignot"
+  adhesion: "2014, 2015,2016"
+  adresse: "243, rue queue de renard"
+  code-postal: "76400"
+  ville: "Fécamp"
+  telephone-fixe: "09 73 01 37 44"
+  activites: 
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "nathalie-lemignot"
+- prenom: "Claire "
+  nom: "Lebrun"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015"
+  adresse: "33, rue Saint Germain apt 8"
+  code-postal: "27000"
+  ville: "Evreux"
+  telephone-fixe: "02 32 31 36 77"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+  nom_entier: "claire-lebrun"
+- prenom: "Camille"
+  nom: "Lecroq"
+  adhesion: "2014,2015,2016"
+  adresse: "365, rue Lechaptois"
+  code-postal: "76210"
+  ville: "Bolbec"
+  telephone-mobile: "06 63 85 69 88"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "camille-lecroq"
+- prenom: "Marie-laure "
+  nom: "Legay"
+  adhesion: "2012,2013,2014,2015,2016"
+  adresse: "146, rue Maryse Bastié"
+  code-postal: "76520"
+  ville: "Boos"
+  telephone-fixe: "02 35 65 93 81"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-laure-legay"
+- prenom: "Caroline"
+  nom: "Legros"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "63, quai George V"
+  code-postal: "76600"
+  ville: "Le Havre"
+  telephone-fixe: "02 35 43 31 24 "
+  email: "legros.caroline@outlook.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "caroline-legros"
+- prenom: "Théo"
+  nom: "Lemouton"
+  adhesion: "2015,2016"
+  adresse: "22, rue Guillaume de la Tremblaye"
+  code-postal: "27300"
+  ville: "Bernay"
+  telephone-mobile: "06 09 61 20 55"
+  email: "lemouton.theo@gmail.com"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Yoga
+  nom_entier: "theo-lemouton"
+- prenom: "Catherine"
+  nom: "Leroy"
+  adhesion: "2010,2011,2012,2013,2014,2015,2016"
+  adresse: "21, rue Yvelin"
+  code-postal: "27200"
+  ville: "Vernon"
+  telephone-mobile: "06 11 24 66 20"
+  telephone-fixe: "02 32 21 36 18"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Accompagnement global​
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Eveil du bébé par le toucher
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "catherine-leroy"
+- prenom: "Marie"
+  nom: "Leroy"
+  adhesion: "2014,2015,2016"
+  adresse: "150, grande rue (Agora)"
+  code-postal: "27310"
+  ville: "Bourg Achard"
+  telephone-mobile: "07 79 49 88 21"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-leroy"
+- prenom: "Capucine"
+  nom: "Libersa"
+  adhesion: "2016"
+  adresse: "10, rue des arrières fossées"
+  code-postal: "27600"
+  ville: "Gaillon"
+  telephone-mobile: "07 82 08 35 57"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "capucine-libersa"
+- prenom: "Nathalie "
+  nom: "Macian"
+  adhesion: "2010,2011,2012,2013,2014,2015,2016"
+  adresse: "37, rue Marceau"
+  code-postal: "76600"
+  ville: "Le Havre"
+  telephone-mobile: "06 16 18 25 08"
+  telephone-fixe: "02 35 53 18 68"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Chant prénatal
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "nathalie-macian"
+- prenom: "Isabelle"
+  nom: "Métais"
+  adhesion: "2014,2015,2016"
+  adresse: "Maison de santé pluridisciplinaire 34, route de la capelle"
+  code-postal: "76780"
+  ville: "Croisy sur Andelle"
+  telephone-mobile: "06 16 99 50 00"
+  telephone-fixe: "02 32 86 56 18"
+  email: "isabellemetais.sagefemme@gmail.com"
+  site-web: "msp-croisysurandelle.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "isabelle-metais"
+- prenom: "Laure"
+  nom: "Moreau"
+  adhesion: "2015,2016"
+  adresse: "6 parc de la Varenne boulevard Siegfried"
+  code-postal: "76130"
+  ville: "Mont Saint Aignan"
+  telephone-mobile: "06 60 58 53 56"
+  email: "lauremoreau.sf@gmail.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Portage en écharpe
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "laure-moreau"
+- prenom: "Clélia"
+  nom: "Motte"
+  adhesion: "2014,2015,2016"
+  adresse: "2, rue Louis Leseigneur"
+  code-postal: "76360"
+  ville: "Barentin"
+  telephone-mobile: "06 61 05 60 07"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "clelia-motte"
+- prenom: "Elise "
+  nom: "Nicolle"
+  adhesion: "2016"
+  adresse: "1bis, rue des jardins"
+  code-postal: "27500"
+  ville: "Bourneville"
+  telephone-mobile: "07 83 79 00 03"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "elise-nicolle"
+- prenom: "Jeannette"
+  nom: "Nono"
+  adhesion: "2015,2016"
+  adresse: "8, rue Henri Gadeau"
+  code-postal: "76300"
+  ville: "Sotteville lès Rouen"
+  telephone-mobile: "07 83 83 39 51"
+  telephone-fixe: "09 86 08 30 38"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "jeannette-nono"
+- prenom: "Janine"
+  nom: "Pasquier"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "56, rue des Minimes"
+  code-postal: "76000"
+  ville: "Rouen"
+  telephone-mobile: "06 61 21 69 75"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "janine-pasquier"
+- prenom: "Virginie "
+  nom: "Pasquier"
+  adhesion: "2011,2012,2013,2014,2015,2016"
+  adresse: "1, rue du marché"
+  code-postal: "76230"
+  ville: "Isneauville"
+  telephone-mobile: "06 51 08 83 23"
+  telephone-fixe: "09 51 32 61 65"
+  email: "virginiepasquier.sf@free.fr"
+  activites: 
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Portage en écharpe
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+  nom_entier: "virginie-pasquier"
+- prenom: "Irène "
+  nom: "Pergent"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "40.rue Césaire Levillain"
+  code-postal: "76230"
+  ville: "Bois-Guillaume"
+  telephone-mobile: "06 12 94 33 33"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Haptonomie
+  nom_entier: "irene-pergent"
+- prenom: "Sylvie "
+  nom: "Perré"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "451, rue de la Providence"
+  code-postal: "76550"
+  ville: "Saint Aubin sur Scie"
+  telephone-mobile: "06 31 97 00 87"
+  telephone-fixe: "02 35 50 86 88 / 02 35 06 92 00"
+  email: "sylvie.perre18@orange.fr"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "sylvie-perre"
+- prenom: "Stéphanie "
+  nom: "Pierrard"
+  adhesion: "2015,2016"
+  adresse: "21, rue des mégissiers"
+  code-postal: "76290"
+  ville: "Montvilliers"
+  telephone-fixe: "02 35 55 76 42"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "stephanie-pierrard"
+- prenom: "Platevoet"
+  nom: "Annick"
+  adhesion: "2016"
+  adresse: "94, rue de la mer"
+  code-postal: "76400"
+  ville: "Fécamp"
+  telephone-mobile: "06 32 58 35 51"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Sophrologie
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Yoga
+  nom_entier: "platevoet-annick"
+- prenom: "Stéphanie "
+  nom: "Poulain"
+  adhesion: "2011,2012,2013,2014,2015,2016"
+  adresse: "222, avenue du Mont Gaillard"
+  code-postal: "76620"
+  ville: "Le Havre"
+  telephone-mobile: "06 44 18 82 45"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "stephanie-poulain"
+- prenom: "Marie-Pierre"
+  nom: "Pousset"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "30, rue de verdun"
+  code-postal: "76720"
+  ville: "Auffay"
+  telephone-fixe: "02 35 91 59 22"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Hypnose 
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "marie-pierre-pousset"
+- prenom: "Maggy"
+  nom: "Rataj"
+  adhesion: "2015,2016"
+  adresse: "6, rue Pierre Brossolette"
+  code-postal: "76140"
+  ville: "Le Petit Quevilly"
+  telephone-mobile: "06 62 09 69 27"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "maggy-rataj"
+- prenom: "Frédérique"
+  nom: "Renault"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "29, rue Lord Kitchener"
+  code-postal: "76600"
+  ville: "Le Havre"
+  telephone-mobile: "06 07 60 20 44 "
+  telephone-fixe: "02 35 22 09 41"
+  email: "sfrenault76@gmail.com"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Acupuncture
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Yoga
+  nom_entier: "frederique-renault"
+- prenom: "Corinne"
+  nom: "Ricouard"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015"
+  adresse: "29, rue Lord Kitchener"
+  code-postal: "76600"
+  ville: "Le Havre"
+  telephone-mobile: "06 71 29 45 82"
+  activites: 
+   - nom: Echographie
+  nom_entier: "corinne-ricouard"
+- prenom: "Anne-Claude"
+  nom: "Rivat"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "101, rue Lazare Carnot"
+  code-postal: "76800"
+  ville: "Saint Etienne du Rouvray"
+  telephone-fixe: "02 35 64 03 17"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "anne-claude-rivat"
+- prenom: "Corinne"
+  nom: "Sangnier"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "63, quai George V"
+  code-postal: "76600"
+  ville: "Le Havre"
+  telephone-fixe: "02 35 43 31 24"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "corinne-sangnier"
+- prenom: "Blandine"
+  nom: "Soenen"
+  adhesion: "2014,2015"
+  adresse: "12, place de la Resistance"
+  code-postal: "27460"
+  ville: "Alizay"
+  telephone-fixe: "02 35 660 34 85"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "blandine-soenen"
+- prenom: "Hélène "
+  nom: "Stévenin"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "6, rue Jeanne d'Arc"
+  code-postal: "27400"
+  ville: "Acquigny"
+  telephone-mobile: "06 16 23 35 55"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "helene-stevenin"
+- prenom: "Floriane"
+  nom: "Vasse"
+  adhesion: "2015,2016"
+  adresse: "243, rue queue de renard"
+  code-postal: "76400"
+  ville: "Fécamp"
+  telephone-mobile: "06 02 60 24 53"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "floriane-vasse"
+- prenom: "Céline"
+  nom: "Vauclin"
+  adhesion: "2015,2016"
+  adresse: "Cabinet Littré 33, rue Emile Littré"
+  code-postal: "76300"
+  ville: "Sotteville lès Rouen"
+  telephone-mobile: "06 33 04 56 31"
+  telephone-fixe: "02 35 73 33 80"
+  email: "vauclinceline@gmail.com"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Echographie
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "celine-vauclin"
+- prenom: "Céline"
+  nom: "Vivier-Couland"
+  adhesion: "2015,2016"
+  adresse: "12, rue des hautes vallées"
+  code-postal: "76930"
+  ville: "Octeville sur mer"
+  telephone-mobile: "06 75 65 87 77"
+  site-web: "octevillesurmeres.fr"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "celine-vivier-couland"
+- prenom: "Véronique "
+  nom: "Wilmort"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adresse: "6, parc de la Varenne"
+  code-postal: "76130"
+  ville: "Mont Saint Aignan"
+  telephone-fixe: "02 35 70 31 94"
+  activites: 
+   - nom: Echographie
+  nom_entier: "veronique-wilmort"
+- prenom: "Camille"
+  nom: "Xayabandith"
+  adhesion: "2014,2015,2016"
+  adresse: "30, avenue Foch"
+  code-postal: "76460"
+  ville: "Saint Valery en Caux"
+  telephone-mobile: "06 24 56 92 50"
+  telephone-fixe: "02 35 97 25 37"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Préparation en piscine
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "camille-xayabandith"
+- prenom: "Marine"
+  nom: "Yver"
+  adhesion: "2015,2016"
+  adresse: "30, rue des Cordelières"
+  code-postal: "76270"
+  ville: "Neufchatel en Bray"
+  telephone-mobile: "06 29 54 63 89"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Portage en écharpe
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
+  nom_entier: "marine-yver"
+>>>>>>> Members Yml
