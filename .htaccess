@@ -59,7 +59,7 @@ Access-Control-Allow-Headers: Content-Type
 
     # Don't allow inline JavaScript to run.
     Header always append X-Frame-Options SAMEORIGIN
-    Header set Content-Security-Policy "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.google.com http://www.google-analytics.com http://nominatim.openstreetmap.org"
+    Header set Content-Security-Policy "script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.google.com http://www.google-analytics.com https://maps.googleapis.com http://nominatim.openstreetmap.org"
 
     # prevent mime based attacks
     Header set X-Content-Type-Options: 'nosniff'
