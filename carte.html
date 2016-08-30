@@ -21,14 +21,9 @@
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
-  <script>
-    {% include loadCSS.js %}
-    loadCSS("{{ "/assets/css/style.css" | prepend: site.baseurl }}");
-    {% include localfont.js %}
-  </script>
-  <noscript><link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}"></noscript>
-  <style type="text/css">
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
   {% include favicons.html %}
+  <style type="text/css">
   html,
   body,html {
     height: 100%;
@@ -194,11 +189,6 @@
     {% endfor %}
     </div>
   </noscript>
-  <!-- <script src="{{ site.baseurl }}/upup.sw.min.js" ></script> -->
-  <script src="{{ site.baseurl }}/assets/js/instantclick.min.js" data-no-instant></script>
-  <script data-no-instant>
-    InstantClick.init();
-  </script>
 </body>
 
 </html>
