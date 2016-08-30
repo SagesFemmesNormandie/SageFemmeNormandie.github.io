@@ -16,6 +16,19 @@
   <script src="{{ site.baseurl }}/assets/js/jquery.js" data-no-instant></script>
   <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
   <style type="text/css">
+    {% capture include_to_scssify %}
+      {% include base.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+  <script>
+    {% include loadCSS.js %}
+    loadCSS("{{ "/assets/css/style.css" | prepend: site.baseurl }}");
+    {% include localfont.js %}
+  </script>
+  <noscript><link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}"></noscript>
+  <style type="text/css">
+  {% include favicons.html %}
   html,
   body,html {
     height: 100%;
