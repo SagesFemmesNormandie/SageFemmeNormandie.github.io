@@ -8,20 +8,26 @@ layout: default
 
   {% if page.adhesion contains siteyear %}
   <div class="bloc-adresse">
-  <p itemprop="streetAddress" class="profile-address"><strong><i class="fa fa-building-o"></i></strong>&nbsp; {{page.adresse}} <strong>{{page.code-postal}}</strong> {{page.ville}}</p>
+  <p itemprop="streetAddress" class="profile-address"><strong><i class="fa fa-building-o"></i></strong>&nbsp; {{page.adresse}} <span class="codepostal">{{page.code-postal}}</span> {{page.ville}}</p>
   <p>{% if page.telephone-mobile %}<strong><i class="fa fa-mobile-phone"></i></strong>&nbsp; <span itemprop="telephone" class="profile-telephone">{{page.telephone-mobile}}</span><br>{% endif %}
   {% if page.telephone-fixe %}<i class="fa fa-phone"></i></strong>&nbsp;  <span itemprop="telephone">{{page.telephone-fixe}}</span>{% endif %}</p>
   {% if page.email %}<p><strong><i class="fa fa-envelope"></i></strong>&nbsp;</strong> {{ page.email }}</p>{% endif %}
   {% if page.site-web %}<p><strong><i class="fa fa-television"></i></strong>&nbsp;<a href="//{{ page.site-web }}">{{ page.site-web }}</a></p>{% endif %}
 </div>
 
-  <h3>Localiser {{page.prenom}} {{page.nom}}</h3>
+  <h3>Localiser {{page.prenom}} {{page.nom}} <small>(Cliquez sur une des carte pour avoirla direction)</small></h3>
   <div class="profile-maps">
-  <img src="//maps.googleapis.com/maps/api/staticmap?center={{page.ville}},fr&markers=color:pink%7Clabel:SG%7C{{ page.ville | slug}},fr&zoom=9&size=300x300&sensor=false&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff" id="map-image" alt="Carte localisation de {{page.prenom}} {{page.nom}} à {{page.ville}}" />
+    <div class="profile-maps-image">
+      <a href="https://www.google.com/maps?q={{ page.adresse | cgi_escape }},{{page.ville}}"><img src="//maps.googleapis.com/maps/api/staticmap?center={{page.ville}},fr&markers=color:pink%7Clabel:SG%7C{{ page.ville | slug}},fr&zoom=9&size=300x300&sensor=false&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff" id="map-image" alt="Carte localisation de {{page.prenom}} {{page.nom}} à {{page.ville}}" /></a>
+    </div>
 
-  <img src="//maps.googleapis.com/maps/api/staticmap?center={{ page.adresse | cgi_escape }},{{page.ville}},fr&markers=color:pink%7Clabel:SG%7C{{ page.adresse | cgi_escape }},{{ page.code-postal | slug}},{{ page.ville | slug}},fr&zoom=12&size=300x300&sensor=false&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff" id="map-image" alt="Carte localisation de {{page.prenom}} {{page.nom}} à {{page.ville}}" />
+    <div class="profile-maps-image">
+      <a href="https://www.google.com/maps?q={{ page.adresse | cgi_escape }},{{page.ville}}"><img src="//maps.googleapis.com/maps/api/staticmap?center={{ page.adresse | cgi_escape }},{{page.ville}},fr&markers=color:pink%7Clabel:SG%7C{{ page.adresse | cgi_escape }},{{ page.code-postal | slug}},{{ page.ville | slug}},fr&zoom=12&size=300x300&sensor=false&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff" id="map-image" alt="Carte localisation de {{page.prenom}} {{page.nom}} à {{page.ville}}" /></a>
+    </div>
 
-  <img src="//maps.googleapis.com/maps/api/staticmap?center={{ page.adresse | cgi_escape }},{{page.ville}},fr&markers=color:pink%7Clabel:SG%7C{{ page.adresse | cgi_escape }},{{ page.code-postal | slug}},{{ page.ville | slug}},fr&zoom=14&size=300x300&sensor=false&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff" id="map-image" alt="Carte localisation de {{page.prenom}} {{page.nom}} à {{page.ville}}" />
+    <div class="profile-maps-image">
+      <a href="https://www.google.com/maps?q={{ page.adresse | cgi_escape }},{{page.ville}}"><img src="//maps.googleapis.com/maps/api/staticmap?center={{ page.adresse | cgi_escape }},{{page.ville}},fr&markers=color:pink%7Clabel:SG%7C{{ page.adresse | cgi_escape }},{{ page.code-postal | slug}},{{ page.ville | slug}},fr&zoom=14&size=300x300&sensor=false&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff" id="map-image" alt="Carte localisation de {{page.prenom}} {{page.nom}} à {{page.ville}}" /></a>
+    </div>
   </div>
 
 <div class="bloc-activites">
