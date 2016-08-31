@@ -46,7 +46,7 @@
   #side-bar-content {
     overflow-y: scroll;
     padding: 1rem 0 2rem;
-    height: 100%;
+    height: 70%;
   }
   .side-bar .side-bar_element {
     padding: 0.2rem;
@@ -103,11 +103,9 @@
     // });
 
     {% for row in site.data.members | sort: 'nom' %}{% if row.adhesion contains siteyear %}
-    getCoordinates("{{ row.adresse-geo }}, {{ row.ville }}",function(coords){
-      var point = new google.maps.LatLng(coords[0], coords[1]);
-      var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","<a href='/{{ row.nom_entier }}/'><strong>{{ row.prenom }} {{ row.nom }}</strong></a><br>{{ row.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if row.telephone-mobile %} - {% endif %}{{ row.telephone-fixe }}{% endif %}{% if row.email %}<br>{{ row.email }}{% endif %}{% if row.site-web %}<br>{{ row.site-web }}{% endif %}");
-        document.getElementById("side-bar-content").innerHTML = side_bar_html;
-    });
+    var point = new google.maps.LatLng({% for coordinates in site.data.[row.nom_entier] %}{{ coordinates.lat }}, {{ coordinates.lon }}{% endfor %});
+    var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","<a href='/{{ row.nom_entier }}/'><strong>{{ row.prenom }} {{ row.nom }}</strong></a><br>{{ row.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if row.telephone-mobile %} - {% endif %}{{ row.telephone-fixe }}{% endif %}{% if row.email %}<br>{{ row.email }}{% endif %}{% if row.site-web %}<br>{{ row.site-web }}{% endif %}");
+      document.getElementById("side-bar-content").innerHTML = side_bar_html;
     {% endif %}{% endfor %}
 
   };

@@ -53,7 +53,7 @@ navigation: true
     var h = new holmes({
       input: '.search input',
       find: '.members-list .members-list__box',
-      placeholder: '<h3>— No results, my dear Watson. —</h3>',
+      placeholder: '<h3>Aucun résultat pour votre recherche</h3>',
       class: {
         visible: 'visible',
         hidden: 'hidden'
