@@ -5,11 +5,6 @@ OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 gem 'rake'
 gem "jekyll", '3.1.2'
-gem "jekyll-sitemap"
-gem "jekyll-feed"
-gem "jekyll-seo-tag"
-gem "jekyll-mentions"
-gem "jekyll-assets"
 
 #gem 'github-pages', versions['github-pages']
 #gem 'mini_magick'
@@ -22,4 +17,9 @@ end
 
 group :jekyll_plugins do
   gem 'jekyll-gdrive'
+  gem "jekyll-sitemap"
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-mentions"
+  gem "jekyll-assets"
 end
