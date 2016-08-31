@@ -15,13 +15,16 @@
 
 #:post_render
 
-module Jekyll_YML
+module Jekyll
 
-  class Generator < Jekyll::Generator
+  class JSONGenerator < Generator
     safe true
-    priority :highest
+    priority :low
 
     def generate(site)
+
+      # Converter for .md > .html
+      converter = site.find_converter_instance(Jekyll::Converters::Markdown)
 
       regEx = /^[\s]*$\n/
 
@@ -39,7 +42,7 @@ module Jekyll_YML
       # Create the directories from the path
       FileUtils.mkpath(path) unless File.exists?(path)
 
-      # Create the YAML file and inject the data
+      # Create the JSON file and inject the data
       f = File.new("#{path}/members.yml", "w+")
       f.puts File.join(tmpl)
 
