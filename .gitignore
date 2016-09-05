@@ -31,7 +31,7 @@ _site/
 .sass-cache/
 .asset-cache/
 .jekyll-metadata
-#_gdrive_cache
+_gdrive_cache
 
 # node-waf configuration
 .DS_Store

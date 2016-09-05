@@ -20,10 +20,10 @@ navigation: true
   <ul>
   {% for group in items_grouped %}
   {% if group.items[0].adhesion contains siteyear %}
-  <li><a href="#id-{{ group.name | slugify }}">{{ group.name }}</a></li>
+    <li><a href="#id-{{ group.name | slugify }}">{{ group.name }}</a></li>
   {% endif %}
   {% endfor %}
-  </ul>
+  </ul> 
   </nav>
 
   <div class="members-list list" itemtype="http://schema.org/ItemList http://schema.org/Midwifery">
