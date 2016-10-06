@@ -60,7 +60,6 @@
   code-postal: "76000"
   ville: "Rouen"
   telephone-fixe: "02 35 62 82 09"
-  email: "elisearchaimbault@ch-belvedere.fr"
   activites: 
    - nom: Accompagnement de l'allaitement maternel
    - nom: Consultation de suivi de grossesse
@@ -1430,6 +1429,27 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "helene-stevenin"
+- prenom: "Laëtitia"
+  nom: "Talbot"
+  adhesion: "2016"
+  adresse: "9 rue Jean Jaurès"
+  adresse-geo: "9 rue Jean Jaurès"
+  code-postal: "76410"
+  ville: "Tourville-la-rivière"
+  telephone-fixe: "02 32 13 81 61"
+  email: "contact@laetitia-talbot-sage-femme.fr"
+  activites: 
+   - nom: Accompagnement de l'allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "laetitia-talbot"
 - prenom: "Floriane"
   nom: "Vasse"
   adhesion: "2015,2016"
