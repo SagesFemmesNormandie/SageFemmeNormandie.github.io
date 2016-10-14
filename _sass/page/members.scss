@@ -2,13 +2,20 @@
 /// Members
 ////
 
+.search {
+  input {
+    margin-bottom: $base-line;
+    padding: 0.5rem 0.4rem;
+    width: 100%;
+    font-size: $bigger;
+    border: 1px solid #888;
+  }
+}
+
 .members-list {
   margin-top: $base-line*2;
   width: 100%;
   @include grid(2);
-  >* {
-    flex-grow: 1;
-  }
 }
 
 .members-list__box {
@@ -17,11 +24,8 @@
   align-items: center;
   flex-direction: column;
   margin-bottom: $base-line;
-  border-top: 3px solid palette(primary);
-  border-bottom: 3px solid palette(primary);
-  /*border-radius: 15px;*/
-  background-color: $wheatyellow;
-  padding: 20px;
+  border: 3px solid palette(primary);
+  border-radius: 15px;
 }
 
 .members-list__line {
@@ -45,39 +49,22 @@
     float: right;
     padding: $base-line/2 $base-line;
     max-width: 14rem;
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
     text-align: right;
-    letter-spacing: 0.05em;
     color: #fff;
     background: palette(primary);
     border-radius: 0 0 0 25px;
   }
   &.name {
-    color: #000;
-    font-family: 'Alice', serif;
-    font-weight: 800;
     flex: 2;
-    padding: 0.15em 0.7em;
-    font-size: $title1;
-    border-top: 1px solid palette(primary);
-
-
-  }
-  &.address {
-    color: $maastrichtblue;
-    max-width: 22rem;
-    flex: 2;
-    padding: 0.15em 1.2em 1em;
+    padding: $base-line/3 $base-line;
     font-size: $big;
   }
+  &.address {
+    padding: $base-line/3 $base-line;
+    max-width: 22rem;
+  }
   &.téléphone-mobile {
-      padding: 1em 1.2em 1em;
-      color: $maastrichtblue;
-      background-color: $minionyellow;
-      font-size: $normal;
-      letter-spacing: 0.05em;
-      font-weight: 600;
+      padding: 0 1.2em 1em;
     span:not(:first-child) {
       &:before {
         content: ' / '
@@ -91,14 +78,11 @@
     //display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 1em 1.2em 1em;
+    padding: $base-line/2;
     width: 100%;
     border-top: 2px solid palette(primary);
   }
-  &.codepostal{
-    font-weight: bolder;
-  }
-
+}
 
 .members-list__item__activity {
   display: inline-block;
@@ -108,23 +92,9 @@
   color: #fff;
   color: palette(primary,dark);
   &:after {
-    content: ' \00b7';
-    letter-spacing: 0.12em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    color: #F4184B;
-    font-size: 15px;
+    content: ' - ';
   }
   &:last-child:after {
-    content: ' \00b7';
-    letter-spacing: 0.12em;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin: 0 5px;
-    color: #F4184B;
-    font-size: 15px;
+    content: '';
   }
-}
 }

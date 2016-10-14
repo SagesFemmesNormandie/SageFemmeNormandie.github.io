@@ -58,6 +58,18 @@ assets:
     css: true
     js: true
 
+
+jekyll_geocode:
+  file-name: members.yml
+  file-path: _data
+  name: nom_entier
+  address: adresse-geo
+  city: ville
+  region: region
+  #postcode: code-postal
+  #cache: true
+  #outputfile: place.yml
+
 # Plugin: data from gdrive
 gdrive:
   sheet: "Adhérents"

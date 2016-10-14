@@ -19,18 +19,9 @@ $fuchsia:                 #F012BE;
 $purple:                  #B10DC9;
 $maroon:                  #85144B;
 
-/*Couleurs Pia*/
-$redcrayola:                     #e53e28;
-$sunsetorange:                   #f25f5c;
-$vertceladon:                    #A7E8AC;
-$greensheen:                     #70c1b3;
-$minionyellow:                   #ede857;
-$maastrichtblue:                 #000e19;
-$wheatyellow:                    #fcf9d4;
-
 $text-color:              #111;
 $background-color:        #fdfdfd;
-$brand-color:             #f25f5c;
+$brand-color:             #829A59;
 $color-primary:           $brand-color;
 $color-secondary:         $aqua;
 
@@ -46,7 +37,7 @@ $palettes: (
     primary: (
         base:   $color-primary,
         light:  mix(white, $color-primary, 30%),
-        dark:   #50514f
+        dark:   #5b6b3e
     ),
     secondary: (
         base:   #ffa900,

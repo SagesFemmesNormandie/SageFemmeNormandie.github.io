@@ -11,17 +11,11 @@ $number: 4; // for equal columns
 
 .wrapper {
   margin-right: auto;
-  /*margin-left: auto;*/
+  margin-left: auto;
   margin-bottom: $base-line*2;
   padding-right: $base-line / 2;
-  /*padding-left: $base-line / 2;*/
+  padding-left: $base-line / 2;
   max-width: 65rem;
-
-}
-
-.page-content .wrapper{
-    margin-left: auto;
-    padding-left: $base-line / 2;
 }
 
 // grid styles for container wich has a .grid(n,g) class

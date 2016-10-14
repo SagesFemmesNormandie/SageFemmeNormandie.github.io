@@ -42,7 +42,7 @@ module Jekyll
       # Create the directories from the path
       FileUtils.mkpath(path) unless File.exists?(path)
 
-      # Create the JSON file and inject the data
+      # Create the YML file and inject the data
       f = File.new("#{path}/members.yml", "w+")
       f.puts File.join(tmpl)
 

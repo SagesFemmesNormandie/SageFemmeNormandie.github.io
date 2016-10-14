@@ -54,7 +54,8 @@ a {
     color: palette(primary, dark);
   }
   &:hover {
-    background-color: $minionyellow;;
+    text-decoration: underline;
+    color: palette(grey, dark);
   }
 }
 

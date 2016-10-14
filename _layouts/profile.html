@@ -4,7 +4,7 @@ layout: default
 {% assign siteyear = site.time | date: '%Y' %}
 
 <div itemtype="http://schema.org/Person" data-id="{{forloop.index}}" data-town="{{row.ville}}">
-  <p itemprop="name" class="profile-name">{{page.prenom}} {{page.nom}}</p></br>
+  <h1 itemprop="name" class="profile-name">{{page.prenom}} {{page.nom}}</h1>
 
   {% if page.adhesion contains siteyear %}
   <div class="bloc-adresse">
@@ -15,7 +15,7 @@ layout: default
   {% if page.site-web %}<p><strong><i class="fa fa-television"></i></strong>&nbsp;<a href="//{{ page.site-web }}">{{ page.site-web }}</a></p>{% endif %}
 </div>
 
-  <h3>Localiser {{page.prenom}} {{page.nom}} <small>(Cliquez sur une des carte pour avoirla direction)</small></h3>
+  <h3>Localiser {{page.prenom}} {{page.nom}} <small>(Cliquez sur une des carte pour avoir la direction)</small></h3>
   <div class="profile-maps">
     <div class="profile-maps-image">
       <a href="https://www.google.com/maps?q={{ page.adresse | cgi_escape }},{{page.ville}}"><img src="//maps.googleapis.com/maps/api/staticmap?center={{page.ville}},fr&markers=color:pink%7Clabel:SG%7C{{ page.ville | slug}},fr&zoom=9&size=300x300&sensor=false&style=feature:poi|visibility:off&style=feature:all|saturation:-30|lightness:17|gamma:1&style=feature:road|lightness:0|saturation:0|hue:0xffffff|gamma:0&style=feature:road.highway|element:geometry|lightness:50|saturation:0|hue:0xffffff" alt="Carte localisation de {{page.prenom}} {{page.nom}} à {{page.ville}}" /></a>

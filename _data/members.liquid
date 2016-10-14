@@ -40,6 +40,7 @@
   activites: {% for col in row %}{% assign mod = forloop.index0 %}{% if mod >= modactivity %}{% if col == '1' %}   - {% endif %}{% if mod >= modactivity %}{% if mod != 0 %}{% if row[mod] != '' %}nom: {{ site.data.google_sheet[2][mod] | replace: "'", '’' | json }}{% endif %}{% endif %}{% endif %}{% endif %}
 {% endfor %}
   nom_entier: "{{ forname }}-{{ name }}"
+  region: "normandy, fr"
 {% endfor %}
 
 

@@ -11,6 +11,14 @@ Découvrez les activités proposées par les sages-femmes de l'association.
 {% assign items_grouped = items_grouped-sort | group_by: 'category' %}
 {% assign items = site.data.members | sort: 'ville' %}
 
+{% for row in site.data.members | sort: 'nom' %} 
+{% assign geoname = row.nom_entier | replace: ' ', '-' | downcase %}    
+{% assign places = site.data.place | where:"title", geoname %} 
+{% for coordinates in places %}
+var point = new google.maps.LatLng({{ coordinates.location.latitude }}, {{ coordinates.location.longitude }});
+{% endfor %}
+{% endfor %}
+
 {% for group in items_grouped %}
 
 <h2 class="activity-{{ group.name | slugify }}">{{ group.name }}</h2>
@@ -30,6 +38,6 @@ Découvrez les activités proposées par les sages-femmes de l'association.
     {% if item.description %}{{ item.description | markdownify }}{% else %}{% if item.content %}{{ item.content | truncatewords: 25 | markdownify }}{% else %}Découvrez l'activité {{ item.title }}{% endif %}{% endif %}
   </div>
   {% endif %}
-  {% endfor %}
+  {% endfor %} 
 </div>
 {% endfor %}
