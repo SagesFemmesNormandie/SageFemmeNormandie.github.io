@@ -33,7 +33,6 @@ _site/
 .asset-cache/
 .jekyll-metadata
 _gdrive_cache
-_data/members.yml
 
 # node-waf configuration
 .DS_Store
