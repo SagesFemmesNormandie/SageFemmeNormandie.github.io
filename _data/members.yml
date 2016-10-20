@@ -273,7 +273,7 @@
   nom: "Bouteiller"
   adhesion: "2015"
   adresse: "14, rue Louis Gillain"
-  adresse-geo: "14, rue Louis Gillain"
+  adresse-geo: "14, Louis Gillain"
   code-postal: "27500"
   ville: "Pont-Audemer"
   telephone-fixe: "02 32 42 24 58 "
@@ -355,6 +355,7 @@
   nom: "Chataigner"
   adhesion: "2016"
   adresse: "10 rue du champ de bataille"
+  adresse-geo: "D39"
   code-postal: "27110"
   ville: "Le Neubourg"
   telephone-mobile: "06 81 86 88 68"
@@ -394,6 +395,7 @@
   nom: "Cornélis"
   adhesion: "2015,2016"
   adresse: "1, place du marché"
+  adresse-geo: "1, marché"
   code-postal: "76230"
   ville: "Isneauville"
   telephone-mobile: "07 82 25 46 68"
@@ -514,6 +516,7 @@
   nom: "Degremont"
   adhesion: "2013,2014,2015,2016"
   adresse: "10, rue du champ de bataille"
+  adresse-geo: "D39"
   code-postal: "27110"
   ville: "Le Neubourg"
   telephone-mobile: "06 81 86 88 68"
@@ -675,7 +678,8 @@
 - prenom: "Sandrine"
   nom: "Grandsire"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
-  adresse: "746, rue des Vertus ’le Parc’ porte C"
+  adresse: "746, chemin des Vertus ’le Parc’ porte C"
+  adresse-geo: "746, vertus"
   code-postal: "76550"
   ville: "Saint-Aubin-sur-Scie"
   telephone-mobile: "06 09 21 52 08"
@@ -957,7 +961,7 @@
   nom: "Lebrun"
   adhesion: "2009,2010,2011,2012,2013,2014,2015"
   adresse: "33, rue Saint Germain apt 8"
-  adresse-geo: "33, rue Saint Germain apt 8"
+  adresse-geo: "33, rue Saint Germain"
   code-postal: "27000"
   ville: "Evreux"
   telephone-fixe: "02 32 31 36 77"
@@ -1038,7 +1042,9 @@
   ville: "Bernay"
   telephone-mobile: "06 09 61 20 55"
   email: "lemouton.theo@gmail.com"
+  site-web: "www.theolemouton.fr"
   activites: 
+   - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1046,9 +1052,10 @@
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
+   - nom: Sophrologie
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
-   - nom: Yoga
+   - nom: Surveillance de grossesse pathologique
   nom_entier: "theo-lemouton"
   region: "normandy, fr"
 - prenom: "Catherine"
@@ -1099,7 +1106,8 @@
 - prenom: "Capucine"
   nom: "Libersa"
   adhesion: "2016"
-  adresse: "10, rue des arrières fossées"
+  adresse: "10, rue des arrières fossés"
+  adresse-geo: "10, rue des arrieres fosses"
   code-postal: "27600"
   ville: "Gaillon"
   telephone-mobile: "07 82 08 35 57"
@@ -1269,7 +1277,8 @@
 - prenom: "Virginie "
   nom: "Pasquier"
   adhesion: "2011,2012,2013,2014,2015,2016"
-  adresse: "1, rue du marché"
+  adresse: "1, place du marché"
+  adresse-geo: "1, marché"
   code-postal: "76230"
   ville: "Isneauville"
   telephone-mobile: "06 51 08 83 23"
@@ -1288,16 +1297,31 @@
   region: "normandy, fr"
 - prenom: "Irène "
   nom: "Pergent"
-  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016,2017"
   adresse: "40, rue Césaire Levillain"
   adresse-geo: "40, rue Césaire Levillain"
   code-postal: "76230"
   ville: "Bois-Guillaume"
-  telephone-mobile: "06 12 94 33 33"
   activites: 
    - nom: Accompagnement de l’allaitement maternel
    - nom: Haptonomie
   nom_entier: "irene-pergent"
+  region: "normandy, fr"
+- prenom: "Sandra"
+  nom: "Perica"
+  adhesion: "2016"
+  adresse: "maison de santé Armstrong 8, rue Neil Armstrong"
+  adresse-geo: "8, rue Neil Armstrong"
+  code-postal: "76120"
+  ville: "Grand Quevilly"
+  telephone-fixe: "02 35 67 98 93"
+  site-web: "sandra-perica.mondocteur.fr"
+  activites: 
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Echographie
+  nom_entier: "sandra-perica"
   region: "normandy, fr"
 - prenom: "Sylvie "
   nom: "Perré"
@@ -1323,8 +1347,9 @@
   nom: "Pierrard"
   adhesion: "2015,2016"
   adresse: "21, rue des mégissiers"
+  adresse-geo: "21, rue des mégissiers"
   code-postal: "76290"
-  ville: "Montvilliers"
+  ville: "Montivilliers"
   telephone-fixe: "02 35 55 76 42"
   activites: 
    - nom: Consultation de suivi de grossesse
