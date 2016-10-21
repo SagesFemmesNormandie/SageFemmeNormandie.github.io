@@ -2,18 +2,16 @@
 #
 # Title:
 # ======
-# Jekyll to JSON Generator
+# Jekyll to YML Generator
 #
 # Description:
 # ============
-# A plugin for generating JSON representations of your
-# site content for easy use with JS MVC frameworks like Backbone.
+# A plugin for generating a JSON to an YML from a liquid tpl
 #
 # Author:
 # ======
-# Jezen Thomas
-# jezenthomas@gmail.com
-# http://jezenthomas.com
+# Bertrand Keller
+# Bertrand.keller@gmail.com
 
 #:post_render
 
@@ -24,15 +22,13 @@ module Jekyll
     priority :low
 
     def generate(site)
+
       # Converter for .md > .html
       converter = site.find_converter_instance(Jekyll::Converters::Markdown)
 
-      # Iterate over all posts
-      #site.posts.docs.each do |post|
-
       regEx = /^[\s]*$\n/
 
-      # Encode the HTML to JSON
+      # Encode the HTML to YML
       tmpl = File.read File.join Dir.pwd, "_data/members.liquid"
       tmpl = (Liquid::Template.parse tmpl).render site.site_payload
       tmpl = tmpl.gsub! '---', ''

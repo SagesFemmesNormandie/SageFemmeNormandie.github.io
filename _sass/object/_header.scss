@@ -3,11 +3,17 @@
 ////
 
 .site-header {
-  padding: 0.5rem 0 0;
+  /*padding: 0.5rem 0 0;*/
+  background-size: cover;
+  background-position: center center;
+  @media #{$medium-up} {
+    background-image: url('/assets/images/background-newborn.jpeg');
+  }
   .wrapper {
     display: flex;
-    align-content: center;
     margin-bottom: $base-line*2;
+    align-content: center;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
   }
 }
 
@@ -23,20 +29,61 @@
     padding: 0;
     width: 100%;
     list-style: none;
-
+    font-family: 'Montserrat', sans-serif;
+    font-size: $small;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
   }
   li {
-    text-align: center;
+    text-align: right;
+    @media #{$medium-up} {
+      text-align: center;
+    }
+  }
+  ul li:after {
+    content: ' \00b7';
+    margin: 0 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: $normal;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: $vertceladon;
   }
   a {
     display: block;
     padding: 0 1.5rem;
     font-weight: bold;
+    color: #000;
+    @media #{$medium-up} {
+      color: #fff;
+    }
+  }
+  a:hover {
+    color: $sunsetorange;
+    background-color: rgba(0, 0, 0, 0);
   }
 }
 
 .illustration-header {
+  display: none;
   overflow: hidden;
-  margin: 0 0 $base-line;
-  max-height: 6rem;
+  /*margin: 0 0 $base-line;*/
+  @media #{$medium-up} {
+    display: block;
+    min-height: 5vh;
+  }
+  @media #{$large-up} {
+    min-height: 10vh;
+  }
+}
+
+.site-logo {
+  /*min-height: 200px;*/
+  background-color: #fff;
+}
+
+.site-logo a:hover {
+  background-color: rgba(0, 0, 0, 0);
 }

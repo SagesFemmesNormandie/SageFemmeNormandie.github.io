@@ -17,15 +17,15 @@ layout: compress
       </div>
     </div>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/UpUp/0.3.0/upup.min.js" ></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/UpUp/0.3.0/upup.min.js" ></script>
     <!-- <script src="{{ site.baseurl }}/assets/js/instantclick.min.js" data-no-instant></script> -->
     <script data-no-instant>
-    // InstantClick.init();
-    UpUp.start({
-      'content-url': '{{ page.url | remove_first: '/' }}',
-      'assets': ['{{ site.baseurl }}/assets/css/style.css'],
-      'service-worker-url': '/upup.sw.min.js'
-    });
+      //InstantClick.init();
+      UpUp.start({
+        'content-url': '{{ page.url | remove_first: '/' }}',
+        'assets': ['{{ site.baseurl }}/assets/css/style.css','{{ site.baseurl }}/assets/images/background-newborn.jpeg'],
+        'service-worker-url': '/upup.sw.min.js'
+      });
     </script>
 
     <script>

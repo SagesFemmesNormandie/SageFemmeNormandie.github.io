@@ -3,7 +3,7 @@ layout: default
 title: Accueil
 ---
 
-## Liste des activités des sages-femmes libérales ##
+## Une sage-femme, pour pratiquer de nombreuses activités : ##
 
 Découvrez les activités proposées par les sages-femmes de l'association.
 
@@ -13,7 +13,7 @@ Découvrez les activités proposées par les sages-femmes de l'association.
 
 {% for group in items_grouped %}
 
-<h2>{{ group.name }}</h2>
+<h2 class="activity-{{ group.name | slugify }}">{{ group.name }}</h2>
 <div class="activity-list">
   {% for item in group.items %}
   {% assign activitycheck = 0 %}

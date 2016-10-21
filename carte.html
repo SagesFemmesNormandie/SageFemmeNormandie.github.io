@@ -1,0 +1,192 @@
+---
+---
+
+{% assign items_grouped-sort = site.data.members | sort: 'ville' %}
+{% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
+{% assign siteyear = site.time | date: '%Y' %}
+
+<!DOCTYPE html>
+<html lang="fr-FR">
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="dns-prefetch" href="//nominatim.openstreetmap.org/">
+  <link rel="dns-prefetch" href="//maps.googleapis.com">
+  <title>Recherche d'une Sage femme</title>
+  <script src="{{ site.baseurl }}/assets/js/jquery.js" data-no-instant></script>
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
+  <style type="text/css">
+    {% capture include_to_scssify %}
+      {% include base.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
+  <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
+  {% include favicons.html %}
+  <style type="text/css">
+  html,
+  body,html {
+    height: 100%;
+    overflow: hidden;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+  #map-canvas {
+    width: 75%;
+    height: 100%;
+  }
+  .side-bar {
+    padding: 0 0.5rem;
+    width: 25%;
+    height: 100%;
+  }
+  #side-bar-content {
+    overflow-y: scroll;
+    padding: 1rem 0 2rem;
+    height: 70%;
+  }
+  .side-bar .side-bar_element {
+    padding: 0.2rem;
+    font-family: Helvetica, Arial;
+    border-bottom: 1px solid #ccc;
+  }
+  .side-bar a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #333;
+  }
+  </style>
+  <script type="text/javascript">
+  // Documentation https://www.youtube.com/watch?v=OMv8gZxrwag
+  //<![CDATA[
+  // this variable will collect the html which will eventually be placed in the side_bar
+  var side_bar_html = "";
+
+  // arrays to hold copies of the markers and html used by the side_bar
+  // because the function closure trick doesnt work there
+  var gmarkers = [];
+  var map = null;
+  var delay = 100;
+
+  function initialize() {
+    // create the map
+    geocoder = new google.maps.Geocoder();
+    var bounds = new google.maps.LatLngBounds();
+    var myOptions = {
+      zoom: 9,
+      center: new google.maps.LatLng(49.443231, 1.099971),
+      mapTypeControl: true,
+      mapTypeControlOptions: {
+        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
+      },
+      navigationControl: true,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+      // API_Key = AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE
+    }
+    map = new google.maps.Map(document.getElementById("map-canvas"),
+      myOptions);
+
+    google.maps.event.addListener(map, 'click', function() {
+      infowindow.close();
+    });
+
+    // Add markers to the map
+    // Set up three markers with info windows
+    // add the points
+    // getCoordinates('Rouen',function(coords){
+    //   var point = new google.maps.LatLng(coords[0], coords[1]);
+    //   var marker = createMarker(point,"This place", "Some stuff to display in the<br>First Info Window");
+    //   document.getElementById("side_bar").innerHTML = side_bar_html;
+    // });
+
+    {% for row in site.data.members | sort: 'nom' %}{% if row.adhesion contains siteyear %}
+    var point = new google.maps.LatLng({% for coordinates in site.data.[row.nom_entier] %}{{ coordinates.lat }}, {{ coordinates.lon }}{% endfor %});
+    var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","<a href='/{{ row.nom_entier }}/'><strong>{{ row.prenom }} {{ row.nom }}</strong></a><br>{{ row.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if row.telephone-mobile %} - {% endif %}{{ row.telephone-fixe }}{% endif %}{% if row.email %}<br>{{ row.email }}{% endif %}{% if row.site-web %}<br>{{ row.site-web }}{% endif %}");
+      document.getElementById("side-bar-content").innerHTML = side_bar_html;
+    {% endif %}{% endfor %}
+
+  };
+
+  var infowindow = new google.maps.InfoWindow({
+    size: new google.maps.Size(150, 50)
+  });
+
+  // This function picks up the click and opens the corresponding info window
+  function myclick(i) {
+    google.maps.event.trigger(gmarkers[i], "click");
+  }
+
+  function getCoordinates(address,callback) {
+    var coordinates = "";
+    var url = "//nominatim.openstreetmap.org/?format=json&q=" + address + "&limit=1&json_callback=?";
+    $.getJSON(url, function (data) {
+        console.log('http:'+url);
+        coordinates = [data[0].lat,data[0].lon];
+        callback(coordinates);
+    })
+  }
+
+
+  // A function to create the marker and set up the event window function
+  function createMarker(latlng, name, id, html) {
+    var contentString = html;
+    var marker = new google.maps.Marker({
+      position: latlng,
+      map: map,
+      zIndex: Math.round(latlng.lat() * -100000) << 5,
+      //id: id
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+      infowindow.setContent(contentString);
+      infowindow.open(map, marker);
+    });
+    // save the info we need to use later for the side_bar
+    gmarkers.push(marker);
+    // add a line to the side_bar html
+    side_bar_html += '<div class="side-bar_element"><a href="javascript:myclick(' + (gmarkers.length - 1) + ')">' + name + '<\/a></div>';
+  }
+
+
+  // This Javascript is based on code provided by the
+  // Community Church Javascript Team
+  // http://www.bisphamchurch.org.uk/
+  // http://econym.org.uk/gmap/
+  // from the v2 tutorial page at:
+  // http://econym.org.uk/gmap/basic2.htm
+  //]]>
+  </script>
+</head>
+
+<body style="margin:0px; padding:0px;" onload="initialize()">
+  <!-- you can use tables or divs for the overall layout -->
+  <div class="container">
+    <div id="map-canvas"></div>
+    <div class="side-bar">
+      <h1>Liste des Sage-femmes</h1>
+      <p><em>Cliquez sur le nom du Sage-femme pour afficher ses coordonnées</em></p>
+      <div id="side-bar-content">
+        {% comment %}
+        {% for row in site.data.members | sort: 'nom' %}
+        {% if row.adhesion contains siteyear %}
+        <div class="side-bar_element">
+          <a href="javascript:myclick('{{ forloop.index }}')">{{ row.prenom }} {{ row.nom }}</a>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endcomment %}
+      </div>
+    </div>
+  </div>
+  <noscript>
+    <div>
+    {% for row in site.data.members | sort: 'nom' %}
+    {% include members-new.html %}
+    {% endfor %}
+    </div>
+  </noscript>
+</body>
+
+</html>

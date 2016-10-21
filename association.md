@@ -5,9 +5,6 @@ navigation: true
 published: true
 ---
 
-
-
-
 # Association des Sages-Femmes Libérales de Haute-Normandie #
 
 ## Pourquoi une association des sages-femmes libérales ? ##

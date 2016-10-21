@@ -3,14 +3,74 @@
 ////
 
 .profile-maps {
+  margin: 0 -1rem $base-line;
   text-align: center;
   @media #{$medium-up} {
     display: flex;
     justify-content: space-between;
   }
+}
+
+.profile-maps-image {
+  flex-grow: 1;
+  margin: 0 1rem;
   img {
     margin: $base-line 0;
-    max-width: 100%;
+    width: 100%;
+    max-width: 35rem;
     border: 1px solid #888;
+  }
+}
+
+.profile-name {
+  margin-top: 15px;
+  padding: 10px 0;
+  font-family: 'Alice', serif;
+  font-size: 2.5em;
+  font-weight: 800;
+  text-align: center;
+  border-top: 1px solid palette(primary);
+  border-bottom: 1px solid palette(primary);
+}
+
+
+.bloc-adresse {
+  background-color: $minionyellow;
+  padding: $base-line;
+  &.profile-address {
+  }
+
+  &.profile-telephone {
+  }
+}
+
+.bloc-activites {
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: palette(primary);
+  h3 {
+    margin: $base-line 0;
+    font-family: Montserrat, serif;
+    text-align: center;
+    color: #fff;
+  }
+  li {
+    display: inline-block;
+    margin: 0 $base-line/2;
+    color: #000;
+    &:before {
+      content: '\f192';
+      /*margin:0 5px 0 -15px;*/
+      padding-right: 7px;
+      font-family: 'FontAwesome';
+      color: #fff;
+    }
+  }
+  a {
+    color: #000;
+  }
+  ul {
+    line-height: 3em;
+    text-align: center;
   }
 }

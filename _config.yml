@@ -12,6 +12,12 @@ github_username:  SageFemmeNormandie
 # Build settings
 markdown: kramdown
 
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM
+  # Disable auto-generated ID's for headings
+  auto_ids: false
+
 #data_dir: data
 
 # HTML Compression
@@ -39,19 +45,25 @@ defaults:
       layout: page
 
 # Plugin: jekyll-assets
+assets:
+  sources:
+    - assets/js
+    - assets/css
+    - assets/images
+    - assets/fonts
+    - _sass
+  autoprefixer:
+    browsers: ["last 2 versions","> 5%","IE 9"]
+  compress:
+    css: true
+    js: true
 
-# assets:
-#   sources:
-#     - assets/js
-#     - assets/css
-#     - _sass
-#   autoprefixer:
-#     browsers: ["last 2 versions","> 5%","IE 9"]
-
+# Plugin: data from gdrive
 gdrive:
   sheet: "Adhérents"
   cache_period: 1 minutes
 
+# Plugin: generate pages from Yaml
 page_gen-dirs: true # uncomment, if you prefer to generate named folders
 page_gen:
   - data: 'members'
@@ -64,3 +76,4 @@ gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-mentions
+  - jekyll-assets
