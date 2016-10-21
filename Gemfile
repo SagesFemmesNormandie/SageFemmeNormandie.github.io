@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
+#OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 #export GDRIVE=84726834603-hqfllakca9mfehbi6bndt54qhtr4bglb.apps.googleusercontent.com:sFvTqAC_L7GfiiGtvkmoX7UP:1/MyRS8MPgQgE1RZKrwTZjIzC6vAxavu9wLnbyNj_d_pU
 
 gem 'rake'
-gem "jekyll", '3.1.2'
+gem "jekyll", '3.2.0'
 
 #gem 'github-pages', versions['github-pages']
 #gem 'mini_magick'
