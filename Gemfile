@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 
 gem 'rake'
 gem "jekyll", '3.2.0'
+gem "geocoder"
 
 #gem 'github-pages', versions['github-pages']
 #gem 'mini_magick'
@@ -22,4 +23,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-mentions"
   gem "jekyll-assets"
+  gem 'jekyll-offline', :git => 'git://github.com/jeremiak/jekyll-offline.git'
 end
