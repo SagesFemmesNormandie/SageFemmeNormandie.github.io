@@ -10,8 +10,8 @@ module Jekyll_Geocode
     safe true
     priority :highest
 
-    def request_service(url)
-      JSON.load(open(URI.encode(url)))
+    def request_service(address)
+      Geocoder.coordinates(address)
     end
 
     def generate(site)
@@ -78,13 +78,6 @@ module Jekyll_Geocode
         geo_coord = "#{d[geo_address]}#{geo_postcode_field}#{geo_city_field}#{geo_region_field}#{geo_country_field}"
         geo_request = "#{geo_service}#{geo_coord}&limit=1"
 
-        # nearbys = Geocoder.search("#{geo_coord}")
-        # p nearbys.data
-
-        # nearbys.each do |coordinatess|
-        #   p "#{coordinatess["address_components"]}"
-        # end
-
         # Loop for an YML output
         if outputfile
 
@@ -110,28 +103,29 @@ module Jekyll_Geocode
           # Write data
           if geo_cache == true
             p "geocode is requesting #{geo_coord}"
-            request_service(geo_request).each do |coordinates|
-              data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{coordinates["lat"]}","longitude" => "#{coordinates["lon"]}" }, "address" => "#{geo_coord}" ]
-              data_yml = data.to_yaml
-              # Add data in the YML file
-              if !File.file?(path_yaml)
-                File.open(path_yaml, "w") {|f| f.write(data_yml) }
-              end
-              if File.file?(path_yaml)
-                File.open(path_yaml, 'a') { |f|
-                  f.puts data_yml.gsub("---", "").gsub(regEx, '')
-                }
-                # Load YML file => remove duplicated entries
-                file_yaml = YAML.load(File.open(path_yaml)).uniq { |s| s.first }
-                File.open(path_yaml, "w") {|f| f.write(file_yaml.to_yaml) }
-              end
+            geo_response = request_service("#{geo_coord}")
+            data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
+            data_yml = data.to_yaml
+            # Add data in the YML file
+            if !File.file?(path_yaml)
+              File.open(path_yaml, "w") {|f| f.write(data_yml) }
+            end
+            if File.file?(path_yaml)
+              File.open(path_yaml, 'a') { |f|
+                f.puts data_yml.gsub("---", "").gsub(regEx, '')
+              }
+              # Load YML file => remove duplicated entries
+              file_yaml = YAML.load(File.open(path_yaml)).uniq { |s| s.first }
+              File.open(path_yaml, "w") {|f| f.write(file_yaml.to_yaml) }
             end
           end
         end
 
         # JSON output :: Test if a JSON file exists for performance issues
         if !outputfile && !File.file?("#{data_source}/#{d[geo_name]}.json")
-          site.data[geo_name_field] = request_service(geo_request)
+          geo_response = request_service("#{geo_coord}")
+          data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
+          site.data[geo_name_field] = data
           #Create a JSON  files if cache is enabled
           if site.config['jekyll_geocode']['cache']
             path_json = "#{data_source}/#{geo_name_field}.json"
