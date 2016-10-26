@@ -5,6 +5,7 @@ OpenSSL::SSL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 
 gem 'rake'
 gem "jekyll", '3.2.0'
+gem "geocoder"
 
 #gem 'github-pages', versions['github-pages']
 #gem 'mini_magick'

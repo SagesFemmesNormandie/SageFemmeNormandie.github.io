@@ -3,6 +3,7 @@ require 'json'
 require 'yaml'
 require 'open-uri'
 require "i18n"
+require "geocoder"
 
 module Jekyll_Geocode
   class Generator < Jekyll::Generator
@@ -76,8 +77,13 @@ module Jekyll_Geocode
         end
         geo_coord = "#{d[geo_address]}#{geo_postcode_field}#{geo_city_field}#{geo_region_field}#{geo_country_field}"
         geo_request = "#{geo_service}#{geo_coord}&limit=1"
-        p geo_request
 
+        # nearbys = Geocoder.search("#{geo_coord}")
+        # p nearbys.data
+
+        # nearbys.each do |coordinatess|
+        #   p "#{coordinatess["address_components"]}"
+        # end
 
         # Loop for an YML output
         if outputfile

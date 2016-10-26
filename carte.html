@@ -30,23 +30,46 @@
     overflow: hidden;
   }
   .container {
-    display: flex;
     width: 100%;
     height: 100%;
   }
   #map-canvas {
-    width: 75%;
+    width: 100%;
     height: 100%;
+    min-height: 600px;
   }
   .side-bar {
-    padding: 0 0.5rem;
-    width: 25%;
-    height: 100%;
+    display: block;
+    padding: 0 0.5rem 0.5rem;
+  }
+  .side-bar p {
+    display: none;
   }
   #side-bar-content {
+    display: none;
     overflow-y: scroll;
     padding: 1rem 0 2rem;
     height: 70%;
+  }
+  @media screen and (min-width: 640px) {
+    .container {
+      display: flex;
+    }
+    #map-canvas {
+      width: 75%;
+    }
+    .side-bar {
+      order: 2;
+      padding: 0 0.5rem;
+      width: 25%;
+      height: 100%;
+    }
+    .side-bar p {
+      display: block;
+    }
+    #side-bar-content {
+      display: block;
+    }
   }
   .side-bar .side-bar_element {
     padding: 0.2rem;
@@ -101,8 +124,8 @@
     //   var marker = createMarker(point,"This place", "Some stuff to display in the<br>First Info Window");
     //   document.getElementById("side_bar").innerHTML = side_bar_html;
     // });
-
-    {% for row in site.data.members | sort: 'nom' %}{% if row.adhesion contains siteyear %}
+    {% assign membersdata = site.data.members | sort: 'nom'%}
+    {% for row in membersdata %}{% if row.adhesion contains siteyear %}
     var point = new google.maps.LatLng({% for coordinates in site.data.[row.nom_entier] %}{{ coordinates.lat }}, {{ coordinates.lon }}{% endfor %});
     var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","<a href='/{{ row.nom_entier }}/'><strong>{{ row.prenom }} {{ row.nom }}</strong></a><br>{{ row.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if row.telephone-mobile %} - {% endif %}{{ row.telephone-fixe }}{% endif %}{% if row.email %}<br>{{ row.email }}{% endif %}{% if row.site-web %}<br>{{ row.site-web }}{% endif %}");
       document.getElementById("side-bar-content").innerHTML = side_bar_html;
@@ -163,7 +186,6 @@
 <body style="margin:0px; padding:0px;" onload="initialize()">
   <!-- you can use tables or divs for the overall layout -->
   <div class="container">
-    <div id="map-canvas"></div>
     <div class="side-bar">
       <h1>Liste des Sage-femmes</h1>
       <p><em>Cliquez sur le nom du Sage-femme pour afficher ses coordonnées</em></p>
@@ -179,6 +201,7 @@
         {% endcomment %}
       </div>
     </div>
+    <div id="map-canvas"></div>
   </div>
   <noscript>
     <div>
