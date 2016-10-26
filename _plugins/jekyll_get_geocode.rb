@@ -43,6 +43,10 @@ module Jekyll_Geocode
         geo_country    = site.config['jekyll_geocode']['country']
       end
 
+      Geocoder.configure(
+        :lookup => :nominatim,
+      )
+
       # Define data source
       if !filepath
         data_source = (site.config['data_source'])
