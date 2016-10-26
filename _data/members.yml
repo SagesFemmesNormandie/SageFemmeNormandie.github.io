@@ -27,7 +27,7 @@
   ville: "Boos"
   telephone-fixe: "02 35 65 93 81"
   email: "marionallo.sf@gmail.com"
-  activites: 
+  activites:
    - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -51,16 +51,8 @@
   code-postal: "76410"
   ville: "Saint-Aubin-lès-Elbeuf"
   telephone-mobile: "06 08 09 20 58 "
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
@@ -75,16 +67,8 @@
   code-postal: "76750"
   ville: "Buchy"
   telephone-mobile: "06 84 02 24 31"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -104,17 +88,8 @@
   code-postal: "76000"
   ville: "Rouen"
   telephone-fixe: "02 35 62 82 09"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  email: "elisearchaimbault@ch-belvedere.fr"
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -135,16 +110,8 @@
   code-postal: "76410"
   ville: "Cléon"
   telephone-mobile: "06 19 39 20 34"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Consultation préconceptionnelle
@@ -163,16 +130,8 @@
   code-postal: "76620"
   ville: "Le Havre"
   telephone-fixe: "02 35 46 47 50"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -203,16 +162,8 @@
   code-postal: "76300"
   ville: "Sotteville-lès-Rouen"
   telephone-mobile: "06 61 46 44 68"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -232,16 +183,8 @@
   code-postal: "76400"
   ville: "Fécamp"
   telephone-mobile: "06 50 28 21 86"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
@@ -273,16 +216,8 @@
   ville: "Rouen"
   telephone-mobile: "06 75 50 36 79"
   telephone-fixe: "02 35 72 39 84"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -322,16 +257,8 @@
   ville: "Evreux"
   telephone-mobile: "06 03 29 87 21"
   email: "sagefemme.bouasria@gmail.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -350,16 +277,8 @@
   code-postal: "27500"
   ville: "Pont-Audemer"
   telephone-fixe: "02 32 42 24 58 "
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Entretien prénatal précoce
    - nom: Haptonomie
@@ -395,16 +314,8 @@
   code-postal: "27140"
   ville: "Gisors"
   telephone-fixe: "02 32 27 00 35"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -426,16 +337,8 @@
   code-postal: "27400"
   ville: "Louviers"
   telephone-mobile: "06 88 13 33 95"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -457,16 +360,8 @@
   ville: "Le Neubourg"
   telephone-mobile: "06 81 86 88 68"
   telephone-fixe: "02 32 34 94 59"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -625,16 +520,8 @@
   code-postal: "27110"
   ville: "Le Neubourg"
   telephone-mobile: "06 81 86 88 68"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -655,16 +542,8 @@
   ville: "Octeville sur mer"
   telephone-mobile: "06 72 26 40 00"
   telephone-fixe: "02 77 67 19 79"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -684,16 +563,8 @@
   code-postal: "76600"
   ville: "Le Havre"
   telephone-mobile: "07 81 97 72 43"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -714,16 +585,8 @@
   code-postal: "27300"
   ville: "Bernay"
   telephone-fixe: "02 32 44 82 21"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation préconceptionnelle
    - nom: Entretien prénatal précoce
@@ -742,16 +605,8 @@
   ville: "Rouen"
   telephone-mobile: "06 63 57 10 31"
   email: "froment.annelaure@gmail.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -792,16 +647,8 @@
   ville: "Déville-lès-Rouen"
   telephone-mobile: "06 47 05 15 33"
   email: "karine.germain.tancre@gmail.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Echographie
@@ -817,16 +664,8 @@
   code-postal: "27930"
   ville: "Guichainville"
   telephone-mobile: "06 13 15 22 85"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -844,16 +683,8 @@
   code-postal: "76550"
   ville: "Saint-Aubin-sur-Scie"
   telephone-mobile: "06 09 21 52 08"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
@@ -874,16 +705,8 @@
   code-postal: "76480"
   ville: "Sainte Marguerite sur Duclair"
   telephone-mobile: "06 82 04 29 61"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
@@ -901,16 +724,8 @@
   code-postal: "27000"
   ville: "Evreux"
   telephone-mobile: "06 32 45 24 62"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -932,16 +747,8 @@
   code-postal: "76520"
   ville: "Boos"
   telephone-fixe: "02 35 65 60 68"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -981,16 +788,8 @@
   code-postal: "76720"
   ville: "Auffay"
   telephone-fixe: "02 35 91 59 22"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1011,16 +810,8 @@
   code-postal: "76620"
   ville: "Le Havre"
   telephone-mobile: "06 60 14 90 48"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1040,16 +831,8 @@
   code-postal: "27140"
   ville: "Gisors"
   telephone-mobile: "06 09 55 04 59"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1119,16 +902,8 @@
   ville: "Vernon"
   telephone-mobile: "06 74 83 90 66"
   telephone-fixe: "02 32 54 27 06"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1149,16 +924,8 @@
   ville: "Yvetot"
   telephone-fixe: "09 73 01 97 69"
   email: "g.laurentsagefemme@gmail.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1198,16 +965,8 @@
   code-postal: "27000"
   ville: "Evreux"
   telephone-fixe: "02 32 31 36 77"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
@@ -1260,16 +1019,8 @@
   ville: "Le Havre"
   telephone-fixe: "02 35 43 31 24 "
   email: "legros.caroline@outlook.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1291,15 +1042,9 @@
   ville: "Bernay"
   telephone-mobile: "06 09 61 20 55"
   email: "lemouton.theo@gmail.com"
-<<<<<<< HEAD
-  activites:
-||||||| merged common ancestors
-  activites: 
-=======
   site-web: "www.theolemouton.fr"
-  activites: 
+  activites:
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1322,16 +1067,8 @@
   ville: "Vernon"
   telephone-mobile: "06 11 24 66 20"
   telephone-fixe: "02 32 21 36 18"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Accompagnement global​
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
@@ -1353,16 +1090,8 @@
   code-postal: "27310"
   ville: "Bourg-Achard"
   telephone-mobile: "07 79 49 88 21"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1382,16 +1111,8 @@
   code-postal: "27600"
   ville: "Gaillon"
   telephone-mobile: "07 82 08 35 57"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1413,16 +1134,8 @@
   ville: "Le Havre"
   telephone-mobile: "06 16 18 25 08"
   telephone-fixe: "02 35 53 18 68"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Chant prénatal
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -1448,16 +1161,8 @@
   telephone-fixe: "02 32 86 56 18"
   email: "isabellemetais.sagefemme@gmail.com"
   site-web: "msp-croisysurandelle.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1477,16 +1182,8 @@
   ville: "Mont Saint Aignan"
   telephone-mobile: "06 60 58 53 56"
   email: "lauremoreau.sf@gmail.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
@@ -1506,16 +1203,8 @@
   code-postal: "76360"
   ville: "Barentin"
   telephone-mobile: "06 61 05 60 07"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -1536,16 +1225,8 @@
   code-postal: "27500"
   ville: "Bourneville"
   telephone-mobile: "07 83 79 00 03"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1566,16 +1247,8 @@
   ville: "Sotteville-lès-Rouen"
   telephone-mobile: "07 83 83 39 51"
   telephone-fixe: "09 86 08 30 38"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1593,16 +1266,8 @@
   code-postal: "76000"
   ville: "Rouen"
   telephone-mobile: "06 61 21 69 75"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Sophrologie
@@ -1637,18 +1302,8 @@
   adresse-geo: "40, rue Césaire Levillain"
   code-postal: "76230"
   ville: "Bois-Guillaume"
-<<<<<<< HEAD
-  telephone-mobile: "06 12 94 33 33"
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  telephone-mobile: "06 12 94 33 33"
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Haptonomie
   nom_entier: "irene-pergent"
   region: "normandy, fr"
@@ -1661,7 +1316,7 @@
   ville: "Grand Quevilly"
   telephone-fixe: "02 35 67 98 93"
   site-web: "sandra-perica.mondocteur.fr"
-  activites: 
+  activites:
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1678,16 +1333,8 @@
   telephone-mobile: "06 31 97 00 87"
   telephone-fixe: "02 35 50 86 88 / 02 35 06 92 00"
   email: "sylvie.perre18@orange.fr"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
@@ -1725,16 +1372,8 @@
   code-postal: "76400"
   ville: "Fécamp"
   telephone-mobile: "06 32 58 35 51"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Sophrologie
@@ -1750,16 +1389,8 @@
   code-postal: "76620"
   ville: "Le Havre"
   telephone-mobile: "06 44 18 82 45"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1779,16 +1410,8 @@
   code-postal: "76720"
   ville: "Auffay"
   telephone-fixe: "02 35 91 59 22"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1809,16 +1432,8 @@
   code-postal: "76140"
   ville: "Le Petit Quevilly"
   telephone-mobile: "06 62 09 69 27"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -1838,16 +1453,8 @@
   telephone-mobile: "06 07 60 20 44 "
   telephone-fixe: "02 35 22 09 41"
   email: "sfrenault76@gmail.com"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -1879,16 +1486,8 @@
   code-postal: "76800"
   ville: "Saint Etienne du Rouvray"
   telephone-fixe: "02 35 64 03 17"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1926,16 +1525,8 @@
   code-postal: "27460"
   ville: "Alizay"
   telephone-fixe: "02 35 660 34 85"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -1953,16 +1544,8 @@
   code-postal: "27400"
   ville: "Acquigny"
   telephone-mobile: "06 16 23 35 55"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -1971,30 +1554,6 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "helene-stevenin"
-<<<<<<< HEAD
-- prenom: "Laëtitia"
-  nom: "Talbot"
-  adhesion: "2016"
-  adresse: "9 rue Jean Jaurès"
-  adresse-geo: "9 rue Jean Jaurès"
-  code-postal: "76410"
-  ville: "Tourville-la-rivière"
-  telephone-fixe: "02 32 13 81 61"
-  email: "contact@laetitia-talbot-sage-femme.fr"
-  activites:
-   - nom: Accompagnement de l'allaitement maternel
-   - nom: Consultation de suivi de grossesse
-   - nom: Consultation de suivi gynécologique et contraception
-   - nom: Consultation post-natale
-   - nom: Consultation préconceptionnelle
-   - nom: Entretien prénatal précoce
-   - nom: Préparation à la naissance
-   - nom: Rééducation du périnée
-   - nom: Suivi du nourrisson
-   - nom: Suivi post natal mère-enfant / PRADO
-  nom_entier: "laetitia-talbot"
-||||||| merged common ancestors
-=======
   region: "normandy, fr"
 - prenom: "Laëtitia"
   nom: "Talbot"
@@ -2005,7 +1564,7 @@
   ville: "Tourville-la-rivière"
   telephone-fixe: "02 32 13 81 61"
   email: "contact@laetitia-talbot-sage-femme.fr"
-  activites: 
+  activites:
    - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -2018,7 +1577,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "laetitia-talbot"
   region: "normandy, fr"
->>>>>>> carto
 - prenom: "Floriane"
   nom: "Vasse"
   adhesion: "2015,2016"
@@ -2063,16 +1621,8 @@
   ville: "Octeville sur mer"
   telephone-mobile: "06 75 65 87 77"
   site-web: "octevillesurmeres.fr"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -2107,16 +1657,8 @@
   ville: "Saint Valery en Caux"
   telephone-mobile: "06 24 56 92 50"
   telephone-fixe: "02 35 97 25 37"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -2137,16 +1679,8 @@
   code-postal: "76270"
   ville: "Neufchatel en Bray"
   telephone-mobile: "06 29 54 63 89"
-<<<<<<< HEAD
   activites:
-   - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
    - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
