@@ -17,13 +17,12 @@ layout: compress
       </div>
     </div>
 
-    <!-- <script src="{{ site.baseurl }}/assets/js/instantclick.min.js" data-no-instant></script> -->
+    <script src="{{ site.baseurl }}/assets/js/instantclick.min.js" data-no-instant></script>
     <script data-no-instant>
-      //InstantClick.init();
+      InstantClick.init();
     </script>
-    {% comment %}
+
     {% register_service_worker %}
-    {% endcomment %}
 
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

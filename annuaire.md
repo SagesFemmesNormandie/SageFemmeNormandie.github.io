@@ -47,8 +47,8 @@ navigation: true
   </div>
 
 </div>
-<script src="{{ site.baseurl }}/assets/js/holmes.js" ></script>
-<script>
+<script src="{{ site.baseurl }}/assets/js/holmes.js" data-no-instant></script>
+<script data-no-instant>
     // holmes setup
     var h = new holmes({
       input: '.search input',
