@@ -17,32 +17,6 @@
    - nom: Sophrologie
    - nom: Surveillance de grossesse pathologique
   nom_entier: "julie-agasse"
-  region: "normandy, fr"
-- prenom: "Marion"
-  nom: "Allo"
-  adhesion: "2016"
-  adresse: "146B, rue Maryse Bastié"
-  adresse-geo: "146B, rue Maryse Bastié"
-  code-postal: "76520"
-  ville: "Boos"
-  telephone-fixe: "02 35 65 93 81"
-  email: "marionallo.sf@gmail.com"
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
-   - nom: Consultation de suivi de grossesse
-   - nom: Consultation de suivi gynécologique et contraception
-   - nom: Consultation post-natale
-   - nom: Consultation préconceptionnelle
-   - nom: Entretien prénatal précoce
-   - nom: Eveil du bébé par le toucher
-   - nom: Portage en écharpe
-   - nom: Préparation à la naissance
-   - nom: Rééducation du périnée
-   - nom: Suivi du nourrisson
-   - nom: Suivi post natal mère-enfant / PRADO
-   - nom: Surveillance de grossesse pathologique
-  nom_entier: "marion-allo"
-  region: "normandy, fr"
 - prenom: "Béatrice "
   nom: "Allouchéry"
   adhesion: "2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016"
@@ -51,22 +25,13 @@
   code-postal: "76410"
   ville: "Saint-Aubin-lès-Elbeuf"
   telephone-mobile: "06 08 09 20 58 "
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Sophrologie
   nom_entier: "beatrice-allouchery"
-  region: "normandy, fr"
 - prenom: "Charlotte"
   nom: "André"
   adhesion: "2013,2014,2015,2016"
@@ -75,16 +40,8 @@
   code-postal: "76750"
   ville: "Buchy"
   telephone-mobile: "06 84 02 24 31"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -95,7 +52,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "charlotte-andre"
-  region: "normandy, fr"
 - prenom: "Elise "
   nom: "Archaimbault"
   adhesion: "2013,2014,2015,2016"
@@ -104,17 +60,8 @@
   code-postal: "76000"
   ville: "Rouen"
   telephone-fixe: "02 35 62 82 09"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  email: "elisearchaimbault@ch-belvedere.fr"
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -126,7 +73,6 @@
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
   nom_entier: "elise-archaimbault"
-  region: "normandy, fr"
 - prenom: "Laurence"
   nom: "Argentin"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -135,16 +81,8 @@
   code-postal: "76410"
   ville: "Cléon"
   telephone-mobile: "06 19 39 20 34"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Consultation préconceptionnelle
@@ -154,7 +92,6 @@
    - nom: Suivi du nourrisson
    - nom: Yoga
   nom_entier: "laurence-argentin"
-  region: "normandy, fr"
 - prenom: "Stéphanie "
   nom: "Barbier"
   adhesion: "2012,2013,2014,2015,2016"
@@ -163,16 +100,8 @@
   code-postal: "76620"
   ville: "Le Havre"
   telephone-fixe: "02 35 46 47 50"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -182,7 +111,6 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "stephanie-barbier"
-  region: "normandy, fr"
 - prenom: "Lalia"
   nom: "Ben Malfi"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -194,7 +122,6 @@
   activites:
    - nom: Echographie
   nom_entier: "lalia-benmalfi"
-  region: "normandy, fr"
 - prenom: "Amélie "
   nom: "Benoit"
   adhesion: "2015,2016"
@@ -203,16 +130,8 @@
   code-postal: "76300"
   ville: "Sotteville-lès-Rouen"
   telephone-mobile: "06 61 46 44 68"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -223,7 +142,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "amelie-benoit"
-  region: "normandy, fr"
 - prenom: "Hélène"
   nom: "Berlemont"
   adhesion: "2013,2014,2015,2016"
@@ -232,16 +150,8 @@
   code-postal: "76400"
   ville: "Fécamp"
   telephone-mobile: "06 50 28 21 86"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
@@ -251,10 +161,9 @@
    - nom: Sophrologie
    - nom: Surveillance de grossesse pathologique
   nom_entier: "helene-berlemont"
-  region: "normandy, fr"
 - prenom: "Elodie "
   nom: "Berton"
-  adresse: "Hôpital privé de l’Estuaire 505, rue Irène Joliot Curie"
+  adresse: "Hôpital privé de l'Estuaire 505, rue Irène Joliot Curie"
   adresse-geo: "505, rue Irène Joliot Curie"
   code-postal: "76620"
   ville: "Le Havre"
@@ -263,7 +172,6 @@
    - nom: Consultation de suivi de grossesse
    - nom: Echographie
   nom_entier: "elodie-berton"
-  region: "normandy, fr"
 - prenom: "Stéphanie "
   nom: "Biberon"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -273,16 +181,8 @@
   ville: "Rouen"
   telephone-mobile: "06 75 50 36 79"
   telephone-fixe: "02 35 72 39 84"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -291,7 +191,6 @@
    - nom: Haptonomie
    - nom: Préparation à la naissance
   nom_entier: "stephanie-biberon"
-  region: "normandy, fr"
 - prenom: "Ludivine "
   nom: "Boca"
   adhesion: "2015,2016"
@@ -312,7 +211,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "ludivine-boca"
-  region: "normandy, fr"
 - prenom: "Valérie"
   nom: "Bouasria"
   adhesion: "2014,2015"
@@ -322,16 +220,8 @@
   ville: "Evreux"
   telephone-mobile: "06 03 29 87 21"
   email: "sagefemme.bouasria@gmail.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -341,25 +231,16 @@
    - nom: Rééducation du périnée
    - nom: Surveillance de grossesse pathologique
   nom_entier: "valerie-bouasria"
-  region: "normandy, fr"
 - prenom: "Delphine"
   nom: "Bouteiller"
   adhesion: "2015"
   adresse: "14, rue Louis Gillain"
-  adresse-geo: "14, Louis Gillain"
+  adresse-geo: "14, rue Louis Gillain"
   code-postal: "27500"
   ville: "Pont-Audemer"
   telephone-fixe: "02 32 42 24 58 "
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Entretien prénatal précoce
    - nom: Haptonomie
@@ -367,7 +248,6 @@
    - nom: Rééducation du périnée
    - nom: Yoga
   nom_entier: "delphine-bouteiller"
-  region: "normandy, fr"
 - prenom: "Juliette"
   nom: "Brasseur Guérin"
   adhesion: "2015,2016"
@@ -386,7 +266,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "juliette-brasseurguerin"
-  region: "normandy, fr"
 - prenom: "Laëtitia"
   nom: "Bremard"
   adhesion: "2010,2011,2012,2013,2014,2015, 2016"
@@ -395,16 +274,8 @@
   code-postal: "27140"
   ville: "Gisors"
   telephone-fixe: "02 32 27 00 35"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -417,7 +288,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "laetitia-bremard"
-  region: "normandy, fr"
 - prenom: "Christine "
   nom: "Charpentier"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -426,16 +296,8 @@
   code-postal: "27400"
   ville: "Louviers"
   telephone-mobile: "06 88 13 33 95"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -447,26 +309,16 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "christine-charpentier"
-  region: "normandy, fr"
 - prenom: "Emmanuelle"
   nom: "Chataigner"
   adhesion: "2016"
   adresse: "10 rue du champ de bataille"
-  adresse-geo: "D39"
   code-postal: "27110"
   ville: "Le Neubourg"
   telephone-mobile: "06 81 86 88 68"
   telephone-fixe: "02 32 34 94 59"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -476,7 +328,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "emmanuelle-chataigner"
-  region: "normandy, fr"
 - prenom: "Marie"
   nom: "Chevallier"
   adhesion: "2013,2014,2015"
@@ -495,12 +346,10 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "marie-chevallier"
-  region: "normandy, fr"
 - prenom: "Noémie"
   nom: "Cornélis"
   adhesion: "2015,2016"
   adresse: "1, place du marché"
-  adresse-geo: "1, marché"
   code-postal: "76230"
   ville: "Isneauville"
   telephone-mobile: "07 82 25 46 68"
@@ -515,7 +364,6 @@
    - nom: Psycho périnatalité
    - nom: Rééducation du périnée
   nom_entier: "noemie-cornelis"
-  region: "normandy, fr"
 - prenom: "Armelle"
   nom: "Couraud"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -534,7 +382,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "armelle-couraud"
-  region: "normandy, fr"
 - prenom: "Catherine"
   nom: "Cousin"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -553,7 +400,6 @@
    - nom: Sevrage tabagique
    - nom: Suivi du nourrisson
   nom_entier: "catherine-cousin"
-  region: "normandy, fr"
 - prenom: "Aurélie"
   nom: "Couverchel"
   adhesion: "2014,2015,2016"
@@ -574,7 +420,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "aurelie-couverchel"
-  region: "normandy, fr"
 - prenom: "Marie-Audrey"
   nom: "Cuegniet"
   adhesion: "2014,2015,2016"
@@ -593,7 +438,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "marie-audrey-cuegniet"
-  region: "normandy, fr"
 - prenom: "Emmanuelle"
   nom: "Davy-Goyé"
   adhesion: "2012,2013,2014,2015,2016"
@@ -616,25 +460,15 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Thérapie sexo-corporelle
   nom_entier: "emmanuelle-davy-goye"
-  region: "normandy, fr"
 - prenom: "Marie-Charlotte "
   nom: "Degremont"
   adhesion: "2013,2014,2015,2016"
   adresse: "10, rue du champ de bataille"
-  adresse-geo: "D39"
   code-postal: "27110"
   ville: "Le Neubourg"
   telephone-mobile: "06 81 86 88 68"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -645,7 +479,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "marie-charlotte-degremont"
-  region: "normandy, fr"
 - prenom: "Emilie"
   nom: "Depeint"
   adhesion: "2015,2016"
@@ -655,16 +488,8 @@
   ville: "Octeville sur mer"
   telephone-mobile: "06 72 26 40 00"
   telephone-fixe: "02 77 67 19 79"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -675,7 +500,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "emilie-depeint"
-  region: "normandy, fr"
 - prenom: "Céline "
   nom: "Faurre"
   adhesion: "2014,2015,2016"
@@ -684,16 +508,8 @@
   code-postal: "76600"
   ville: "Le Havre"
   telephone-mobile: "07 81 97 72 43"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -705,7 +521,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "celine-faurre"
-  region: "normandy, fr"
 - prenom: "Valérie "
   nom: "Foucault"
   adhesion: "2010,2011,2012,2013,2014,2015,2016"
@@ -714,16 +529,8 @@
   code-postal: "27300"
   ville: "Bernay"
   telephone-fixe: "02 32 44 82 21"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation préconceptionnelle
    - nom: Entretien prénatal précoce
@@ -732,7 +539,6 @@
    - nom: Rééducation du périnée
    - nom: Suivi du nourrisson
   nom_entier: "valerie-foucault"
-  region: "normandy, fr"
 - prenom: "Anne-Laure "
   nom: "Froment"
   adhesion: "2014, 2015,2016"
@@ -742,16 +548,8 @@
   ville: "Rouen"
   telephone-mobile: "06 63 57 10 31"
   email: "froment.annelaure@gmail.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -763,7 +561,6 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "anne-laure-froment"
-  region: "normandy, fr"
 - prenom: "Pascale "
   nom: "Gabrielle"
   adresse: "12, place de la Résistance"
@@ -782,7 +579,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "pascale-gabrielle"
-  region: "normandy, fr"
 - prenom: "Karine"
   nom: "Germain-Tancré"
   adhesion: "2015,2016"
@@ -792,23 +588,14 @@
   ville: "Déville-lès-Rouen"
   telephone-mobile: "06 47 05 15 33"
   email: "karine.germain.tancre@gmail.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Echographie
    - nom: Entretien prénatal précoce
    - nom: Suivi du nourrisson
   nom_entier: "karine-germain-tancre"
-  region: "normandy, fr"
 - prenom: "Emmanuelle"
   nom: "Gilles"
   adhesion: "2014,2015,2016"
@@ -817,16 +604,8 @@
   code-postal: "27930"
   ville: "Guichainville"
   telephone-mobile: "06 13 15 22 85"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -835,25 +614,15 @@
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "emmanuelle-gilles"
-  region: "normandy, fr"
 - prenom: "Sandrine"
   nom: "Grandsire"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
-  adresse: "746, chemin des Vertus ’le Parc’ porte C"
-  adresse-geo: "746, vertus"
+  adresse: "746, rue des Vertus 'le Parc' porte C"
   code-postal: "76550"
   ville: "Saint-Aubin-sur-Scie"
   telephone-mobile: "06 09 21 52 08"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
@@ -865,7 +634,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "sandrine-grandsire"
-  region: "normandy, fr"
 - prenom: "Anne-Sophie"
   nom: "Grognet"
   adhesion: "2009,2010,2011,20112,2013,2014,2015,2016"
@@ -874,16 +642,8 @@
   code-postal: "76480"
   ville: "Sainte Marguerite sur Duclair"
   telephone-mobile: "06 82 04 29 61"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
@@ -892,7 +652,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "anne-sophie-grognet"
-  region: "normandy, fr"
 - prenom: "Clotilde"
   nom: "Guillermin"
   adhesion: "2014,2015"
@@ -901,16 +660,8 @@
   code-postal: "27000"
   ville: "Evreux"
   telephone-mobile: "06 32 45 24 62"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -923,7 +674,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "clotilde-guillermin"
-  region: "normandy, fr"
 - prenom: "Marine "
   nom: "Hazard"
   adhesion: "2013,2014,2015,2016"
@@ -932,16 +682,8 @@
   code-postal: "76520"
   ville: "Boos"
   telephone-fixe: "02 35 65 60 68"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -953,7 +695,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "marine-hazard"
-  region: "normandy, fr"
 - prenom: "Justine "
   nom: "Héricher"
   adhesion: "2015,2016"
@@ -972,7 +713,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "justine-hericher"
-  region: "normandy, fr"
 - prenom: "Anne"
   nom: "Hérout"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -981,16 +721,8 @@
   code-postal: "76720"
   ville: "Auffay"
   telephone-fixe: "02 35 91 59 22"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1002,7 +734,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "anne-herout"
-  region: "normandy, fr"
 - prenom: "Magali "
   nom: "Jamet"
   adhesion: "2015,2016"
@@ -1011,16 +742,8 @@
   code-postal: "76620"
   ville: "Le Havre"
   telephone-mobile: "06 60 14 90 48"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1031,7 +754,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "magali-jamet"
-  region: "normandy, fr"
 - prenom: "Hollie"
   nom: "Jeannot"
   adhesion: "2010,2011,2012,2013,2014,2015,2016"
@@ -1040,16 +762,8 @@
   code-postal: "27140"
   ville: "Gisors"
   telephone-mobile: "06 09 55 04 59"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1062,7 +776,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "hollie-jeannot"
-  region: "normandy, fr"
 - prenom: "Amandine"
   nom: "Justin"
   adhesion: "2015,2016"
@@ -1082,7 +795,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Yoga
   nom_entier: "amandine-justin"
-  region: "normandy, fr"
 - prenom: "Stéphanie "
   nom: "La"
   adhesion: "2013,2014,2015,2016"
@@ -1097,19 +809,17 @@
    - nom: Consultation préconceptionnelle
    - nom: Echographie
   nom_entier: "stephanie-la"
-  region: "normandy, fr"
 - prenom: "Fabienne"
   nom: "Lamauve"
   adhesion: "2015,2016"
-  adresse: "7, boulevard de l’Europe"
-  adresse-geo: "7, boulevard de l’Europe"
+  adresse: "7, boulevard de l'Europe"
+  adresse-geo: "7, boulevard de l'Europe"
   code-postal: "76100"
   ville: "Rouen"
   telephone-fixe: "09 73 01 99 30"
   activites:
    - nom: Echographie
   nom_entier: "fabienne-lamauve"
-  region: "normandy, fr"
 - prenom: "Valentine "
   nom: "Larcher"
   adhesion: "2009,2010,2011,2012,2013,2014,2015, 2016"
@@ -1119,16 +829,8 @@
   ville: "Vernon"
   telephone-mobile: "06 74 83 90 66"
   telephone-fixe: "02 32 54 27 06"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1139,7 +841,6 @@
    - nom: Sophrologie
    - nom: Surveillance de grossesse pathologique
   nom_entier: "valentine-larcher"
-  region: "normandy, fr"
 - prenom: "Gwendoline"
   nom: "Laurent"
   adhesion: "2016"
@@ -1149,16 +850,8 @@
   ville: "Yvetot"
   telephone-fixe: "09 73 01 97 69"
   email: "g.laurentsagefemme@gmail.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1169,7 +862,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "gwendoline-laurent"
-  region: "normandy, fr"
 - prenom: "Nathalie "
   nom: "Le Mignot"
   adhesion: "2014, 2015,2016"
@@ -1189,30 +881,20 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "nathalie-lemignot"
-  region: "normandy, fr"
 - prenom: "Claire "
   nom: "Lebrun"
   adhesion: "2009,2010,2011,2012,2013,2014,2015"
   adresse: "33, rue Saint Germain apt 8"
-  adresse-geo: "33, rue Saint Germain"
+  adresse-geo: "33, rue Saint Germain apt 8"
   code-postal: "27000"
   ville: "Evreux"
   telephone-fixe: "02 32 31 36 77"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
   nom_entier: "claire-lebrun"
-  region: "normandy, fr"
 - prenom: "Camille"
   nom: "Lecroq"
   adhesion: "2014,2015,2016"
@@ -1231,7 +913,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "camille-lecroq"
-  region: "normandy, fr"
 - prenom: "Marie-laure "
   nom: "Legay"
   adhesion: "2012,2013,2014,2015,2016"
@@ -1250,7 +931,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "marie-laure-legay"
-  region: "normandy, fr"
 - prenom: "Caroline"
   nom: "Legros"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1260,16 +940,8 @@
   ville: "Le Havre"
   telephone-fixe: "02 35 43 31 24 "
   email: "legros.caroline@outlook.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1281,7 +953,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "caroline-legros"
-  region: "normandy, fr"
 - prenom: "Théo"
   nom: "Lemouton"
   adhesion: "2015,2016"
@@ -1291,15 +962,7 @@
   ville: "Bernay"
   telephone-mobile: "06 09 61 20 55"
   email: "lemouton.theo@gmail.com"
-<<<<<<< HEAD
   activites:
-||||||| merged common ancestors
-  activites: 
-=======
-  site-web: "www.theolemouton.fr"
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1307,12 +970,10 @@
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
-   - nom: Sophrologie
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
-   - nom: Surveillance de grossesse pathologique
+   - nom: Yoga
   nom_entier: "theo-lemouton"
-  region: "normandy, fr"
 - prenom: "Catherine"
   nom: "Leroy"
   adhesion: "2010,2011,2012,2013,2014,2015,2016"
@@ -1322,16 +983,8 @@
   ville: "Vernon"
   telephone-mobile: "06 11 24 66 20"
   telephone-fixe: "02 32 21 36 18"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Accompagnement global​
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
@@ -1344,7 +997,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "catherine-leroy"
-  region: "normandy, fr"
 - prenom: "Marie"
   nom: "Leroy"
   adhesion: "2014,2015,2016"
@@ -1353,16 +1005,8 @@
   code-postal: "27310"
   ville: "Bourg-Achard"
   telephone-mobile: "07 79 49 88 21"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1373,25 +1017,15 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "marie-leroy"
-  region: "normandy, fr"
 - prenom: "Capucine"
   nom: "Libersa"
   adhesion: "2016"
-  adresse: "10, rue des arrières fossés"
-  adresse-geo: "10, rue des arrieres fosses"
+  adresse: "10, rue des arrières fossées"
   code-postal: "27600"
   ville: "Gaillon"
   telephone-mobile: "07 82 08 35 57"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1403,7 +1037,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "capucine-libersa"
-  region: "normandy, fr"
 - prenom: "Nathalie "
   nom: "Macian"
   adhesion: "2010,2011,2012,2013,2014,2015,2016"
@@ -1413,16 +1046,8 @@
   ville: "Le Havre"
   telephone-mobile: "06 16 18 25 08"
   telephone-fixe: "02 35 53 18 68"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Chant prénatal
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -1437,7 +1062,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "nathalie-macian"
-  region: "normandy, fr"
 - prenom: "Isabelle"
   nom: "Métais"
   adhesion: "2014,2015,2016"
@@ -1448,16 +1072,8 @@
   telephone-fixe: "02 32 86 56 18"
   email: "isabellemetais.sagefemme@gmail.com"
   site-web: "msp-croisysurandelle.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1467,7 +1083,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "isabelle-metais"
-  region: "normandy, fr"
 - prenom: "Laure"
   nom: "Moreau"
   adhesion: "2015,2016"
@@ -1477,16 +1092,8 @@
   ville: "Mont Saint Aignan"
   telephone-mobile: "06 60 58 53 56"
   email: "lauremoreau.sf@gmail.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
@@ -1497,7 +1104,6 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "laure-moreau"
-  region: "normandy, fr"
 - prenom: "Clélia"
   nom: "Motte"
   adhesion: "2014,2015,2016"
@@ -1506,16 +1112,8 @@
   code-postal: "76360"
   ville: "Barentin"
   telephone-mobile: "06 61 05 60 07"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -1527,7 +1125,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "clelia-motte"
-  region: "normandy, fr"
 - prenom: "Elise "
   nom: "Nicolle"
   adhesion: "2016"
@@ -1536,16 +1133,8 @@
   code-postal: "27500"
   ville: "Bourneville"
   telephone-mobile: "07 83 79 00 03"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1556,7 +1145,6 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "elise-nicolle"
-  region: "normandy, fr"
 - prenom: "Jeannette"
   nom: "Nono"
   adhesion: "2015,2016"
@@ -1566,16 +1154,8 @@
   ville: "Sotteville-lès-Rouen"
   telephone-mobile: "07 83 83 39 51"
   telephone-fixe: "09 86 08 30 38"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1584,7 +1164,6 @@
    - nom: Rééducation du périnée
    - nom: Surveillance de grossesse pathologique
   nom_entier: "jeannette-nono"
-  region: "normandy, fr"
 - prenom: "Janine"
   nom: "Pasquier"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1593,27 +1172,17 @@
   code-postal: "76000"
   ville: "Rouen"
   telephone-mobile: "06 61 21 69 75"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "janine-pasquier"
-  region: "normandy, fr"
 - prenom: "Virginie "
   nom: "Pasquier"
   adhesion: "2011,2012,2013,2014,2015,2016"
-  adresse: "1, place du marché"
-  adresse-geo: "1, marché"
+  adresse: "1, rue du marché"
   code-postal: "76230"
   ville: "Isneauville"
   telephone-mobile: "06 51 08 83 23"
@@ -1629,45 +1198,18 @@
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
   nom_entier: "virginie-pasquier"
-  region: "normandy, fr"
 - prenom: "Irène "
   nom: "Pergent"
-  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016,2017"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
   adresse: "40, rue Césaire Levillain"
   adresse-geo: "40, rue Césaire Levillain"
   code-postal: "76230"
   ville: "Bois-Guillaume"
-<<<<<<< HEAD
   telephone-mobile: "06 12 94 33 33"
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  telephone-mobile: "06 12 94 33 33"
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Haptonomie
   nom_entier: "irene-pergent"
-  region: "normandy, fr"
-- prenom: "Sandra"
-  nom: "Perica"
-  adhesion: "2016"
-  adresse: "maison de santé Armstrong 8, rue Neil Armstrong"
-  adresse-geo: "8, rue Neil Armstrong"
-  code-postal: "76120"
-  ville: "Grand Quevilly"
-  telephone-fixe: "02 35 67 98 93"
-  site-web: "sandra-perica.mondocteur.fr"
-  activites: 
-   - nom: Consultation de suivi de grossesse
-   - nom: Consultation de suivi gynécologique et contraception
-   - nom: Consultation post-natale
-   - nom: Echographie
-  nom_entier: "sandra-perica"
-  region: "normandy, fr"
 - prenom: "Sylvie "
   nom: "Perré"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1678,16 +1220,8 @@
   telephone-mobile: "06 31 97 00 87"
   telephone-fixe: "02 35 50 86 88 / 02 35 06 92 00"
   email: "sylvie.perre18@orange.fr"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
@@ -1695,14 +1229,12 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "sylvie-perre"
-  region: "normandy, fr"
 - prenom: "Stéphanie "
   nom: "Pierrard"
   adhesion: "2015,2016"
   adresse: "21, rue des mégissiers"
-  adresse-geo: "21, rue des mégissiers"
   code-postal: "76290"
-  ville: "Montivilliers"
+  ville: "Montvilliers"
   telephone-fixe: "02 35 55 76 42"
   activites:
    - nom: Consultation de suivi de grossesse
@@ -1716,7 +1248,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "stephanie-pierrard"
-  region: "normandy, fr"
 - prenom: "Annick"
   nom: "Platevoët"
   adhesion: "2016"
@@ -1725,23 +1256,14 @@
   code-postal: "76400"
   ville: "Fécamp"
   telephone-mobile: "06 32 58 35 51"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Sophrologie
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Yoga
   nom_entier: "annick-platevoet"
-  region: "normandy, fr"
 - prenom: "Stéphanie "
   nom: "Poulain"
   adhesion: "2011,2012,2013,2014,2015,2016"
@@ -1750,16 +1272,8 @@
   code-postal: "76620"
   ville: "Le Havre"
   telephone-mobile: "06 44 18 82 45"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1770,7 +1284,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "stephanie-poulain"
-  region: "normandy, fr"
 - prenom: "Marie-Pierre"
   nom: "Pousset"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1779,16 +1292,8 @@
   code-postal: "76720"
   ville: "Auffay"
   telephone-fixe: "02 35 91 59 22"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1800,7 +1305,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "marie-pierre-pousset"
-  region: "normandy, fr"
 - prenom: "Maggy"
   nom: "Rataj"
   adhesion: "2015,2016"
@@ -1809,16 +1313,8 @@
   code-postal: "76140"
   ville: "Le Petit Quevilly"
   telephone-mobile: "06 62 09 69 27"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -1827,7 +1323,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "maggy-rataj"
-  region: "normandy, fr"
 - prenom: "Frédérique"
   nom: "Renault"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1838,16 +1333,8 @@
   telephone-mobile: "06 07 60 20 44 "
   telephone-fixe: "02 35 22 09 41"
   email: "sfrenault76@gmail.com"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
@@ -1858,7 +1345,6 @@
    - nom: Rééducation du périnée
    - nom: Yoga
   nom_entier: "frederique-renault"
-  region: "normandy, fr"
 - prenom: "Corinne"
   nom: "Ricouard"
   adhesion: "2009,2010,2011,2012,2013,2014,2015"
@@ -1870,7 +1356,6 @@
   activites:
    - nom: Echographie
   nom_entier: "corinne-ricouard"
-  region: "normandy, fr"
 - prenom: "Anne-Claude"
   nom: "Rivat"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1879,16 +1364,8 @@
   code-postal: "76800"
   ville: "Saint Etienne du Rouvray"
   telephone-fixe: "02 35 64 03 17"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -1898,7 +1375,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "anne-claude-rivat"
-  region: "normandy, fr"
 - prenom: "Corinne"
   nom: "Sangnier"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1917,7 +1393,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "corinne-sangnier"
-  region: "normandy, fr"
 - prenom: "Blandine"
   nom: "Soenen"
   adhesion: "2014,2015"
@@ -1926,16 +1401,8 @@
   code-postal: "27460"
   ville: "Alizay"
   telephone-fixe: "02 35 660 34 85"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -1944,25 +1411,16 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "blandine-soenen"
-  region: "normandy, fr"
 - prenom: "Hélène "
   nom: "Stévenin"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
-  adresse: "6, rue Jeanne d’Arc"
-  adresse-geo: "6, rue Jeanne d’Arc"
+  adresse: "6, rue Jeanne d'Arc"
+  adresse-geo: "6, rue Jeanne d'Arc"
   code-postal: "27400"
   ville: "Acquigny"
   telephone-mobile: "06 16 23 35 55"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
@@ -1971,7 +1429,6 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "helene-stevenin"
-<<<<<<< HEAD
 - prenom: "Laëtitia"
   nom: "Talbot"
   adhesion: "2016"
@@ -1993,32 +1450,6 @@
    - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "laetitia-talbot"
-||||||| merged common ancestors
-=======
-  region: "normandy, fr"
-- prenom: "Laëtitia"
-  nom: "Talbot"
-  adhesion: "2016"
-  adresse: "9 rue Jean Jaurès"
-  adresse-geo: "9 rue Jean Jaurès"
-  code-postal: "76410"
-  ville: "Tourville-la-rivière"
-  telephone-fixe: "02 32 13 81 61"
-  email: "contact@laetitia-talbot-sage-femme.fr"
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
-   - nom: Consultation de suivi de grossesse
-   - nom: Consultation de suivi gynécologique et contraception
-   - nom: Consultation post-natale
-   - nom: Consultation préconceptionnelle
-   - nom: Entretien prénatal précoce
-   - nom: Préparation à la naissance
-   - nom: Rééducation du périnée
-   - nom: Suivi du nourrisson
-   - nom: Suivi post natal mère-enfant / PRADO
-  nom_entier: "laetitia-talbot"
-  region: "normandy, fr"
->>>>>>> carto
 - prenom: "Floriane"
   nom: "Vasse"
   adhesion: "2015,2016"
@@ -2036,7 +1467,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "floriane-vasse"
-  region: "normandy, fr"
 - prenom: "Céline"
   nom: "Vauclin"
   adhesion: "2015,2016"
@@ -2053,7 +1483,6 @@
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
   nom_entier: "celine-vauclin"
-  region: "normandy, fr"
 - prenom: "Céline"
   nom: "Vivier-Couland"
   adhesion: "2015,2016"
@@ -2063,16 +1492,8 @@
   ville: "Octeville sur mer"
   telephone-mobile: "06 75 65 87 77"
   site-web: "octevillesurmeres.fr"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -2085,7 +1506,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "celine-vivier-couland"
-  region: "normandy, fr"
 - prenom: "Véronique "
   nom: "Wilmort"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -2097,7 +1517,6 @@
   activites:
    - nom: Echographie
   nom_entier: "veronique-wilmort"
-  region: "normandy, fr"
 - prenom: "Camille"
   nom: "Xayabandith"
   adhesion: "2014,2015,2016"
@@ -2107,16 +1526,8 @@
   ville: "Saint Valery en Caux"
   telephone-mobile: "06 24 56 92 50"
   telephone-fixe: "02 35 97 25 37"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -2128,7 +1539,6 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "camille-xayabandith"
-  region: "normandy, fr"
 - prenom: "Marine"
   nom: "Yver"
   adhesion: "2015,2016"
@@ -2137,16 +1547,8 @@
   code-postal: "76270"
   ville: "Neufchatel en Bray"
   telephone-mobile: "06 29 54 63 89"
-<<<<<<< HEAD
   activites:
    - nom: Accompagnement de l'allaitement maternel
-||||||| merged common ancestors
-  activites: 
-   - nom: Accompagnement de l'allaitement maternel
-=======
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
->>>>>>> carto
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
@@ -2158,4 +1560,3 @@
    - nom: Surveillance de grossesse pathologique
    - nom: Yoga
   nom_entier: "marine-yver"
-  region: "normandy, fr"

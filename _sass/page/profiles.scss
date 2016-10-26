@@ -6,7 +6,7 @@
   text-align: center;
   @media #{$medium-up} {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
   }
   img {
     margin: $base-line 0;

@@ -6,7 +6,7 @@
 // Floats
 // -------------------------
 
-.clearfix() {
+.clearfix {
   &:before,
   &:after {
     content: " "; // 1
@@ -17,9 +17,6 @@
   }
 }
 
-.center-block {
-  .center-block();
-}
 .pull-right {
   float: right !important;
 }
@@ -31,7 +28,7 @@
 // Toggling content
 // -------------------------
 
-// Note: Deprecated .hide in favor of .hidden or .sr-only (as appropriate) in v3.0.1
+// Note: Deprecated .hide in favor of .hidden or .sr-only
 .hide {
   display: none !important;
 }
@@ -41,10 +38,6 @@
 .invisible {
   visibility: hidden;
 }
-.text-hide {
-  .text-hide();
-}
-
 
 // Hide from screenreaders and browsers
 //
@@ -54,13 +47,10 @@
   display: none !important;
 }
 
-
 // For Affix plugin
 // -------------------------
 
 .affix {
   position: fixed;
 }
-
-    Status API Training Shop Blog About Pricing
 
