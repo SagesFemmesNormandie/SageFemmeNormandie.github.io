@@ -32,6 +32,7 @@ _site/
 .asset-cache/
 .jekyll-metadata
 _gdrive_cache
+Gemfile.lock
 
 # node-waf configuration
 .DS_Store

@@ -12,6 +12,15 @@
   }
 }
 
+.map-link {
+  a {
+    &:hover {
+      text-decoration: none;
+      border-bottom: 1px soldi #000;
+    }
+  }
+}
+
 .members-list {
   margin-top: $base-line*2;
   width: 100%;

@@ -32,10 +32,10 @@ navigation: true
   </nav>
   {% endcomment %}
   <div class="search">
-    <input type="search" placeholder="Chercher une ville, le nom d'un sage femmes ou une activité" required="">
+    <input type="search" placeholder="Chercher une ville, le nom d‘une Sage-femme ou une activité" required="">
   </div>
-  <div>  
-    <a href="{{ site.baseurl }}/carte.html" data-no-instant style="padding-bottom:0.2rem;border-bottom: 1px solid #ccc;">=>Localiser les Sage-femmes sur la carte de Haute-Normandie</a>
+  <div class="map-link">  
+    <a href="{{ site.baseurl }}/carte.html" data-no-instant style="padding-bottom:0.2rem;border-bottom: 1px solid #ccc;">=>Localiser les Sages-femmes sur la carte de Haute-Normandie</a>
   </div>
   <div class="members-list list" itemtype="http://schema.org/ItemList http://schema.org/Midwifery">
   {% for group in items_grouped %}
