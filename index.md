@@ -3,7 +3,7 @@ layout: default
 title: Accueil
 ---
 
-## Une sage-femme, pour pratiquer de nombreuses activités : ##
+# Une sage-femme, pour pratiquer de nombreuses activités : #
 
 Découvrez les activités proposées par les sages-femmes de l'association.
 
