@@ -10,11 +10,11 @@
 <head>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="dns-prefetch" href="//nominatim.openstreetmap.org/">
   <link rel="dns-prefetch" href="//maps.googleapis.com">
+  <link rel="dns-prefetch" href="//google-maps-utility-library-v3.googlecode.com">
   <title>Recherche d'une Sage femme</title>
-  <script src="{{ site.baseurl }}/assets/js/jquery.js" data-no-instant></script>
   <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
+  <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclustererplus/src/markerclusterer.js"></script>
   <style type="text/css">
     {% capture include_to_scssify %}
       {% include base.scss %}
@@ -142,17 +142,6 @@
     google.maps.event.trigger(gmarkers[i], "click");
   }
 
-  function getCoordinates(address,callback) {
-    var coordinates = "";
-    var url = "//nominatim.openstreetmap.org/?format=json&q=" + address + "&limit=1&json_callback=?";
-    $.getJSON(url, function (data) {
-        console.log('http:'+url);
-        coordinates = [data[0].lat,data[0].lon];
-        callback(coordinates);
-    })
-  }
-
-
   // A function to create the marker and set up the event window function
   function createMarker(latlng, name, id, html) {
     var contentString = html;
@@ -203,13 +192,6 @@
     </div>
     <div id="map-canvas"></div>
   </div>
-  <noscript>
-    <div>
-    {% for row in membersdata %}
-    {% include members-new.html %}
-    {% endfor %}
-    </div>
-  </noscript>
   {% register_service_worker %}
 </body>
 
