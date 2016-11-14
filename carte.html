@@ -116,20 +116,15 @@
       infowindow.close();
     });
 
-    // Add markers to the map
-    // Set up three markers with info windows
-    // add the points
-    // getCoordinates('Rouen',function(coords){
-    //   var point = new google.maps.LatLng(coords[0], coords[1]);
-    //   var marker = createMarker(point,"This place", "Some stuff to display in the<br>First Info Window");
-    //   document.getElementById("side_bar").innerHTML = side_bar_html;
-    // });
-    {% assign membersdata = site.data.members sort: 'nom'%}
+    {% assign membersdata = site.data.members sort: 'nom' %}
     {% for row in membersdata %}{% if row.adhesion contains siteyear %}
+    {% assign geoaddress = row.adresse %}
+    {% assign places = site.data.members sort: 'adresse' %}
     var point = new google.maps.LatLng({% for coordinates in site.data[row.nom_entier] %}{{ coordinates.location.latitude }}, {{ coordinates.location.longitude }}{% endfor %});
-    var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","<a href='/{{ row.nom_entier }}/'><strong>{{ row.prenom }} {{ row.nom }}</strong></a><br>{{ row.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if row.telephone-mobile %} - {% endif %}{{ row.telephone-fixe }}{% endif %}{% if row.email %}<br>{{ row.email }}{% endif %}{% if row.site-web %}<br>{{ row.site-web }}{% endif %}");
+    var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","{% for place in places %}{% if place.adresse-geo == row.adresse-geo %}<a href='/{{ place.nom_entier }}/'><strong>{{ place.prenom }} {{ place.nom }}</strong></a><br>{{ place.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if place.telephone-mobile %} - {% endif %}{{ place.telephone-fixe }}{% endif %}{% if place.email %}<br>{{ place.email }}{% endif %}{% if place.site-web %}<br>{{ place.site-web }}{% endif %}<br>{% endif %}{% endfor %}");
       document.getElementById("side-bar-content").innerHTML = side_bar_html;
     {% endif %}{% endfor %}
+
 
   };
 
@@ -177,7 +172,7 @@
   <div class="container">
     <div class="side-bar">
       <h1>Liste des Sage-femmes</h1>
-      <p><em>Cliquez sur le nom du Sage-femme pour afficher ses coordonnées</em></p>
+      <p><em>Cliquez sur le nom d‘une Sage-femme pour afficher ses coordonnées</em></p>
       <div id="side-bar-content">
         {% comment %}
         {% for row in membersdata %}
