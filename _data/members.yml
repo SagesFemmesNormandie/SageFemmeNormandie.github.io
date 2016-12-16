@@ -87,7 +87,7 @@
   adresse-geo: "26bis, boulevard de la Marne"
   code-postal: "76000"
   ville: "Rouen"
-  telephone-fixe: "02 35 62 82 09"
+  telephone-fixe: "02 35 98 52 43."
   activites: 
    - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
@@ -157,11 +157,12 @@
 - prenom: "Amélie "
   nom: "Benoit"
   adhesion: "2015,2016"
-  adresse: "8, rue de Toulon"
-  adresse-geo: "8, rue de Toulon"
-  code-postal: "76300"
-  ville: "Sotteville-lès-Rouen"
-  telephone-mobile: "06 61 46 44 68"
+  adresse: "221, avenue du 8 mai 1945"
+  adresse-geo: "221, avenue du 8 mai 1945"
+  code-postal: "76610"
+  ville: "Le Havre"
+  telephone-mobile: "07 82 30 20 30 "
+  email: "ameliebenoitsf@gmail.com"
   activites: 
    - nom: Accompagnement de l’allaitement maternel
    - nom: Acupuncture
@@ -434,7 +435,7 @@
   nom: "Cousin"
   adhesion: "2011,2012,2013,2014,2015,2016"
   adresse: "6, parc de la Varenne boulevard Siegfried"
-  adresse-geo: "parc de la Risle"
+  adresse-geo: "6, parc de la Varenne"
   code-postal: "76130"
   ville: "Mont Saint Aignan"
   telephone-mobile: "06 65 47 82 87"
@@ -1173,6 +1174,26 @@
    - nom: Surveillance de grossesse pathologique
   nom_entier: "isabelle-metais"
   region: "normandy, fr"
+- prenom: "Elodie "
+  nom: "Moreau"
+  adhesion: "2016"
+  adresse: "83, rue Aristide Briand"
+  code-postal: "76410"
+  ville: "Saint Aubin les Elbeuf"
+  adresse-secondaire: "Pole de santé la Traverse 52, rue Raymond Souday 76410 Cléon"
+  telephone-mobile: "07 50 33 12 21"
+  email: "contact@elodiemoreausagefemme.fr"
+  site-web: "www.elodiemoreausagefemme.fr"
+  activites: 
+   - nom: Accompagnement de l’allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "elodie-moreau"
+  region: "normandy, fr"
 - prenom: "Laure"
   nom: "Moreau"
   adhesion: "2015,2016"
@@ -1278,7 +1299,7 @@
   nom: "Pasquier"
   adhesion: "2011,2012,2013,2014,2015,2016"
   adresse: "1, place du marché"
-  adresse-geo: "rue des iris"
+  adresse-geo: "1, marché"
   code-postal: "76230"
   ville: "Isneauville"
   telephone-mobile: "06 51 08 83 23"
@@ -1499,6 +1520,28 @@
    - nom: Surveillance de grossesse pathologique
   nom_entier: "anne-claude-rivat"
   region: "normandy, fr"
+- prenom: "Virginie "
+  nom: "Rouet"
+  adhesion: "2016,2017"
+  adresse: "11, avenue Michel Adam"
+  adresse-geo: "11, avenue Michel Adam"
+  code-postal: "76930"
+  ville: "Octeville sur mer"
+  telephone-fixe: "02 77 67 19 19"
+  activites: 
+   - nom: Accompagnement de l’allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "virginie-rouet"
+  region: "normandy, fr"
 - prenom: "Corinne"
   nom: "Sangnier"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
@@ -1641,7 +1684,7 @@
   nom: "Wilmort"
   adhesion: "2009,2010,2011,2012,2013,2014,2015,2016"
   adresse: "6, parc de la Varenne"
-  adresse-geo: "parc de la Touques"
+  adresse-geo: "6, parc de la Varenne"
   code-postal: "76130"
   ville: "Mont Saint Aignan"
   telephone-fixe: "02 35 70 31 94"
