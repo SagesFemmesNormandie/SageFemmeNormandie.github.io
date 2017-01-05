@@ -128,6 +128,9 @@ module Jekyll_Geocode
         # JSON output :: Test if a JSON file exists for performance issues
         if !outputfile && !File.file?("#{data_source}/#{d[geo_name]}.json")
           geo_response = request_service("#{geo_coord}")
+          if !geo_response
+            p "error for #{d[geo_name]} living at #{d[geo_address]}"
+          end
           data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
           site.data[geo_name_field] = data
           #Create a JSON  files if cache is enabled
