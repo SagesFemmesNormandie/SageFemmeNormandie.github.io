@@ -80,6 +80,7 @@ module Jekyll_Geocode
           geo_country_field = ", #{d[geo_country]}"
         end
         geo_coord = "#{d[geo_address]}#{geo_postcode_field}#{geo_city_field}#{geo_region_field}#{geo_country_field}"
+        geo_coord_simple = "#{geo_city_field}#{geo_region_field}#{geo_country_field}"
         geo_request = "#{geo_service}#{geo_coord}&limit=1"
 
         # Loop for an YML output
@@ -108,6 +109,11 @@ module Jekyll_Geocode
           if geo_cache == true
             p "geocode is requesting #{geo_coord}"
             geo_response = request_service("#{geo_coord}")
+            if !geo_response
+              p "error for #{d[geo_name]} at #{d[geo_address]}"
+              p "generating coords with only the city field"
+              geo_response = request_service("#{geo_coord_simple}")
+            end
             data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
             data_yml = data.to_yaml
             # Add data in the YML file
@@ -129,7 +135,9 @@ module Jekyll_Geocode
         if !outputfile && !File.file?("#{data_source}/#{d[geo_name]}.json")
           geo_response = request_service("#{geo_coord}")
           if !geo_response
-            p "error for #{d[geo_name]} living at #{d[geo_address]}"
+            p "error for #{d[geo_name]} at #{d[geo_address]}"
+            p "generating coords with only the city field"
+            geo_response = request_service("#{geo_coord_simple}")
           end
           data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
           site.data[geo_name_field] = data
