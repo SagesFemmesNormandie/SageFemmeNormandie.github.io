@@ -622,19 +622,24 @@
   region: "normandy, fr"
 - prenom: "Pascale "
   nom: "Gabrielle"
+  adhesion: "2017"
   adresse: "12, place de la Résistance"
   adresse-geo: "12, place de la Résistance"
   code-postal: "27460"
   ville: "Alizay"
   telephone-mobile: "07 86 70 81 52"
+  telephone-fixe: "02 35 60 34 85"
   activites: 
+   - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
    - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
    - nom: Rééducation du périnée
    - nom: Sevrage tabagique
+   - nom: Suivi du nourrisson
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "pascale-gabrielle"
@@ -763,6 +768,28 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "marine-hazard"
+  region: "normandy, fr"
+- prenom: "Béatrice "
+  nom: "Hémain"
+  adhesion: "2017"
+  adresse: "17 rue Pouyer"
+  adresse-geo: "17 rue Pouyer"
+  code-postal: "27380"
+  ville: "Fleury sur Andelle"
+  telephone-mobile: "06 85 44 44 24"
+  email: "beatrice.hemain.sf@orange .fr"
+  activites: 
+   - nom: Accompagnement de l’allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "beatrice-hemain"
   region: "normandy, fr"
 - prenom: "Justine "
   nom: "Héricher"
@@ -1591,9 +1618,11 @@
   adresse-geo: "6, rue Jeanne d’Arc"
   code-postal: "27400"
   ville: "Acquigny"
+  adresse-secondaire: "3, rue Aristide Briand 27000 Evreux"
   telephone-mobile: "06 16 23 35 55"
   activites: 
    - nom: Accompagnement de l’allaitement maternel
+   - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
