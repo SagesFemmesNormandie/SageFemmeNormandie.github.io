@@ -93,7 +93,7 @@
   var map = null;
   var delay = 100;
   var gmarkers = [];
-  var markers = [];
+  var markerclusterer = null;
 
   function initialize() {
     // create the map
@@ -124,13 +124,11 @@
     var point = new google.maps.LatLng({% for coordinates in site.data[row.nom_entier] %}{{ coordinates.location.latitude }}, {{ coordinates.location.longitude }}{% endfor %});
     var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","{% for place in places %}{% if place.adresse-geo == row.adresse-geo %}<a href='/{{ place.nom_entier }}/'><strong>{{ place.prenom }} {{ place.nom }}</strong></a><br>{{ place.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if place.telephone-mobile %} - {% endif %}{{ place.telephone-fixe }}{% endif %}{% if place.email %}<br>{{ place.email }}{% endif %}{% if place.site-web %}<br>{{ place.site-web }}{% endif %}<br>{% endif %}{% endfor %}");
       document.getElementById("side-bar-content").innerHTML = side_bar_html;
-      markers.push(marker);
     {% endif %}{% endfor %}
 
-
     // Cluster
-    var mcOptions = {gridSize: 50, maxZoom: 15, imagePath: 'https://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclustererplus/images/m'};
-    var mc = new MarkerClusterer(map, gmarkers, mcOptions);
+    //var mcOptions = {gridSize: 50, maxZoom: 15, imagePath: 'https://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclustererplus/images/m'};
+    //var markerclusterer = new MarkerClusterer(map, gmarkers, mcOptions);
 
   };
 
@@ -153,14 +151,36 @@
       //id: id
     });
     google.maps.event.addListener(marker, 'click', function() {
+       //create the dummy-marker on first click
+       if(!map.get('dummy')){
+         map.set('dummy',new google.maps.Marker({map:map,visible:false}))
+       }
+       var latLng = marker.getPosition();
+
+       //when the marker is within a cluster
+       if(!marker.getMap()){
+        //set position of the dummy
+        map.get('dummy').setPosition(latLng);
+        //use dummy as infowindow-anchor
+        marker = map.get('dummy')
+       }
+        map.panTo(latLng);
+        infowindow.setContent(contentString);
+        infowindow.open(map,marker);
+
+    });
+    google.maps.event.addListener(marker, 'click', function() {
+      var latLng = marker.getPosition();
+      map.panTo(latLng);
       infowindow.setContent(contentString);
-      infowindow.open(map, marker);
+      infowindow.open(map,marker);
     });
     // save the info we need to use later for the side_bar
     gmarkers.push(marker);
 
     // add a line to the side_bar html
     side_bar_html += '<div class="side-bar_element"><a href="javascript:myclick(' + (gmarkers.length - 1) + ')">' + name + '<\/a></div>';
+
   }
 
 
@@ -170,6 +190,7 @@
   // http://econym.org.uk/gmap/
   // from the v2 tutorial page at:
   // http://econym.org.uk/gmap/basic2.htm
+  // http://arquitectospelomundo.com/
   //]]>
   </script>
 </head>
