@@ -13,7 +13,7 @@
   <link rel="dns-prefetch" href="//maps.googleapis.com">
   <link rel="dns-prefetch" href="//google-maps-utility-library-v3.googlecode.com">
   <title>Recherche d'une Sage femme</title>
-  <script type="text/javascript" rel="preload" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
+  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
   <script type="text/javascript" rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js"></script>
   <style type="text/css">
     {% capture include_to_scssify %}
@@ -90,10 +90,10 @@
 
   // arrays to hold copies of the markers and html used by the side_bar
   // because the function closure trick doesnt work there
+  var gmarkers = [];
   var map = null;
   var delay = 100;
-  var gmarkers = [];
-  var markerclusterer = null;
+  // var markerclusterer = null;
 
   function initialize() {
     // create the map
@@ -110,7 +110,7 @@
       mapTypeId: google.maps.MapTypeId.ROADMAP
       // API_Key = AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE
     }
-    var map = new google.maps.Map(document.getElementById("map-canvas"),
+    map = new google.maps.Map(document.getElementById("map-canvas"),
       myOptions);
 
     google.maps.event.addListener(map, 'click', function() {
@@ -151,36 +151,13 @@
       //id: id
     });
     google.maps.event.addListener(marker, 'click', function() {
-       //create the dummy-marker on first click
-       if(!map.get('dummy')){
-         map.set('dummy',new google.maps.Marker({map:map,visible:false}))
-       }
-       var latLng = marker.getPosition();
-
-       //when the marker is within a cluster
-       if(!marker.getMap()){
-        //set position of the dummy
-        map.get('dummy').setPosition(latLng);
-        //use dummy as infowindow-anchor
-        marker = map.get('dummy')
-       }
-        map.panTo(latLng);
-        infowindow.setContent(contentString);
-        infowindow.open(map,marker);
-
-    });
-    google.maps.event.addListener(marker, 'click', function() {
-      var latLng = marker.getPosition();
-      map.panTo(latLng);
       infowindow.setContent(contentString);
-      infowindow.open(map,marker);
+      infowindow.open(map, marker);
     });
     // save the info we need to use later for the side_bar
     gmarkers.push(marker);
-
     // add a line to the side_bar html
     side_bar_html += '<div class="side-bar_element"><a href="javascript:myclick(' + (gmarkers.length - 1) + ')">' + name + '<\/a></div>';
-
   }
 
 
