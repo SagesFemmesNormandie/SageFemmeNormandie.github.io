@@ -45,7 +45,7 @@
   region: "normandy, fr"
 - prenom: "Béatrice "
   nom: "Allouchéry"
-  adhesion: "2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017"
+  adhesion: "2009,2010,2011,2012,2013,2014,2015,2016,2017"
   adresse: "83 bis, rue Aristide Briand"
   adresse-geo: "83, rue Aristide Briand"
   code-postal: "76410"
@@ -251,7 +251,7 @@
   region: "normandy, fr"
 - prenom: "Valérie"
   nom: "Bouasria"
-  adhesion: "2014,2015,2017"
+  adhesion: "2014,2015,2016,2017"
   adresse: "6, allée des Soupirs"
   adresse-geo: "6, allée des Soupirs"
   code-postal: "27000"
@@ -272,7 +272,7 @@
   region: "normandy, fr"
 - prenom: "Delphine"
   nom: "Bouteiller"
-  adhesion: "2015,2017"
+  adhesion: "2015"
   adresse: "14, rue Louis Gillain"
   adresse-geo: "14, Louis Gillain"
   code-postal: "27500"
@@ -360,7 +360,6 @@
   code-postal: "27110"
   ville: "Le Neubourg"
   telephone-mobile: "06 81 86 88 68"
-  telephone-fixe: "02 32 34 94 59"
   activites: 
    - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
@@ -368,6 +367,7 @@
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
+   - nom: Préparation en piscine
    - nom: Rééducation du périnée
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
@@ -375,7 +375,7 @@
   region: "normandy, fr"
 - prenom: "Marie"
   nom: "Chevallier"
-  adhesion: "2013,2014,2015,2017"
+  adhesion: "2013,2014,2015"
   adresse: "12, place de la Résistance"
   adresse-geo: "12, place de la Résistance"
   code-postal: "27460"
@@ -556,6 +556,48 @@
    - nom: Yoga
   nom_entier: "emilie-depeint"
   region: "normandy, fr"
+- prenom: "Claire"
+  nom: "Donront"
+  adhesion: "2017"
+  adresse: "6, parc de la Varenne"
+  adresse-geo: "6, parc de la Varenne"
+  code-postal: "76130"
+  ville: "Mont Saint Aignan"
+  telephone-mobile: "06 85 09 48 75 "
+  activites: 
+   - nom: Accompagnement de l’allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+  nom_entier: "claire-donront"
+  region: "normandy, fr"
+- prenom: "Marie"
+  nom: "Dupif"
+  adhesion: "2017"
+  adresse: "243, rue queue de Renard"
+  adresse-geo: "243, rue queue de Renard"
+  code-postal: "76400"
+  ville: "Fécamp"
+  telephone-fixe: "09 73 03 26 84"
+  activites: 
+   - nom: Accompagnement de l’allaitement maternel
+   - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
+   - nom: Consultation post-natale
+   - nom: Consultation préconceptionnelle
+   - nom: Entretien prénatal précoce
+   - nom: Préparation à la naissance
+   - nom: Rééducation du périnée
+   - nom: Suivi du nourrisson
+   - nom: Suivi post natal mère-enfant / PRADO
+   - nom: Surveillance de grossesse pathologique
+  nom_entier: "marie-dupif"
+  region: "normandy, fr"
 - prenom: "Céline "
   nom: "Faurre"
   adhesion: "2014,2015,2016,2017"
@@ -601,11 +643,12 @@
   nom: "Froment"
   adhesion: "2014, 2015,2016,2017"
   adresse: "9, rue Jean Lecanuet"
-  adresse-geo: "9, rue Jean Lecanuet"
+  adresse-geo: "1, rue Jean Lecanuet"
   code-postal: "76000"
   ville: "Rouen"
   telephone-mobile: "06 63 57 10 31"
   email: "froment.annelaure@gmail.com"
+  site-web: "prendre-mon-rdv.com/froment-anne-laure/sage-femme/rouen"
   activites: 
    - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
@@ -724,29 +767,6 @@
    - nom: Surveillance de grossesse pathologique
   nom_entier: "anne-sophie-grognet"
   region: "normandy, fr"
-- prenom: "Clotilde"
-  nom: "Guillermin"
-  adhesion: "2014,2015,2017"
-  adresse: "6, allée des soupirs"
-  adresse-geo: "6, allée des soupirs"
-  code-postal: "27000"
-  ville: "Evreux"
-  telephone-mobile: "06 32 45 24 62"
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
-   - nom: Consultation de suivi de grossesse
-   - nom: Consultation post-natale
-   - nom: Entretien prénatal précoce
-   - nom: Eveil du bébé par le toucher
-   - nom: Préparation à la naissance
-   - nom: Préparation en piscine
-   - nom: Rééducation du périnée
-   - nom: Sevrage tabagique
-   - nom: Sophrologie
-   - nom: Suivi post natal mère-enfant / PRADO
-   - nom: Surveillance de grossesse pathologique
-  nom_entier: "clotilde-guillermin"
-  region: "normandy, fr"
 - prenom: "Marine "
   nom: "Hazard"
   adhesion: "2013,2014,2015,2016,2017"
@@ -773,9 +793,9 @@
   nom: "Hémain"
   adhesion: "2017"
   adresse: "17 rue Pouyer"
-  adresse-geo: "17 rue Pouyer"
+  adresse-geo: "7 D 6014"
   code-postal: "27380"
-  ville: "Fleury sur Andelle"
+  ville: "Fleury-sur-Andelle"
   telephone-mobile: "06 85 44 44 24"
   email: "beatrice.hemain.sf@orange .fr"
   activites: 
@@ -970,11 +990,12 @@
 - prenom: "Nathalie "
   nom: "Le Mignot"
   adhesion: "2014, 2015,2016,2017"
-  adresse: "243, rue queue de renard"
-  adresse-geo: "243, rue queue de renard"
-  code-postal: "76400"
-  ville: "Fécamp"
+  adresse: "6 rue de la Libération"
+  adresse-geo: "6 rue de la Libération"
+  code-postal: "76110"
+  ville: "Bréauté"
   telephone-fixe: "09 73 01 37 44"
+  email: "nathalie.lemignot.sf@gmail.com"
   activites: 
    - nom: Acupuncture
    - nom: Consultation de suivi de grossesse
@@ -986,21 +1007,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "nathalie-lemignot"
-  region: "normandy, fr"
-- prenom: "Claire "
-  nom: "Lebrun"
-  adhesion: "2009,2010,2011,2012,2013,2014,2015"
-  adresse: "33, rue Saint Germain apt 8"
-  adresse-geo: "33, rue Saint Germain"
-  code-postal: "27000"
-  ville: "Evreux"
-  telephone-fixe: "02 32 31 36 77"
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
-   - nom: Entretien prénatal précoce
-   - nom: Préparation à la naissance
-   - nom: Rééducation du périnée
-  nom_entier: "claire-lebrun"
   region: "normandy, fr"
 - prenom: "Camille"
   nom: "Lecroq"
@@ -1136,8 +1142,8 @@
 - prenom: "Capucine"
   nom: "Libersa"
   adhesion: "2016,2017"
-  adresse: "10, rue des arrières fossés"
-  adresse-geo: "10, rue des arrieres fosses"
+  adresse: "Maison de Santé 3 rue Roland Roche "
+  adresse-geo: "3 rue Roland Roche"
   code-postal: "27600"
   ville: "Gaillon"
   telephone-mobile: "07 82 08 35 57"
@@ -1417,23 +1423,6 @@
    - nom: Surveillance de grossesse pathologique
   nom_entier: "stephanie-pierrard"
   region: "normandy, fr"
-- prenom: "Annick"
-  nom: "Platevoët"
-  adhesion: "2016,2017"
-  adresse: "94, rue de la mer"
-  adresse-geo: "94, rue de la mer"
-  code-postal: "76400"
-  ville: "Fécamp"
-  telephone-mobile: "06 32 58 35 51"
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
-   - nom: Préparation à la naissance
-   - nom: Rééducation du périnée
-   - nom: Sophrologie
-   - nom: Suivi post natal mère-enfant / PRADO
-   - nom: Yoga
-  nom_entier: "annick-platevoet"
-  region: "normandy, fr"
 - prenom: "Stéphanie "
   nom: "Poulain"
   adhesion: "2011,2012,2013,2014,2015,2016,2017"
@@ -1480,14 +1469,15 @@
 - prenom: "Maggy"
   nom: "Rataj"
   adhesion: "2015,2016,2017"
-  adresse: "6, rue Pierre Brossolette"
-  adresse-geo: "6, rue Pierre Brossolette"
+  adresse: "Centre commercial Les Bruyères"
+  adresse-geo: "6 Boulevard Stanislas Girardin"
   code-postal: "76140"
   ville: "Le Petit Quevilly"
   telephone-mobile: "07 69 48 53 70"
   activites: 
    - nom: Accompagnement de l’allaitement maternel
    - nom: Consultation de suivi de grossesse
+   - nom: Consultation de suivi gynécologique et contraception
    - nom: Consultation post-natale
    - nom: Entretien prénatal précoce
    - nom: Préparation à la naissance
@@ -1591,25 +1581,6 @@
    - nom: Suivi post natal mère-enfant / PRADO
    - nom: Surveillance de grossesse pathologique
   nom_entier: "corinne-sangnier"
-  region: "normandy, fr"
-- prenom: "Blandine"
-  nom: "Soenen"
-  adhesion: "2014,2015"
-  adresse: "12, place de la Resistance"
-  adresse-geo: "12, place de la Resistance"
-  code-postal: "27460"
-  ville: "Alizay"
-  telephone-fixe: "02 35 660 34 85"
-  activites: 
-   - nom: Accompagnement de l’allaitement maternel
-   - nom: Consultation de suivi de grossesse
-   - nom: Consultation post-natale
-   - nom: Entretien prénatal précoce
-   - nom: Préparation à la naissance
-   - nom: Rééducation du périnée
-   - nom: Suivi post natal mère-enfant / PRADO
-   - nom: Surveillance de grossesse pathologique
-  nom_entier: "blandine-soenen"
   region: "normandy, fr"
 - prenom: "Hélène "
   nom: "Stévenin"

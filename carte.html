@@ -13,8 +13,8 @@
   <link rel="dns-prefetch" href="//maps.googleapis.com">
   <link rel="dns-prefetch" href="//google-maps-utility-library-v3.googlecode.com">
   <title>Recherche d'une Sage femme</title>
-  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
-  <script type="text/javascript" src="http://google-maps-utility-library-v3.googlecode.com/svn/trunk/markerclustererplus/src/markerclusterer.js"></script>
+  <script type="text/javascript" rel="preload" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
+  <script type="text/javascript" rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js"></script>
   <style type="text/css">
     {% capture include_to_scssify %}
       {% include base.scss %}
@@ -90,9 +90,10 @@
 
   // arrays to hold copies of the markers and html used by the side_bar
   // because the function closure trick doesnt work there
-  var gmarkers = [];
   var map = null;
   var delay = 100;
+  var gmarkers = [];
+  var markers = [];
 
   function initialize() {
     // create the map
@@ -109,7 +110,7 @@
       mapTypeId: google.maps.MapTypeId.ROADMAP
       // API_Key = AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE
     }
-    map = new google.maps.Map(document.getElementById("map-canvas"),
+    var map = new google.maps.Map(document.getElementById("map-canvas"),
       myOptions);
 
     google.maps.event.addListener(map, 'click', function() {
@@ -123,8 +124,14 @@
     var point = new google.maps.LatLng({% for coordinates in site.data[row.nom_entier] %}{{ coordinates.location.latitude }}, {{ coordinates.location.longitude }}{% endfor %});
     var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","{% for place in places %}{% if place.adresse-geo == row.adresse-geo %}<a href='/{{ place.nom_entier }}/'><strong>{{ place.prenom }} {{ place.nom }}</strong></a><br>{{ place.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if place.telephone-mobile %} - {% endif %}{{ place.telephone-fixe }}{% endif %}{% if place.email %}<br>{{ place.email }}{% endif %}{% if place.site-web %}<br>{{ place.site-web }}{% endif %}<br>{% endif %}{% endfor %}");
       document.getElementById("side-bar-content").innerHTML = side_bar_html;
+      markers.push(marker);
     {% endif %}{% endfor %}
 
+
+    // Cluster
+    var mcOptions = {gridSize: 50, maxZoom: 15, {imagePath: '/assets/images/m2.png'}};
+    var mc = new MarkerClusterer(map, gmarkers, mcOptions);
+    //var mc = new MarkerClusterer(map, markers, mcOptions);
 
   };
 
@@ -152,6 +159,7 @@
     });
     // save the info we need to use later for the side_bar
     gmarkers.push(marker);
+    //console.log(gmarkers);
     // add a line to the side_bar html
     side_bar_html += '<div class="side-bar_element"><a href="javascript:myclick(' + (gmarkers.length - 1) + ')">' + name + '<\/a></div>';
   }
