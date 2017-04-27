@@ -44,7 +44,7 @@ module Jekyll_Geocode
       end
 
       Geocoder.configure(
-        :lookup => :google,
+        :lookup => :nominatim,
         :timout => 10
       )
 
@@ -111,7 +111,7 @@ module Jekyll_Geocode
             p "geocode is requesting #{geo_coord}"
             geo_response = request_service("#{geo_coord}")
             if !geo_response
-              p "error for #{d[geo_name]} at #{d[geo_address]}"
+              p "error for #{d[geo_name]} at #{d[geo_address]} #{d[geo_city]}"
               p "generating coords with only the city field"
               geo_response = request_service("#{geo_coord_simple}")
             end
