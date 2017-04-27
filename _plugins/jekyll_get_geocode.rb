@@ -44,8 +44,8 @@ module Jekyll_Geocode
       end
 
       Geocoder.configure(
-        :lookup => :google,
-        :timout => 10
+        :lookup => :nominatim,
+        :timout => 20
       )
 
       # Define data source
