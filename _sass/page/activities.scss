@@ -25,8 +25,8 @@
 }
 
 .activity-list__box {
-  border: 3px solid palette(primary);
-  border-radius: 10px;
+  border: 1px solid palette(primary);
+  border-radius: 2px;
   > *{
     padding: 0 $base-line/2 $base-line;
   }
