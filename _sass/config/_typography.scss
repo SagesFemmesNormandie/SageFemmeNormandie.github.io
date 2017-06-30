@@ -29,14 +29,14 @@ $bigger:                  $base-em * $ms2;
 $title2:                  $base-em * $ms3;
 $title1:                  $base-em * $ms4;
 
-$line-height-base:        $base * $ms2;
+$line-height-base:        $base * $ms3;
 $line-height-computed:    floor(($base-em * $line-height-base));
 $base-line:               $line-height-computed;
 
 body {
   font-family: $base-font-family;
   font-size: $base-em * $ms0;
-  line-height: $base * $ms2;
+  line-height: $base * $ms3;
 }
 
 h3,
