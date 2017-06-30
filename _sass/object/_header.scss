@@ -2,7 +2,12 @@
 /// Header
 ////
 
+body {
+  margin: 0;
+}
+
 .site-header {
+  position: relative;
   padding: 0.5rem 0 0;
   .wrapper {
     display: flex;
@@ -32,10 +37,14 @@
     display: block;
     padding: 0 1.5rem;
     font-weight: bold;
+    color: #fff;
   }
 }
 
 .illustration-header {
+  position: absolute;
+  top: 0;
+  left: 0;
   overflow: hidden;
   margin: 0 0 $base-line;
   max-height: 6rem;
