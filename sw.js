@@ -12,15 +12,10 @@ const filesToCache = [
   {% for page in site.html_pages %}
     '{{ page.url }}',
   {% endfor %}
-  {% for post in site.posts %}
-    '{{ post.url }}',
-  {% endfor %}
 
   // can be automated rather than manual entries
-  "/assets/fonts/Overpass-Bold.woff2",
-  "/assets/fonts/Overpass-Italic.woff2",
-  "/assets/fonts/Overpass-Regular.woff2",
-  "/assets/fonts/Overpass-ExtraLight.woff2",
+  "/assets/fonts/Open-Sans-bold.woff2",
+  "/assets/fonts/Open-Sans-normal.woff2",
   "/index.html"
 ];
 
