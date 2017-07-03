@@ -5,7 +5,15 @@ NETWORK:
 *
 
 {
- "name": "App",
+ "name": "Sages-Femmes Normandie",
+ "short_name": "Sages-Femmes",
+ "lang": "fr",
+ "dir": "ltr",
+ "name": "Sages-Femmes de Haute Normandie",
+ "display": "standalone",
+ "background_color": "#fff",
+ "theme_color": "#fff",
+ "start_url": "/",
  "icons": [
   {
    "src": "\assets/favicon/android-icon-36x36.png",
@@ -40,6 +48,12 @@ NETWORK:
   {
    "src": "\assets/favicon/android-icon-192x192.png",
    "sizes": "192x192",
+   "type": "image\/png",
+   "density": "4.0"
+  },
+   {
+   "src": "assets/favicon/icon-512x512.png",
+   "sizes": "512x512",
    "type": "image\/png",
    "density": "4.0"
   }
