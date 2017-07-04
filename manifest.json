@@ -1,15 +1,8 @@
-CACHE:
-https://www.google-analytics.com/analytics.js
-
-NETWORK:
-*
-
 {
  "name": "Sages-Femmes Normandie",
  "short_name": "Sages-Femmes",
  "lang": "fr",
  "dir": "ltr",
- "name": "Sages-Femmes de Haute Normandie",
  "display": "standalone",
  "background_color": "#fff",
  "theme_color": "#fff",
