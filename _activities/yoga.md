@@ -7,7 +7,7 @@ published: true
 ---
 
 
-« **À travers le yoga, le corps se pare de grâce, de beauté, de force, d'énergie et de fermeté** ».
+> « **À travers le yoga, le corps se pare de grâce, de beauté, de force, d'énergie et de fermeté** ».
 Yoga Sutra III, 47
 
 Devenir mère implique de grands bouleversements physiques et émotionnels. Le yoga permet de se mettre à **l'écoute de son corps**, de **rétablir l'équilibre entre son physique et son mental**. La relaxation génère un rapport plus intime avec le corps.
