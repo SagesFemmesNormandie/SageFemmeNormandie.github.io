@@ -1,10 +1,10 @@
 # Site settings
-title: "Sages-femmes de Normandie : Rouen, Le Havre, Bernay, Fécamp…"
+title: "Sage femmes de Normandie : Rouen, Le Havre, Bernay, Fécamp…"
 email: sage.femme.normandie@gmail.com
-description: Trouver et découvrir les activités d'une sage-femme libérale en Normandie
+description: Trouver et découvrir les activités d'une sage femme libérale en Normandie
 
 baseurl: ""
-url: "https://sagesfemmes-normandie.asso.fr"
+url: "https://sagesfemmes-normandie.fr"
 github_username:  SageFemmeNormandie
 #0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c
 
@@ -83,7 +83,7 @@ page_gen:
     name: 'nom_entier'
     dir: ''
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag

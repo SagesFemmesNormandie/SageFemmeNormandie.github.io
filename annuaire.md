@@ -5,7 +5,7 @@ navigation: true
 ---
 
 <div class="members" id="users">
-  <h2>Trouver une sage-femme libérale en Haute-Normandie</h2>
+  <h2>Trouver une sage femme libérale en Haute-Normandie</h2>
 
   {% assign items_grouped-sort = site.data.members | sort: 'ville' %}
   {% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
