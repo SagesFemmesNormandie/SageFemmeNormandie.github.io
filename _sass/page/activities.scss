@@ -21,7 +21,7 @@
 }
 
 .activity-list {
-  @include grid(4);
+  @include grid(3);
 }
 
 .activity-list__box {
@@ -31,15 +31,15 @@
   @media #{$medium-up} {
     min-height: 18rem;
   }
-  > *{
-    padding: 0 $base-line/2 $base-line;
+  > * {
+    padding: 0 $base-line 0;
   }
   h3 {
     min-height: 68px;
     display: flex;
     align-items: center;
     margin: 0 0 $base-line;
-    padding: $base-line/2;
+    padding: $base-line;
     background: $brand-color;
     &, a {
       color: #fff;
