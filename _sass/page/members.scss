@@ -30,11 +30,12 @@
 .members-list__box {
   overflow: hidden;
   display: flex;
-  align-items: center;
+  align-items: center; 
   flex-direction: column;
   margin-bottom: $base-line;
   border: 1px solid palette(primary);
   border-radius: 2px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 }
 
 .members-list__line {
@@ -89,7 +90,8 @@
     align-items: center;
     padding: $base-line/2;
     width: 100%;
-    border-top: 2px solid palette(primary);
+    font-size: 0.9rem;
+    border-top: 1px solid palette(primary);
   }
 }
 

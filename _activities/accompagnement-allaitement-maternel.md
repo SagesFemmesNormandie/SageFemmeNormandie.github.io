@@ -1,12 +1,10 @@
 ---
 type: activity
-title: "Accompagnement de l'allaitement maternel"
+title: "Accompagnement allaitement maternel"
 category: Mère et Enfant
 published: true
-description: "Il s'agit de vous soutenir dans votre projet d'allaitement (quel qu’il soit), par l'écoute et l'information, les conseils et les soins, jusqu'au sevrage de votre bébé. "
+description: "Il s'agit de vous soutenir dans votre projet d'allaitement (quel qu’il soit), par l'écoute et l'information, les conseils et les soins, jusqu'au sevrage de votre bébé."
 ---
-
-
 
 
 **Allaiter ou ne pas allaiter ?
@@ -16,7 +14,7 @@ Sages-femmes libérales, nous sommes là pendant votre grossesse pour vous écla
 
 Nous serons aussi présentes après la naissance de votre bébé pour vous accompagner dans votre choix....
 
-Accompagner?  c’est parfois **répondre** simplement à vos questions, vous **aider** à trouver  les meilleures solutions avec  vous, vous **soutenir** et vous **soigner** si vous rencontrez des difficultés, vous **conseiller** pour continuer votre allaitement avec la reprise du travail ou aller vers un sevrage, ....
+Accompagner?  c’est parfois **répondre** simplement à vos questions, vous **aider** à trouver  les meilleures solutions avec  vous, vous **soutenir** et vous **soigner** si vous rencontrez des difficultés, vous **conseiller** pour continuer votre allaitement avec la reprise du travail ou aller vers un sevrage,…
 
 …Vous accompagner, afin que vous puissiez vivre cette aventure à votre manière, selon vos envies et vos besoins, ainsi que ceux de votre bébé.
 
