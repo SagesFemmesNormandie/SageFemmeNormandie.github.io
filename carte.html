@@ -117,10 +117,10 @@
       infowindow.close();
     });
 
-    {% assign membersdata = site.data.members sort: 'nom' %}
+    {% assign membersdata = site.data.members | sort: 'nom' %}
     {% for row in membersdata %}{% if row.adhesion contains siteyear %}
     {% assign geoaddress = row.adresse %}
-    {% assign places = site.data.members sort: 'adresse' %}
+    {% assign places = site.data.members | sort: 'adresse' %}
     var point = new google.maps.LatLng({% for coordinates in site.data[row.nom_entier] %}{{ coordinates.location.latitude }}, {{ coordinates.location.longitude }}{% endfor %});
     var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","{% for place in places %}{% if place.adresse-geo == row.adresse-geo %}<a href='/{{ place.nom_entier }}/'><strong>{{ place.prenom }} {{ place.nom }}</strong></a><br>{{ place.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ row.telephone-mobile }}{% if row.telephone-fixe %}{% if place.telephone-mobile %} - {% endif %}{{ place.telephone-fixe }}{% endif %}{% if place.email %}<br>{{ place.email }}{% endif %}{% if place.site-web %}<br>{{ place.site-web }}{% endif %}<br>{% endif %}{% endfor %}");
       document.getElementById("side-bar-content").innerHTML = side_bar_html;
