@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.4.4"
 
 #OpenSSL::SSfL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 #https://solitum.net/openssl-os-x-el-capitan-and-brew/
