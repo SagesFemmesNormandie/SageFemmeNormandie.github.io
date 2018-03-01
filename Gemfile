@@ -1,5 +1,4 @@
-source 'https://rubygems.org'
-ruby "2.3.1"
+source 'https://rubygems.org'ﬂ
 
 #OpenSSL::SSfL::VERIFY_PEER = OpenSSL::SSL::VERIFY_NONE
 #https://solitum.net/openssl-os-x-el-capitan-and-brew/
@@ -25,5 +24,4 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-mentions"
   gem "jekyll-assets"
-  #gem 'jekyll-offline', :git => 'git://github.com/jeremiak/jekyll-offline.git'
 end
