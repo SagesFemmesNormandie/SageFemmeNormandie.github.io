@@ -3,7 +3,6 @@ namespace :build do
 
   desc "Regenerate files for production"
   task :prod do
-    system "rvm install ruby-2.4.4"
     puts "* Regenerating files for production... first time"
     system "bundle exec jekyll build"
     puts "* Regenerating files for production... second time"
