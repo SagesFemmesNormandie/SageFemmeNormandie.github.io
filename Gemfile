@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 #export GDRIVE=84726834603-hqfllakca9mfehbi6bndt54qhtr4bglb.apps.googleusercontent.com:sFvTqAC_L7GfiiGtvkmoX7UP:1/MyRS8MPgQgE1RZKrwTZjIzC6vAxavu9wLnbyNj_d_pU
 #export GDRIVE=84726834603-hqfllakca9mfehbi6bndt54qhtr4bglb.apps.googleusercontent.com:sFvTqAC_L7GfiiGtvkmoX7UP:1/kOVSe5ZwNEKRuHyK28zxGF3gofSfgoNc7840Vz03qTw
 
+gem "jekyll"
 gem 'rake'
 gem "geocoder"
 
