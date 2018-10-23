@@ -1,6 +1,6 @@
 ---
 type: Activity
-published: false
+published: true
 title: Thérapie cellulaire active - TECAR thérapie
 category: Femme - Santé
 ---
