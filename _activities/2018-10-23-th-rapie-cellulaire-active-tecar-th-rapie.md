@@ -2,7 +2,7 @@
 type: Activity
 published: false
 title: Thérapie cellulaire active - TECAR thérapie
-category: Thérapie cellulaire active - TECAR thérapie
+category: Femme - Santé
 ---
 ## A New Post##
 
