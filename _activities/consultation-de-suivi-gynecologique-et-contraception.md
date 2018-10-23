@@ -1,8 +1,11 @@
 ---
 type: activity
 title: Consultation de suivi gynécologique et contraception
-category: "Femme - Santé"
-description: "De la puberté  pour envisager une contraception jusqu'après la ménopause pour continuer le suivi gynécologique de prévention, la sage -femme accompagne la santé de la femme..."
+category: Femme - Santé
+description: >-
+  De la puberté  pour envisager une contraception jusqu'après la ménopause pour
+  continuer le suivi gynécologique de prévention, la sage -femme accompagne la
+  santé de la femme...
 published: true
 ---
 
@@ -31,5 +34,4 @@ Elle **prescrit toutes les contraceptions**, **pose (et retire) implant et DIU/S
 
 Choisir sa contraception [http://www.choisirsacontraception.fr/](http://www.choisirsacontraception.fr/)
 
-Pass Région-Santé [http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars](http://www.lacarteregion.com/articles-page-d-accueil/Vous-pouvez-demander-le-Pass-Region-Sante-des-le-9-mars)
 
