@@ -20,6 +20,6 @@ Pour autant, le portage doit **respecter la physiologie du nourrisson**  en lui 
 
 C'est pour conjuguer les deux que des sages-femmes vous proposent, d'apprendre à porter votre enfant dans une écharpe. 
 
-Par des **réunions d'information, des ateliers individuels ou collectifs**, elle vous donnera les éléments de connaissance du bien porter, vous guidera dans le choix des écharpes et slings, vous proposera des nouages adaptés à vos besoins et à ceux de votre enfant. Elle vous les montre et vous les apprend afin que vous soyez en capacité de les utiliser immédiatement.
+Par des **réunions d'information, des ateliers individuels ou collectifs**, elle vous donnera les éléments de connaissance du bien porter, vous guidera dans le choix des écharpes, slings et porte-bébés adaptés à vos besoins et à ceux de votre enfant. Elle vous les montre et vous apprend à mettre votre bébé dans le mode de portage choisi afin que vous soyez en capacité de l'utiliser immédiatement.
 
 _Il n'y a pas de prise en charge par la Sécurité Sociale pour cette proposition._
