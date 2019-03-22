@@ -14,3 +14,10 @@
 @import "tool/utilities";
 
 
+.jumbo {
+  text-align: center;
+  overflow: hidden;
+  border: 1px solid palette(primary, light);
+  margin: 1em;
+  padding: 0 $base-line $base-line;
+}

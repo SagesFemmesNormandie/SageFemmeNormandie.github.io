@@ -25,14 +25,11 @@ layout: compress
 
       ga('create', 'UA-76419132-1', 'auto');
       ga('send', 'pageview');
-      
       if (navigator.serviceWorker) {
         navigator.serviceWorker.register('/sw.js').then(function(reg) {
             if (!reg.installing) return;
             console.log("[*] ServiceWorker is installing...");
-      
             var worker = reg.installing;
-      
             worker.addEventListener('statechange', function() {
                 if (worker.state == 'redundant') {
                     console.log('[*] Install failed');
@@ -43,7 +40,6 @@ layout: compress
             });
         });
       }
-
     </script>
   </body>
 

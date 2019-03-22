@@ -28,7 +28,7 @@ $number: 4; // for equal columns
   & > * {
     margin-bottom: $base-line;
   }
-  @media #{$large-up} {
+  @media #{$medium-up} {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;

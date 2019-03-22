@@ -21,9 +21,9 @@ $maroon:                  #85144B;
 
 $text-color:              #111;
 $background-color:        #fdfdfd;
-$brand-color:             #3e521c;
+$brand-color:             #cf837c;
 $color-primary:           $brand-color;
-$color-secondary:         $aqua;
+$color-secondary:         #064b3b;
 
 $grey-color:              #828282;
 $grey-color-light:        lighten($grey-color, 40%);
@@ -37,7 +37,7 @@ $palettes: (
     primary: (
         base:   $color-primary,
         light:  mix(white, $color-primary, 30%),
-        dark:   #5b6b3e
+        dark:   mix(black, $color-primary, 30%)
     ),
     secondary: (
         base:   #ffa900,
