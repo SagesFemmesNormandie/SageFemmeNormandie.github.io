@@ -20,8 +20,23 @@
   }
 }
 
+//https://www.trysmudford.com/blog/fade-out-siblings-css-trick/
 .activity-list {
   @include grid(3);
+  pointer-events: none;
+  &:hover > *,
+  &:focus-within > * {
+    opacity: 0.5;
+  }
+  &:hover > *:hover,
+  &:focus-within > :focus {
+    transform: scale(1.03);
+    opacity: 1;
+  }
+  & > * {
+    pointer-events: auto;
+    transition: 300ms opacity, 300ms transform;
+  }
 }
 
 .activity-list__box {
