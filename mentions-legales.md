@@ -23,7 +23,7 @@ Les informations contenues dans ce service sont non contractuelles et sujettes �
 
 
 **Contacter l'association :**  
-Association des Sages-Femmes Libérales de Haute-Normandie (ASFLHN)
+Sages-Femmes Libérales de Haute-Normandie (ASFLHN)
 9, rue Jean Lecanuet
 76000 ROUEN
 asflhn7627@gmail.com
