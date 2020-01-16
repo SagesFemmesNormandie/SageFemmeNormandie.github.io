@@ -45,7 +45,7 @@ module Jekyll_Geocode
 
       Geocoder.configure(
         :lookup => :nominatim,
-        :timout => 20
+        :timeout => 20
       )
 
       # Define data source
@@ -135,6 +135,7 @@ module Jekyll_Geocode
         # JSON output :: Test if a JSON file exists for performance issues
         if !outputfile && !File.file?("#{data_source}/#{d[geo_name]}.json")
           geo_response = request_service("#{geo_coord}")
+          p "geocode is requesting #{geo_coord}"
           if !geo_response
             p "error for #{d[geo_name]} at #{d[geo_address]}"
             p "generating coords with only the city field"
