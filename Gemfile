@@ -8,6 +8,7 @@ source 'https://rubygems.org'
 gem "jekyll"
 gem 'rake'
 gem "geocoder"
+gem "kramdown-parser-gfm"
 
 #gem 'github-pages', versions['github-pages']
 #gem 'mini_magick'
