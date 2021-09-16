@@ -7,8 +7,7 @@ source 'https://rubygems.org'
 
 gem "jekyll" , '~> 3.9.1'
 gem 'rake'
-gem 'liquid'
-gem "liquid-c"
+
 gem "geocoder"
 gem "kramdown-parser-gfm"
 gem "kramdown"
