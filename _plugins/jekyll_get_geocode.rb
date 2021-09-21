@@ -45,7 +45,7 @@ module Jekyll_Geocode
 
       Geocoder.configure(
         :lookup => :nominatim,
-        :timeout => 20
+        :timeout => 30
       )
 
       # Define data source

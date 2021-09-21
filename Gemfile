@@ -21,7 +21,7 @@ group :development do
 end
 
 group :jekyll_plugins do
-  gem 'jekyll-gdrive'
+  ##gem 'jekyll-gdrive', git: 'https://github.com/taylorwc/jekyll-gdrive'
   gem "jekyll-sitemap"
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
