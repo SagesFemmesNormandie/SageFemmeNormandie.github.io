@@ -48,7 +48,7 @@ function getJson(id, gid) {
 
       }
       const dataYAML = YAML.stringify(data);
-      fs.writeFileSync('_data/members.yml', dataYAML, 'utf8');
+      fs.writeFileSync('./_data/members.yml', dataYAML, 'utf8');
     })
 }
 
