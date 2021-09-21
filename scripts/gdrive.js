@@ -48,6 +48,10 @@ function getJson(id, gid) {
 
       }
       const dataYAML = YAML.stringify(data);
+      if (!fs.existsSync('./_data/')) {
+        fs.mkdirSync('./_data/');
+        console.log('create : ./_data/')
+      }
       fs.writeFileSync('./_data/members.yml', dataYAML, 'utf8');
     })
 }
