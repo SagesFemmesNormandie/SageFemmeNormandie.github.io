@@ -30,6 +30,8 @@ function getJson(id, gid) {
       const formattedRow = {}
       const activites = []
       const activitesdata = []
+      formattedRow.splice(0,formattedRow.length);
+      activites.splice(0,activites.length);
       activitesdata.splice(0,activitesdata.length);
       row.c.forEach(function (value, i) {
         var key = slugify(cols[i].label.toLowerCase().trim())
