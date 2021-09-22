@@ -26,8 +26,8 @@ function getJson(id, gid) {
     const data = []
     const cols = json.table.cols
     const rows = json.table.rows
-    console.log(rows)
-    for(const row of rows) {
+    for (const row of rows) {
+      console.log(row)
       var formattedRow = new Object()
       var activites = []
       var activitesdata = []
