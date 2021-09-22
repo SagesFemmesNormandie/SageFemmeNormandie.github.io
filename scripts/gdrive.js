@@ -26,6 +26,7 @@ function getJson(id, gid) {
     const data = []
     const cols = json.table.cols
     const rows = json.table.rows
+    console.log(rows)
     for(const row of rows) {
       var formattedRow = new Object()
       var activites = []
@@ -46,7 +47,6 @@ function getJson(id, gid) {
         formattedRow['nom_entier'] = transform.slugify(formattedRow['prenom'] + '-' + formattedRow['nom']).toLowerCase().trim();
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
-        console.log(formattedRow)
       }
       var formattedRow = new Object()
     }
