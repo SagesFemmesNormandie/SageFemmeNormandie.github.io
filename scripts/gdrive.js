@@ -16,7 +16,7 @@ const transform = require('./transform');
 //https://sheets.googleapis.com/v4/spreadsheets/1nt-D_VmZT4ex_7EwkXRlcj2jIJ4gafgm1mtuxkbhSts
 
 function getJson(id, gid) {
-  fetch(`https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:json&tq&gid=${gid}`)
+  fetch(`https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:json`)
   .then(res => res.text())
   .then(text => {
     const json = JSON.parse(text.substr(47).slice(0, -2))
