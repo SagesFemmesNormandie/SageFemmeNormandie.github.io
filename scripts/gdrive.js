@@ -27,7 +27,6 @@ function getJson(id, gid) {
     const cols = json.table.cols
     const rows = json.table.rows
     for (const row of rows) {
-      console.log(row)
       var formattedRow = new Object()
       var activites = []
       var activitesdata = []
@@ -51,6 +50,7 @@ function getJson(id, gid) {
       var formattedRow = new Object()
     }
     const dataYAML = YAML.stringify(data);
+    console.log(dataYAML)
     if (!fs.existsSync('./_data/')) {
       fs.mkdirSync('./_data/');
       console.log('create : ./_data/')
