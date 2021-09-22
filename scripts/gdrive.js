@@ -48,6 +48,7 @@ function getJson(id, gid) {
 
       }
       const dataYAML = YAML.stringify(data);
+      console.log(dataYAML)
       if (!fs.existsSync('./_data/')) {
         fs.mkdirSync('./_data/');
         console.log('create : ./_data/')
