@@ -47,6 +47,7 @@ function getJson(id, gid) {
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
       }
+      var formattedRow = new Object()
     }
     const dataYAML = YAML.stringify(data);
     console.log(dataYAML)
