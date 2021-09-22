@@ -30,6 +30,7 @@ function getJson(id, gid) {
       const formattedRow = {}
       const activites = []
       const activitesdata = []
+      activitesdata.splice(0,activitesdata.length);
       row.c.forEach(function (value, i) {
         var key = slugify(cols[i].label.toLowerCase().trim())
         key = key.includes('ttention') ? 'ville' : key;
@@ -45,7 +46,6 @@ function getJson(id, gid) {
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
       }
-
     }
     const dataYAML = YAML.stringify(data);
     console.log(dataYAML)
