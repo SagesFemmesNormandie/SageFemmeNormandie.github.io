@@ -27,7 +27,7 @@ function getJson(id, gid) {
     const cols = json.table.cols
     const rows = json.table.rows
     for(const row of rows) {
-      let formattedRow = {}
+      let formattedRow = new Object()
       let activites = []
       let activitesdata = []
       formattedRow.splice(0,formattedRow.length);
