@@ -19,7 +19,6 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "json-to-pretty-yaml": "^1.2.2",
-    "netlify-cli": "^6.9.12",
     "node-fetch": "2.6.4",
     "slugify": "^1.6.0"
   }

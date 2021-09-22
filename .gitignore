@@ -29,6 +29,7 @@ node_modules
 
 # Jekyll
 _site/
+_data/
 .sass-cache/
 .asset-cache/
 .jekyll-metadata
