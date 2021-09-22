@@ -5,6 +5,8 @@ namespace :build do
   task :prod do
     puts "* Regenerating members.yml"
     system "node scripts/gdrive.js"
+    puts "* List files"
+    system "ls -R ./_data"
     puts "* Regenerating files for production... first time"
     system "bundle exec jekyll build"
     puts "* Regenerating files for production... second time"
