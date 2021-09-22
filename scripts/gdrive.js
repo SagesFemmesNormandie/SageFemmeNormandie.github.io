@@ -46,11 +46,11 @@ function getJson(id, gid) {
         formattedRow['nom_entier'] = transform.slugify(formattedRow['prenom'] + '-' + formattedRow['nom']).toLowerCase().trim();
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
+        console.log(formattedRow)
       }
       var formattedRow = new Object()
     }
     const dataYAML = YAML.stringify(data);
-    console.log(dataYAML)
     if (!fs.existsSync('./_data/')) {
       fs.mkdirSync('./_data/');
       console.log('create : ./_data/')
