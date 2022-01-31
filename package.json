@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "## Pré-requis Le site est géré via [Github Pages](https://pages.github.com/) et [Jekyll](http://jekyllrb.com/) et nécessite Ruby 2.1.x",
   "main": "",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,7 +20,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "json-to-pretty-yaml": "^1.2.2",
-    "node-fetch": "2.6.4",
+    "node-fetch": "^2.6.7",
     "slugify": "^1.6.0"
   }
 }
