@@ -8,7 +8,7 @@ published: true
 # Mentions Légales #
 
 **Directrice de publication :**  
-Anne-Laure FROMENT
+Maggy RATAJ
 
 **Co-directrice de publication :**  
 Emmanuelle DAVY-GOYE et Marie LEROY
