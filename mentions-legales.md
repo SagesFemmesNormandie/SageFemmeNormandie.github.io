@@ -24,6 +24,6 @@ Les informations contenues dans ce service sont non contractuelles et sujettes √
 
 **Contacter l'association :**  
 Sages-Femmes Lib√©rales de Haute-Normandie (ASFLHN)
-9, rue Jean Lecanuet
-76000 ROUEN
+1 av Jacques Chastellain
+76100 ROUEN
 asflhn7627@gmail.com
