@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import fetch from 'cross-fetch';
 import fs from 'fs';
 import slugify from 'slugify';
 import YAML from 'json-to-pretty-yaml';
