@@ -1,8 +1,8 @@
-const fetch = require('node-fetch');
-const fs = require('fs');
-const slugify = require('slugify');
-const YAML = require('json-to-pretty-yaml');
-const transform = require('./transform');
+import fetch from 'node-fetch';
+import fs from 'fs';
+import slugify from 'slugify';
+import YAML from 'json-to-pretty-yaml';
+
 
 // https://benborgers.com/posts/google-sheets-json
 // https://stackoverflow.com/questions/69045745/how-do-i-fetch-google-spreadsheet-data-from-javascript-in-sheets-v4-api-as-json
@@ -43,7 +43,7 @@ function getJson(id, gid) {
         }
       })
       if (formattedRow['prenom']) {
-        formattedRow['nom_entier'] = transform.slugify(formattedRow['prenom'] + '-' + formattedRow['nom']).toLowerCase().trim();
+        formattedRow['nom_entier'] = slugify(formattedRow['prenom'] + '-' + formattedRow['nom']).toLowerCase().trim();
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
       }

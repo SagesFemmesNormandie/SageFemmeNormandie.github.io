@@ -4,7 +4,7 @@
 
 // Slugify string
 module.exports = {
-  slugify: function (str) {
+  slugifyy: function (str) {
     str = str.replace(/^\s+|\s+$/g, ''); // trim
     str = str.toLowerCase();
 
