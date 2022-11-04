@@ -4,7 +4,7 @@ namespace :build do
   desc "Regenerate files for production"
   task :prod do
     puts "* Regenerating members.yml"
-    system "node scripts/gdrive.js"
+    system "node scripts/gdrive.mjs"
     puts "* List files"
     system "ls -R ./_data"
     puts "* Regenerating files for production... first time"
