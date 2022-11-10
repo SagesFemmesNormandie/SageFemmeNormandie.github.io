@@ -1,4 +1,4 @@
-import fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
 import fs from 'fs';
 import slugify from 'slugify';
 import YAML from 'json-to-pretty-yaml';
