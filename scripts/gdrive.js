@@ -1,7 +1,7 @@
 const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
-import fs from 'fs';
-import slugify from 'slugify';
-import YAML from 'json-to-pretty-yaml';
+const fs = require('fs');
+const slugify = require('slugify');
+const YAML = require('json-to-pretty-yaml');
 
 
 // https://benborgers.com/posts/google-sheets-json
