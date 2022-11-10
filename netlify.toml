@@ -1,4 +1,3 @@
 [dev]
   command = "rake build"
-[functions]
-  node_bundler = "esbuild"
+
