@@ -57,7 +57,10 @@ function getJson(id, gid) {
     }
     fs.writeFileSync('./_data/members.yml', dataYAML, 'utf8');
     console.log('create : ./_data/members.yml')
-  })
+  }).catch((error) => {
+    console.error(error,'Promise error');
+    done();
+});
 }
 
 getJson('1nt-D_VmZT4ex_7EwkXRlcj2jIJ4gafgm1mtuxkbhSts','1')
