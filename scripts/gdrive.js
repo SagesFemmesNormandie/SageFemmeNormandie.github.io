@@ -34,7 +34,7 @@ function getJson(id, gid) {
       activitesdata.splice(0,activitesdata.length);
       row.c.forEach(function (value, i) {
         var key = slugify(cols[i].label.toLowerCase().trim())
-        console.log(key)
+        //console.log(key)
         key = key.includes('ttention') ? 'ville' : key;
         if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
           formattedRow[key] = value.v;
@@ -44,7 +44,6 @@ function getJson(id, gid) {
         }
       })
       if (formattedRow['prenom']) {
-        console.log(formattedRow)
         formattedRow['nom_entier'] = slugify(formattedRow['prenom'] + '-' + formattedRow['nom']).toLowerCase().trim();
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
@@ -52,7 +51,7 @@ function getJson(id, gid) {
       var formattedRow = new Object()
     }
     const dataYAML = YAML.stringify(data);
-    console.log(dataYAML)
+    // console.log(dataYAML)
     if (!fs.existsSync('./_data/')) {
       fs.mkdirSync('./_data/');
       console.log('create : ./_data/')
