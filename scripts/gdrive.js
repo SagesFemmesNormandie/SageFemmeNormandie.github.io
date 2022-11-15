@@ -44,7 +44,7 @@ function getJson(id, gid) {
         }
       })
       if (formattedRow['prenom']) {
-        console.log(formattedRow['prenom']
+        console.log(formattedRow)
         formattedRow['nom_entier'] = slugify(formattedRow['prenom'] + '-' + formattedRow['nom']).toLowerCase().trim();
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
