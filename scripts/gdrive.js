@@ -59,7 +59,6 @@ function getJson(id, gid) {
     console.log('create : ./_data/members.yml')
   }).catch((error) => {
     console.error(error,'Promise error');
-    done();
 });
 }
 
