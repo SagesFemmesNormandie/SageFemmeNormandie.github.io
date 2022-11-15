@@ -34,6 +34,7 @@ function getJson(id, gid) {
       activitesdata.splice(0,activitesdata.length);
       row.c.forEach(function (value, i) {
         var key = slugify(cols[i].label.toLowerCase().trim())
+        console.log(key)
         key = key.includes('ttention') ? 'ville' : key;
         if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
           formattedRow[key] = value.v;
@@ -43,6 +44,7 @@ function getJson(id, gid) {
         }
       })
       if (formattedRow['prenom']) {
+        console.log(formattedRow['prenom']
         formattedRow['nom_entier'] = slugify(formattedRow['prenom'] + '-' + formattedRow['nom']).toLowerCase().trim();
         formattedRow['activites'] = activitesdata;
         data.push(formattedRow)
