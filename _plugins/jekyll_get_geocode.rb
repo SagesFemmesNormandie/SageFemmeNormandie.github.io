@@ -108,7 +108,7 @@ module Jekyll_Geocode
 
           # Write data
           if geo_cache == true
-            p "geocode is requesting #{geo_coord}"
+            p "geocode is requesting #{d[geo_name]}: #{geo_coord}"
             geo_response = request_service("#{geo_coord}")
             if !geo_response
               p "error for #{d[geo_name]} at #{d[geo_address]} #{d[geo_city]}"
@@ -135,7 +135,7 @@ module Jekyll_Geocode
         # JSON output :: Test if a JSON file exists for performance issues
         if !outputfile && !File.file?("#{data_source}/#{d[geo_name]}.json")
           geo_response = request_service("#{geo_coord}")
-          p "geocode is requesting #{geo_coord}"
+          p "geocode is requesting #{d[geo_name]}: #{geo_coord}"
           if !geo_response
             p "error for #{d[geo_name]} at #{d[geo_address]}"
             p "generating coords with only the city field"

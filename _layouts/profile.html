@@ -8,7 +8,7 @@ layout: default
 
   {% if page.adhesion contains siteyear %}
   <div class="bloc-adresse">
-  <p itemprop="streetAddress" class="profile-address"><strong><i class="fa fa-building-o"></i></strong>&nbsp; {{page.adresse}} <span class="codepostal">{{page.code-postal}}</span> {{page.ville}}</p>
+  {% if page.adresse %}<p itemprop="streetAddress" class="profile-address"><strong><i class="fa fa-building-o"></i></strong>&nbsp; {{page.adresse}} <span class="codepostal">{{page.code-postal}}</span> {{page.ville}}</p>{% endif %}
   <p>{% if page.telephone-mobile %}<strong><i class="fa fa-mobile-phone"></i></strong>&nbsp; <span itemprop="telephone" class="profile-telephone">{{page.telephone-mobile}}</span><br>{% endif %}
   {% if page.telephone-fixe %}<i class="fa fa-phone"></i></strong>&nbsp;  <span itemprop="telephone">{{page.telephone-fixe}}</span>{% endif %}</p>
   {% if page.email %}<p><strong><i class="fa fa-envelope"></i></strong>&nbsp;</strong> {{ page.email }}</p>{% endif %}
