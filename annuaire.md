@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Annuaire
-navigation: true
+navigation: true  
 ---
 
 <div class="members" id="users">
@@ -35,7 +35,7 @@ navigation: true
     <input type="search" placeholder="Chercher une ville, le nom d‘une Sage-femme ou une activité" required="">
   </div>
   <div class="map-link">  
-    <a href="{{ site.baseurl }}/carte.html" data-no-instant style="padding-bottom:0.2rem;border-bottom: 1px solid #ccc;">=>Localiser les Sages-femmes sur la carte de Haute-Normandie</a>
+    <a href="{{ site.baseurl }}/carte/" data-no-instant style="padding-bottom:0.2rem;border-bottom: 1px solid #ccc;">=>Localiser les Sages-femmes sur la carte de Haute-Normandie</a>
   </div>
   <div class="members-list list" itemtype="http://schema.org/ItemList http://schema.org/Midwifery">
   {% for group in items_grouped %}

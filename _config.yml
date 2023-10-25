@@ -7,6 +7,7 @@ baseurl: ""
 url: "https://sagesfemmes-normandie.fr"
 github_username:  SageFemmeNormandie
 #0Ao5u1U6KYND7dFVkcnJRNUtHWUNKamxoRGg4ZzNiT3c
+permalink: pretty
 
 
 # Build settings
