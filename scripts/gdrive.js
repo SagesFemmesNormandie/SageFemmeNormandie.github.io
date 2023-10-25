@@ -9,7 +9,6 @@ const YAML = require('json-to-pretty-yaml');
 // https://dev.to/marcusatlocalhost/request-google-sheets-json-api-v4-with-php-12ji
 
 
-
 //https://docs.google.com/spreadsheets/d/1nt-D_VmZT4ex_7EwkXRlcj2jIJ4gafgm1mtuxkbhSts/edit#gid=0
 //https://spreadsheets.google.com/feeds/cells/1nt-D_VmZT4ex_7EwkXRlcj2jIJ4gafgm1mtuxkbhSts/1/public/full?alt=json
 //
@@ -33,14 +32,18 @@ function getJson(id, gid) {
       activites.splice(0,activites.length);
       activitesdata.splice(0,activitesdata.length);
       row.c.forEach(function (value, i) {
-        var key = slugify(cols[i].label.toLowerCase().trim())
-        //console.log(key)
-        key = key.includes('ttention') ? 'ville' : key;
-        if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
-          formattedRow[key] = value.v;
-        }
-        if (value && key && value.v !== null && (value.v === 1 || value.v === 0)) {
-          activitesdata.push({ "nom": cols[i].label });
+        if (rows[1].c[i] !== null) {
+          // console.log("row", rows[1].c[i].v)
+          if (rows[1].c[i].v !== null) {
+            var key = slugify(rows[1].c[i].v.toLowerCase().trim())
+            key = key.includes('ttention') ? 'ville' : key;
+            if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
+              formattedRow[key] = value.v;
+            }
+            if (value && key && value.v !== null && (value.v === 1 || value.v === 0)) {
+              activitesdata.push({ "nom": cols[i].label });
+            }
+          }
         }
       })
       if (formattedRow['prenom']) {
@@ -51,7 +54,6 @@ function getJson(id, gid) {
       var formattedRow = new Object()
     }
     const dataYAML = YAML.stringify(data);
-    // console.log(dataYAML)
     if (!fs.existsSync('./_data/')) {
       fs.mkdirSync('./_data/');
       console.log('create : ./_data/')
