@@ -71,8 +71,13 @@ function getJson(id, gid) {
             key = key.includes('ttention') ? 'ville' : key;
             if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
               formattedRow[key] = value.v.trim();
-
             }
+          }
+        }
+        if (i == 6) {
+          console.log(value)
+          if (value && value.v !== null) {
+            formattedRow['code-postal'] = value.v;
           }
         }
         if (i >= 13) {
