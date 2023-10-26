@@ -3,6 +3,39 @@ const fs = require('fs');
 const slugify = require('slugify');
 const YAML = require('json-to-pretty-yaml');
 
+const activitieslist = [
+  "Accompagnement allaitement maternel",
+  "Accompagnement global",
+  "Acupuncture",
+  "Chant prénatal",
+  "Consultation de suivi de grossesse",
+  "Consultation de suivi gynécologique et contraception",
+  "Consultation post - natale",
+  "Consultation préconceptionnelle",
+  "Echographie",
+  "Entretien prénatal précoce",
+  "Eveil du bébé par le toucher",
+  "Haptonomie",
+  "Hypnose",
+  "IVG",
+  "Monitoring",
+  "Ostéopathie",
+  "Portage des bébés",
+  "Préparation à la naissance",
+  "Préparation en piscine",
+  "Psycho périnatalité",
+  "Rééducation du périnée",
+  "Sevrage tabagique",
+  "Sophrologie",
+  "Suivi du nourrisson",
+  "Suivi post natal mère - enfant / PRADO",
+  "Surveillance de grossesse pathologique",
+  "Thérapie cellulaire active - TECAR thérapie",
+  "Thérapie sexo - corporelle",
+  "Yoga"
+]
+
+
 
 // https://benborgers.com/posts/google-sheets-json
 // https://stackoverflow.com/questions/69045745/how-do-i-fetch-google-spreadsheet-data-from-javascript-in-sheets-v4-api-as-json
@@ -33,16 +66,18 @@ function getJson(id, gid) {
       activitesdata.splice(0,activitesdata.length);
       row.c.forEach(function (value, i) {
         if (rows[1].c[i] !== null) {
-          // console.log("row", rows[1].c[i].v)
           if (rows[1].c[i].v !== null) {
             var key = slugify(rows[1].c[i].v.toLowerCase().trim())
             key = key.includes('ttention') ? 'ville' : key;
             if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
               formattedRow[key] = value.v;
+
             }
-            if (value && key && value.v !== null && (value.v === 1 || value.v === 0)) {
-              activitesdata.push({ "nom": cols[i].label });
-            }
+          }
+        }
+        if (i >= 13) {
+          if (value && value.v !== null && (value.v === 1 || value.v === 0)) {
+            activitesdata.push({ "nom": activitieslist[i-13] });
           }
         }
       })
