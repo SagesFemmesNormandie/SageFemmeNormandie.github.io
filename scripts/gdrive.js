@@ -70,7 +70,7 @@ function getJson(id, gid) {
             var key = slugify(rows[1].c[i].v.toLowerCase().trim())
             key = key.includes('ttention') ? 'ville' : key;
             if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
-              formattedRow[key] = value.v;
+              formattedRow[key] = value.v.trim();
 
             }
           }
