@@ -37,10 +37,7 @@ Pour consulter une sage-femme, il n'est pas nécessaire d'avoir une prescription
 
 **LIENS UTILES:**
 
-Conseil de l'ordre des sages-femmes [www.ordre-sages-femmes.fr/](http://www.ordre-sages-femmes.fr/)
-
-CPAM - Ameli [http://www.ameli.fr/assures/](http://www.ameli.fr/assures/)
-
-Association nationale des sages-femmes libérales [http://www.ansfl.org/fr/](http://www.ansfl.org/fr/)
-
-Réseau Périnatatalité en région Haute-Normandie [http://reseaux-perinat-hn.org/](http://reseaux-perinat-hn.org/)
+ - Conseil de l'ordre des sages-femmes [www.ordre-sages-femmes.fr/](http://www.ordre-sages-femmes.fr/)
+ - CPAM - Ameli [http://www.ameli.fr/assures/](http://www.ameli.fr/assures/)
+ - Association nationale des sages-femmes libérales [http://www.ansfl.org/fr/](http://www.ansfl.org/fr/)
+ - Réseau Périnatatalité en région Haute-Normandie [http://reseaux-perinat-hn.org/](http://reseaux-perinat-hn.org/)
