@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 gem "jekyll" , '~> 4.2.0'
 gem 'rake'
 
+gem 'ffi', '= 1.16.3'
 gem "geocoder"
 gem "kramdown-parser-gfm"
 gem "kramdown"
