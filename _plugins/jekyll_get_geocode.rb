@@ -9,6 +9,11 @@ module Jekyll_Geocode
   class Generator < Jekyll::Generator
     safe true
     priority :highest
+    Geocoder.configure(
+    timeout: 10,
+    ip_lookup: :telize
+    )
+
 
     def request_service(address)
       Geocoder.coordinates(address)
