@@ -10,8 +10,8 @@ module Jekyll_Geocode
     safe true
     priority :highest
     Geocoder.configure(
-    timeout: 10,
-    ip_lookup: :telize
+      timeout: 10,
+      ip_lookup: :telize
     )
 
 
