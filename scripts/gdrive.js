@@ -64,25 +64,26 @@ function getJson(id, gid) {
       var activitesdata = []
       activites.splice(0,activites.length);
       activitesdata.splice(0,activitesdata.length);
-      row.c.forEach(function (value, i) {
-        if (rows[1].c[i] !== null) {
-          if (rows[1].c[i].v !== null) {
-            var key = slugify(rows[1].c[i].v.toLowerCase().trim())
-            key = key.includes('ttention') ? 'ville' : key;
-            if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
-              formattedRow[key] = value.v.trim();
+      row.c.forEach(function (value, i) { 
+        if (value && value.v !== null) {
+          if (rows[1].c[i] !== null) {
+            if (rows[1].c[i].v !== null) {
+              var key = slugify(rows[1].c[i].v.toLowerCase().trim())
+              key = key.includes('ttention') ? 'ville' : key;
+              if (value && key && value.v !== null && (value.v !== 1 && value.v !== 0)) {
+                formattedRow[key] = value.v.trim();
+              }
             }
           }
-        }
-        if (i == 6) {
-          console.log(value)
-          if (value && value.v !== null) {
-            formattedRow['code-postal'] = value.v;
+          if (i == 6) {
+            if (value && value.v !== null) {
+              formattedRow['code-postal'] = value.v;
+            }
           }
-        }
-        if (i >= 13) {
-          if (value && value.v !== null && (value.v === 1 || value.v === 0)) {
-            activitesdata.push({ "nom": activitieslist[i-13] });
+          if (i >= 13) {
+            if (value && value.v !== null && (value.v === 1 || value.v === 0)) {
+              activitesdata.push({ "nom": activitieslist[i-13] });
+            }
           }
         }
       })
