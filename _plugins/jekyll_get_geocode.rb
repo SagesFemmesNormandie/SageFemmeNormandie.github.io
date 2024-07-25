@@ -11,7 +11,6 @@ module Jekyll_Geocode
     priority :highest
 
     Geocoder.configure(
-      timeout: 10,
       ip_lookup: :telize
     )
 
@@ -51,7 +50,7 @@ module Jekyll_Geocode
 
       Geocoder.configure(
         :lookup => :nominatim,
-        :timeout => 30
+        :timeout => 60
       )
 
       # Define data source
