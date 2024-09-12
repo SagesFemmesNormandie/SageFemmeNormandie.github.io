@@ -53,6 +53,8 @@ module Jekyll_Geocode
         :timeout => 60
       )
 
+      Geocoder.configure(http_headers: { "User-Agent" => "bertrand.keller@gmail.com" })
+
       # Define data source
       if !filepath
         data_source = (site.config['data_source'])
@@ -71,7 +73,7 @@ module Jekyll_Geocode
       members = YAML.load_file("#{data_source}/#{filename}")
 
       # Loop YML file
-      members.each do |d|
+      members.drop(1).each do |d|
         geo_name_field = d[geo_name].downcase.tr(" ", "-")
         if d[geo_postcode]
           geo_postcode_field = ", #{d[geo_postcode]}"
@@ -145,8 +147,10 @@ module Jekyll_Geocode
             p "error for #{d[geo_name]} at #{d[geo_address]}"
             p "generating coords with only the city field"
             geo_response = request_service("#{geo_coord_simple}")
+            data = [ ]
+          else
+            data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
           end
-          data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
           site.data[geo_name_field] = data
           #Create a JSON  files if cache is enabled
           if site.config['jekyll_geocode']['cache']
