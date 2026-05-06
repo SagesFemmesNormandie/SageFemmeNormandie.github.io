@@ -1,196 +1,167 @@
 ---
 ---
 
-{% assign items_grouped-sort = site.data.members | sort: 'ville' %}
-{% assign items_grouped = items_grouped-sort | group_by: 'ville' %}
-{% assign siteyear = site.time | date: '%Y' %}
-
 <!DOCTYPE html>
 <html lang="fr-FR">
 <head>
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="dns-prefetch" href="//maps.googleapis.com">
-  <link rel="dns-prefetch" href="//google-maps-utility-library-v3.googlecode.com">
   <title>Recherche d’une Sage femme</title>
-  <script type="text/javascript" src="//maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE"></script>
-  <script type="text/javascript" rel="preload" src="https://cdnjs.cloudflare.com/ajax/libs/js-marker-clusterer/1.0.0/markerclusterer_compiled.js"></script>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin=""/>
+  <!-- MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+
   <style type="text/css">
     {% capture include_to_scssify %}
       {% include base.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
-  </style>
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | prepend: site.baseurl }}">
-  {% include favicons.html %}
-  <style type="text/css">
-  html,
-  body,html {
-    height: 100%;
-    overflow: hidden;
-  }
-  .container {
-    width: 100%;
-    height: 100%;
-  }
-  #map-canvas {
-    width: 100%;
-    height: 100%;
-    min-height: 600px;
-  }
-  .side-bar {
-    display: block;
-    padding: 0 0.5rem 0.5rem;
-  }
-  .side-bar p {
-    display: none;
-  }
-  #side-bar-content {
-    display: none;
-    overflow-y: scroll;
-    padding: 1rem 0 2rem;
-    height: 70%;
-  }
-  @media screen and (min-width: 640px) {
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+    }
     .container {
-      display: flex;
-    }
-    #map-canvas {
-      width: 75%;
-    }
-    .side-bar {
-      order: 2;
-      padding: 0 0.5rem;
-      width: 25%;
+      width: 100%;
       height: 100%;
     }
-    .side-bar p {
+    #map-canvas {
+      width: 100%;
+      height: 100%;
+      min-height: 600px;
+    }
+    .side-bar {
       display: block;
+      padding: 0 0.5rem 0.5rem;
+    }
+    .side-bar p {
+      display: none;
     }
     #side-bar-content {
-      display: block;
+      display: none;
+      overflow-y: scroll;
+      padding: 1rem 0 2rem;
+      height: 70%;
     }
-  }
-  .side-bar .side-bar_element {
-    padding: 0.2rem;
-    font-family: Helvetica, Arial;
-    border-bottom: 1px solid #ccc;
-  }
-  .side-bar a {
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: #333;
-  }
+    @media screen and (min-width: 640px) {
+      .container {
+        display: flex;
+      }
+      #map-canvas {
+        width: 75%;
+      }
+      .side-bar {
+        order: 2;
+        padding: 0 0.5rem;
+        width: 25%;
+        height: 100%;
+      }
+      .side-bar p {
+        display: block;
+      }
+      #side-bar-content {
+        display: block;
+      }
+    }
+    .side-bar .side-bar_element {
+      padding: 0.2rem;
+      font-family: Helvetica, Arial;
+      border-bottom: 1px solid #ccc;
+    }
+    .side-bar a {
+      font-size: 1.1rem;
+      text-decoration: none;
+      color: #333;
+    }
   </style>
-  <script type="text/javascript">
-  // Documentation https://www.youtube.com/watch?v=OMv8gZxrwag
-  //<![CDATA[
-  // this variable will collect the html which will eventually be placed in the side_bar
-  var side_bar_html = "";
 
-  // arrays to hold copies of the markers and html used by the side_bar
-  // because the function closure trick doesnt work there
-  var gmarkers = [];
-  var map = null;
-  var delay = 100;
-  // var markerclusterer = null;
-
-  function initialize() {
-    // create the map
-    geocoder = new google.maps.Geocoder();
-    var bounds = new google.maps.LatLngBounds();
-    var myOptions = {
-      zoom: 9,
-      center: new google.maps.LatLng(49.443231, 1.099971),
-      mapTypeControl: true,
-      mapTypeControlOptions: {
-        style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-      },
-      navigationControl: true,
-      mapTypeId: google.maps.MapTypeId.ROADMAP
-      // API_Key = AIzaSyBUzX9F8nEyUmKBJ0u4YNuKAeXT2RfkpZE
-    }
-    map = new google.maps.Map(document.getElementById("map-canvas"),
-      myOptions);
-
-    google.maps.event.addListener(map, 'click', function() {
-      infowindow.close();
-    });
-
-    {% assign membersdata = site.data.members | sort: 'nom' %}
-    {% for row in membersdata %}{% if row.adhesion contains siteyear %}
-    {% assign geoaddress = row.adresse %}
-    {% assign places = site.data.members | sort: 'adresse' %}
-    var point = new google.maps.LatLng({% for coordinates in site.data[row.nom_entier] %}{{ coordinates.location.latitude }}, {{ coordinates.location.longitude }}{% endfor %});
-    var marker = createMarker(point,"{{ row.prenom }} {{ row.nom }}", "{{ forloop.index }}","{% for place in places %}{% if place.adresse-geo == row.adresse-geo %}<a href='/{{ place.nom_entier }}/'><strong>{{ place.prenom }} {{ place.nom }}</strong></a><br>{{ place.adresse }}<br><strong>{{ row.ville }}</strong><br>{{ place.telephone-mobile }}{% if place.telephone-fixe %}{% if place.telephone-mobile %} - {% endif %}{{ place.telephone-fixe }}{% endif %}{% if place.email %}<br>{{ place.email }}{% endif %}{% if place.site-web %}<br>{{ place.site-web }}{% endif %}<br>{% endif %}{% endfor %}");
-      document.getElementById("side-bar-content").innerHTML = side_bar_html;
-    {% endif %}{% endfor %}
-
-    // Cluster
-    //var mcOptions = {gridSize: 50, maxZoom: 15, imagePath: 'https://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclustererplus/images/m'};
-    //var markerclusterer = new MarkerClusterer(map, gmarkers, mcOptions);
-
-  };
-
-  var infowindow = new google.maps.InfoWindow({
-    size: new google.maps.Size(150, 50)
-  });
-
-  // This function picks up the click and opens the corresponding info window
-  function myclick(i) {
-    google.maps.event.trigger(gmarkers[i], "click");
-  }
-
-  // A function to create the marker and set up the event window function
-  function createMarker(latlng, name, id, html) {
-    var contentString = html;
-    var marker = new google.maps.Marker({
-      position: latlng,
-      map: map,
-      zIndex: Math.round(latlng.lat() * -100000) << 5,
-      //id: id
-    });
-    google.maps.event.addListener(marker, 'click', function() {
-      infowindow.setContent(contentString);
-      infowindow.open(map, marker);
-    });
-    // save the info we need to use later for the side_bar
-    gmarkers.push(marker);
-    // add a line to the side_bar html
-    side_bar_html += '<div class="side-bar_element"><a href="javascript:myclick(' + (gmarkers.length - 1) + ')">' + name + '<\/a></div>';
-  }
-
-  // This Javascript is based on code provided by the
-  // Community Church Javascript Team
-  // http://www.bisphamchurch.org.uk/
-  // http://econym.org.uk/gmap/
-  // from the v2 tutorial page at:
-  // http://econym.org.uk/gmap/basic2.htm
-  // http://arquitectospelomundo.com/
-  //]]>
-  </script>
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <!-- MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 </head>
 
-<body style="margin:0px; padding:0px;" onload="initialize()">
-  <!-- you can use tables or divs for the overall layout -->
+<body>
   <div class="container">
     <div class="side-bar">
       <h1>Liste des Sage-femmes</h1>
       <p><em>Cliquez sur le nom d‘une Sage-femme pour afficher ses coordonnées</em></p>
-      <div id="side-bar-content">
-        {% comment %}
-        {% for row in membersdata %}
-        {% if row.adhesion contains siteyear %}
-        <div class="side-bar_element">
-          <a href="javascript:myclick('{{ forloop.index }}')">{{ row.prenom }} {{ row.nom }}</a>
-        </div>
-        {% endif %}
-        {% endfor %}
-        {% endcomment %}
-      </div>
+      <div id="side-bar-content"></div>
     </div>
     <div id="map-canvas"></div>
   </div>
-</body>
 
+  <script type="text/javascript">
+    var side_bar_html = "";
+    var gmarkers = [];
+    var map = null;
+    var markerCluster = null;
+
+    function escapeForJs(str) {
+      if (!str) return "";
+      return String(str).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, ' ').replace(/\r/g, ' ');
+    }
+
+    function initialize() {
+      map = L.map('map-canvas', {preferCanvas: true}).setView([49.443231, 1.099971], 9);
+
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; OpenStreetMap contributors'
+      }).addTo(map);
+
+      markerCluster = L.markerClusterGroup({
+        chunkedLoading: true,
+        showCoverageOnHover: false,
+        maxClusterRadius: 50
+      });
+      map.addLayer(markerCluster);
+
+      {%- assign membersdata = site.data.members | sort: 'nom' -%}
+      {% for row in membersdata %}{% for coordinates in site.data[row.nom_entier].first %}
+      {% if forloop.first %}
+      (function(){
+        var lat = {{ site.data[row.nom_entier].location.latitude }};
+        var lng = {{ site.data[row.nom_entier].location.longitude }};
+        var title = "{{ row.prenom }} {{ row.nom }}";
+
+        var popupHtml = "{% assign places = site.data.members | sort: 'adresse' %}{% for place in places %}{% if place.adresse-geo == row.adresse-geo %}<a href='/{{ place.nom_entier }}/'><strong>{{ place.prenom }} {{ place.nom }}</strong></a><br>{{ place.adresse | escape | strip_newlines }}<br><strong>{{ row.ville }}</strong><br>{{ place.telephone-mobile }}{% if place.telephone-fixe %}{% if place.telephone-mobile %} - {% endif %}{{ place.telephone-fixe }}{% endif %}{% if place.email %}<br>{{ place.email }}{% endif %}{% if place.site-web %}<br>{{ place.site-web }}{% endif %}<br>{% endif %}{% endfor %}";
+
+        // ensure quotes/newlines won't break JS by escaping on the fly
+        popupHtml = popupHtml.replace(/"/g, '\\"').replace(/(\r\n|\n|\r)/gm, ' ');
+
+        var marker = L.marker([lat, lng], {title: title});
+        marker.bindPopup(popupHtml, {maxWidth: 300});
+
+        gmarkers.push(marker);
+        markerCluster.addLayer(marker);
+
+        var index = gmarkers.length - 1;
+        side_bar_html += '<div class="side-bar_element"><a href="javascript:myclick(' + index + ')">' + title + '</a></div>';
+        document.getElementById("side-bar-content").innerHTML = side_bar_html;
+      })();
+      {% endif %}{% endfor %}{% endfor %}
+
+      if (gmarkers.length > 0) {
+        var group = new L.featureGroup(gmarkers);
+        map.fitBounds(group.getBounds().pad(0.1));
+      }
+    }
+
+    function myclick(i) {
+      if (!gmarkers[i]) return;
+      var marker = gmarkers[i];
+      marker.openPopup();
+      var latlng = marker.getLatLng();
+      var targetZoom = Math.max(map.getZoom(), 12);
+      map.setView(latlng, targetZoom, {animate: true});
+    }
+
+    document.addEventListener("DOMContentLoaded", initialize);
+  </script>
+</body>
 </html>

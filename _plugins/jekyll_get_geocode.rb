@@ -1,166 +1,133 @@
-require "rubygems"
 require 'json'
 require 'yaml'
 require 'open-uri'
-require "i18n"
-require "geocoder"
+require 'i18n'
+require 'geocoder'
+require 'logger'
 
-module Jekyll_Geocode
+module JekyllGeocode
   class Generator < Jekyll::Generator
     safe true
     priority :highest
 
-    Geocoder.configure(
-      ip_lookup: :telize
-    )
-
+    def initialize(site = nil)
+      super
+      Geocoder.configure(lookup: :nominatim, timeout: 60,
+                         http_headers: { 'User-Agent' => 'jekyll-geocode-plugin' })
+      I18n.config.available_locales = :en
+    end
 
     def request_service(address)
+      return nil if address.to_s.strip == ''
       Geocoder.coordinates(address)
+    rescue StandardError => _e
+      nil
     end
 
     def generate(site)
+      cfg = site.config.fetch('jekyll_geocode', nil)
+      return unless cfg
+      cfg = cfg.is_a?(Array) ? cfg.first : cfg
 
-      #regEx for removing empty line
-      regEx = /^[\s]*$\n/
+      dev_limit = cfg['dev_limit'] # nil => full run; 0 => no requests but generate dummy; >0 => limit
+      limited = !dev_limit.nil?
+      remaining = dev_limit.to_i if limited
 
-      #force locale
-      I18n.config.available_locales = :en
+      filename     = cfg['file-name'] || 'members.yml'
+      filepath     = cfg['file-path']
+      outputfile   = cfg['outputfile']
+      geo_name     = cfg['name']    || 'name'
+      geo_address  = cfg['address'] || 'address'
+      geo_postcode = cfg['postcode']
+      geo_city     = cfg['city']
+      geo_region   = cfg['region']
+      geo_country  = cfg['country']
+      cache_json   = cfg['cache']
 
-      #Get Geo service
-      geo_service = 'https://nominatim.openstreetmap.org/?format=json&q='
+      data_source = filepath || site.config['data_source'] || '.'
+      members_path = File.join(data_source, filename)
+      return unless File.file?(members_path)
 
-      #Get Config
-      config = site.config['jekyll_geocode']
+      members = YAML.load_file(members_path)
+      return if members.nil? || members.size <= 1
 
-      if !config
-        return
-      end
-      if !config.kind_of?(Array)
-        filename       = site.config['jekyll_geocode']['file-name']
-        filepath       = site.config['jekyll_geocode']['file-path']
-        outputfile     = site.config['jekyll_geocode']['outputfile']
-        geo_name       = site.config['jekyll_geocode']['name']
-        geo_address    = site.config['jekyll_geocode']['address']
-        geo_postcode   = site.config['jekyll_geocode']['postcode']
-        geo_city       = site.config['jekyll_geocode']['city']
-        geo_region     = site.config['jekyll_geocode']['region']
-        geo_country    = site.config['jekyll_geocode']['country']
-      end
+      # Start processing entries (skip header row if present)
+      members.drop(1).each do |entry|
+        # stop if limited and no remaining requests allowed
+        break if limited && remaining && remaining <= 0
 
-      Geocoder.configure(
-        :lookup => :nominatim,
-        :timeout => 60
-      )
+        name_value = entry[geo_name]
+        next unless name_value && entry[geo_address]
 
-      Geocoder.configure(http_headers: { "User-Agent" => "bertrand.keller@gmail.com" })
+        # Build slug (you can change this to use a dedicated slug field if needed)
+        slug = name_value.to_s.downcase.tr(' ', '-').gsub(/[^\w\-]/, '')
+        addr_parts = []
+        addr_parts << entry[geo_address].to_s
+        addr_parts << entry[geo_postcode].to_s if geo_postcode && entry[geo_postcode]
+        addr_parts << entry[geo_city].to_s     if geo_city && entry[geo_city]
+        addr_parts << entry[geo_region].to_s   if geo_region && entry[geo_region]
+        addr_parts << entry[geo_country].to_s  if geo_country && entry[geo_country]
 
-      # Define data source
-      if !filepath
-        data_source = (site.config['data_source'])
-      else
-        data_source = (filepath)
-      end
+        full_address = addr_parts.reject(&:empty?).join(', ')
+        simple_address = [entry[geo_city], entry[geo_region], entry[geo_country]].compact.join(', ')
 
-      #Path
-      path_yaml = "#{data_source}/#{outputfile}"
-
-      # if File.file?(path_yaml) && outputfile
-      #   File.open(path_yaml, 'w') {|file| file.truncate(0) }
-      # end
-
-      # Load YML file
-      members = YAML.load_file("#{data_source}/#{filename}")
-
-      # Loop YML file
-      members.drop(1).each do |d|
-        geo_name_field = d[geo_name].downcase.tr(" ", "-")
-        if d[geo_postcode]
-          geo_postcode_field = ", #{d[geo_postcode]}"
+        # If dev mode with 0, skip external requests but still populate dummy data for local tests
+        if limited && dev_limit.to_i == 0
+          site.data[slug] = build_record(name_value, full_address, [0.0, 0.0])
+          Jekyll.logger.info "JekyllGeocode:", "DEV mode (0) - created dummy coords for #{name_value} (#{slug})"
+          next
         end
-        if d[geo_city]
-          geo_city_field = ", #{d[geo_city]}"
-        end
-        if d[geo_region]
-          geo_region_field = ", #{d[geo_region]}"
-        end
-        if d[geo_country]
-          geo_country_field = ", #{d[geo_country]}"
-        end
-        geo_coord = "#{d[geo_address]}#{geo_postcode_field}#{geo_city_field}#{geo_region_field}#{geo_country_field}"
-        geo_coord_simple = "#{geo_city_field}#{geo_region_field}#{geo_country_field}"
-        geo_request = "#{geo_service}#{geo_coord}&limit=1"
 
-        # Loop for an YML output
-        if outputfile
-
-          # No cache at the first loop
-          geo_cache = true
-
-          # Read the YML file
-          if File.file?(path_yaml)
-            file_yaml = YAML.load(File.open(path_yaml))
-          end
-
-          # If YML file test if and address are the same as in the source file
-          if file_yaml
-            file_yaml.each do |coordinates|
-              if coordinates['address'] == geo_coord
-                geo_cache = false
-              end
-            end
-          else
-            geo_cache = true
-          end
-
-          # Write data
-          if geo_cache == true
-            p "geocode is requesting #{d[geo_name]}: #{geo_coord}"
-            geo_response = request_service("#{geo_coord}")
-            if !geo_response
-              p "error for #{d[geo_name]} at #{d[geo_address]} #{d[geo_city]}"
-              p "generating coords with only the city field"
-              geo_response = request_service("#{geo_coord_simple}")
-            end
-            data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
-            data_yml = data.to_yaml
-            # Add data in the YML file
-            if !File.file?(path_yaml)
-              File.open(path_yaml, "w") {|f| f.write(data_yml) }
-            end
-            if File.file?(path_yaml)
-              File.open(path_yaml, 'a') { |f|
-                f.puts data_yml.gsub("---", "").gsub(regEx, '')
-              }
-              # Load YML file => remove duplicated entries
-              file_yaml = YAML.load(File.open(path_yaml)).uniq { |s| s.first }
-              File.open(path_yaml, "w") {|f| f.write(file_yaml.to_yaml) }
-            end
+        # If we already have valid cached data (e.g., JSON cached earlier), skip request
+        if site.data.key?(slug)
+          cached = site.data[slug]
+          if cached.is_a?(Hash) && cached['location'] && cached['location']['latitude'] && cached['location']['longitude']
+            Jekyll.logger.info "JekyllGeocode:", "using existing site.data coords for #{name_value} (#{slug})"
+            next
           end
         end
 
-        # JSON output :: Test if a JSON file exists for performance issues
-        if !outputfile && !File.file?("#{data_source}/#{d[geo_name]}.json")
-          geo_response = request_service("#{geo_coord}")
-          p "geocode is requesting #{d[geo_name]}: #{geo_coord}"
-          if !geo_response
-            p "error for #{d[geo_name]} at #{d[geo_address]}"
-            p "generating coords with only the city field"
-            geo_response = request_service("#{geo_coord_simple}")
-            data = [ ]
-          else
-            data = [ "title" => "#{d[geo_name]}", "url" => "##{d[geo_name]}", "data_set" => "01", "location" => { "latitude" => "#{geo_response[0]}","longitude" => "#{geo_response[1]}" }, "address" => "#{geo_coord}" ]
-          end
-          site.data[geo_name_field] = data
-          #Create a JSON  files if cache is enabled
-          if site.config['jekyll_geocode']['cache']
-            path_json = "#{data_source}/#{geo_name_field}.json"
-            open(path_json, 'wb') do |file|
-              file << JSON.generate(site.data[geo_name_field])
+        Jekyll.logger.info "JekyllGeocode:", "geocode is requesting #{name_value}: #{full_address}"
+        coords = request_service(full_address)
+
+        unless coords
+          Jekyll.logger.warn "JekyllGeocode:", "primary geocode failed for #{name_value}, trying simplified address: #{simple_address}"
+          coords = request_service(simple_address)
+        end
+
+        if coords && coords[0] && coords[1]
+          site.data[slug] = build_record(name_value, full_address, coords)
+          remaining -= 1 if limited && remaining
+          Jekyll.logger.info "JekyllGeocode:", "got coords for #{name_value} -> #{coords[0]}, #{coords[1]} (#{slug})"
+
+          # Optionally write per-entry JSON cache if cache flag enabled
+          if cache_json
+            begin
+              data_source_dir = data_source || '.'
+              Dir.mkdir(data_source_dir) unless Dir.exist?(data_source_dir)
+              path_json = File.join(data_source_dir, "#{slug}.json")
+              File.open(path_json, 'wb') { |f| f << JSON.generate(site.data[slug]) }
+              Jekyll.logger.info "JekyllGeocode:", "wrote cache JSON for #{slug} at #{path_json}"
+            rescue StandardError => e
+              Jekyll.logger.warn "JekyllGeocode:", "failed to write cache JSON for #{slug}: #{e.message}"
             end
           end
+        else
+          Jekyll.logger.warn "JekyllGeocode:", "no coordinates found for #{name_value}; skipping site.data assignment to avoid empty entries"
         end
       end
+    end
+
+    private
+
+    def build_record(title, address, coords)
+      {
+        'title' => title.to_s,
+        'url' => "##{title}",
+        'data_set' => '01',
+        'location' => { 'latitude' => coords[0].to_s, 'longitude' => coords[1].to_s },
+        'address' => address.to_s
+      }
     end
   end
 end

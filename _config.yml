@@ -68,7 +68,7 @@ jekyll_geocode:
   city: ville
   region: region
   #postcode: code-postal
-  #cache: true
+  cache: true
   #outputfile: place.yml
 
 # Plugin: data from gdrive

@@ -5,6 +5,7 @@ source 'https://rubygems.org'
 
 gem "jekyll" , '~> 4.2.0'
 gem 'rake'
+gem "webrick"
 
 gem 'ffi', '= 1.16.3'
 gem "geocoder"
