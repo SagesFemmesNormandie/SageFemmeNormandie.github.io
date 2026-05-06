@@ -12,7 +12,7 @@ module JekyllGeocode
 
     def initialize(site = nil)
       super
-      Geocoder.configure(lookup: :nominatim, timeout: 60,
+      Geocoder.configure(lookup: :nominatim, timeout: 160,
                          http_headers: { 'User-Agent' => 'jekyll-geocode-plugin' })
       I18n.config.available_locales = :en
     end
@@ -36,10 +36,10 @@ module JekyllGeocode
       filename     = cfg['file-name'] || 'members.yml'
       filepath     = cfg['file-path']
       outputfile   = cfg['outputfile']
-      geo_name     = cfg['name']    || 'name'
-      geo_address  = cfg['address'] || 'address'
-      geo_postcode = cfg['postcode']
-      geo_city     = cfg['city']
+      geo_name     = cfg['name']    || 'nom'
+      geo_address  = cfg['address'] || 'addresse'
+      geo_postcode = cfg['postcode'] || 'code-postal'
+      geo_city     = cfg['city'] || 'ville'
       geo_region   = cfg['region']
       geo_country  = cfg['country']
       cache_json   = cfg['cache']
@@ -53,11 +53,12 @@ module JekyllGeocode
 
       # Start processing entries (skip header row if present)
       members.drop(1).each do |entry|
+
         # stop if limited and no remaining requests allowed
         break if limited && remaining && remaining <= 0
-
+        
         name_value = entry[geo_name]
-        next unless name_value && entry[geo_address]
+        #next unless name_value && entry[geo_address]
 
         # Build slug (you can change this to use a dedicated slug field if needed)
         slug = name_value.to_s.downcase.tr(' ', '-').gsub(/[^\w\-]/, '')
