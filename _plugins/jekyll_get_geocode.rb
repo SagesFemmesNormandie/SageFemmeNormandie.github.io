@@ -15,7 +15,7 @@ module JekyllGeocode
       Geocoder.configure(
         lookup: :nominatim,
         timeout: 160,
-        http_headers: { 'User-Agent' => 'ton-email@domaine.com / jekyll-geocode-plugin' },
+        http_headers: { 'User-Agent' => 'bertrand.keller@gmail.com / jekyll-geocode-plugin' },
         cache: {}
       )
       I18n.config.available_locales = :en
@@ -26,6 +26,7 @@ module JekyllGeocode
 
       retries = 3
       begin
+        sleep(1)
         result = Geocoder.coordinates(address)
         return result
       rescue Geocoder::Error::TooManyRequests => e
