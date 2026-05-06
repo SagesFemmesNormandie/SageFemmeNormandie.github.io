@@ -32,6 +32,7 @@ _site/
 _data/
 .sass-cache/
 .asset-cache/
+.jekyll-cache/
 .jekyll-metadata
 _gdrive_cache
 Gemfile.lock

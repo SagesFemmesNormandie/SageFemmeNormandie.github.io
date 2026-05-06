@@ -24,12 +24,12 @@ namespace :build do
   desc "Regenerate files for development"
   task :dev do
     puts "* Regenerating files for development..."
-    system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile"
+    system "bundle exec jekyll build --config _config.yml,_config_dev.yml --profile"
   end
 
   desc "Regenerate files and drafts for development"
   task :drafts do
     puts "* Regenerating files and drafts for development..."
-    system "bundle exec jekyll build --config _config.yml,_config.dev.yml --profile --drafts"
+    system "bundle exec jekyll build --config _config.yml,_config_dev.yml --profile --drafts"
   end
 end
