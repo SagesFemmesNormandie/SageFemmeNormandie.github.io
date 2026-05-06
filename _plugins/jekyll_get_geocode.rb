@@ -12,16 +12,33 @@ module JekyllGeocode
 
     def initialize(site = nil)
       super
-      Geocoder.configure(lookup: :nominatim, timeout: 160,
-                         http_headers: { 'User-Agent' => 'jekyll-geocode-plugin' })
+      Geocoder.configure(
+        lookup: :nominatim,
+        timeout: 160,
+        http_headers: { 'User-Agent' => 'ton-email@domaine.com / jekyll-geocode-plugin' },
+        cache: {}
+      )
       I18n.config.available_locales = :en
     end
 
     def request_service(address)
       return nil if address.to_s.strip == ''
-      Geocoder.coordinates(address)
-    rescue StandardError => _e
-      nil
+
+      retries = 3
+      begin
+        result = Geocoder.coordinates(address)
+        return result
+      rescue Geocoder::Error::TooManyRequests => e
+        if retries > 0
+          sleep(2 ** (3 - retries)) # Délai exponentiel
+          retries -= 1
+          retry
+        else
+          return nil
+        end
+      rescue StandardError => _e
+        nil
+      end
     end
 
     def generate(site)
