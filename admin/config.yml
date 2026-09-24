@@ -1,0 +1,47 @@
+backend:
+  name: github
+  repo: SagesFemmesNormandie/SageFemmeNormandie.github.io/ # Path to your Github repository
+  branch: master # Branch to update (master by default)
+
+media_folder: "assets/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "activities"
+    label: "Activités"
+    folder: "_activities/"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: false
+    fields:
+      - label: "Type"
+        name: "type"
+        widget: "hidden"
+        default: "activity"
+
+      - label: "Titre"
+        name: "title"
+        widget: "string"
+
+      - label: "Catégorie"
+        name: "category"
+        widget: "string"
+        required: false
+
+      - label: "Publié"
+        name: "published"
+        widget: "boolean"
+        default: true
+        required: false
+
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+
+      - label: "Contenu"
+        name: "body"
+        widget: "markdown"
+        required: false
+
+
